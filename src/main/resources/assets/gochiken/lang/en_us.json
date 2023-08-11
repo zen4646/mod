@@ -1,10 +1,14 @@
 {
   "item.gochiken.netuto": "ネット【空】",
   "item.gochiken.sand_choken": "Sand Choken",
-  "item.gochiken.log_chiken": "Log Chiken",
-  "block.gochiken.root": "Root",
+  "block.gochiken.gorwer_lv_1": "Gorwer Lv 1",
+  "item.gochiken.copperchickenkid": "Copperchickenkid",
   "itemGroup.tabgo_chiken": "Go Chiken",
   "item.gochiken.go": "Go",
   "item.gochiken.bone_chiken": "Bone Chiken",
-  "item.gochiken.flint_choken": "Flint Choken"
+  "item.gochiken.copperchicken": "Copperchicken",
+  "item.gochiken.flint_choken": "Flint Choken",
+  "item.gochiken.log_chiken": "Log Chiken",
+  "block.gochiken.root": "Root",
+  "gui.gochiken.growerlv_1.button_empty": ""
 }

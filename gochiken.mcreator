@@ -251,6 +251,7 @@
     {
       "name": "RootGUI",
       "type": "gui",
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "root_gui",
@@ -274,6 +275,125 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "Copperchicken",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperchicken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/CopperchickenItem.java",
+          "src/main/resources/assets/gochiken/models/item/copperchicken.json"
+        ]
+      },
+      "path": "~/dee"
+    },
+    {
+      "name": "Copperchickenkid",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperchickenkid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/CopperchickenkidItem.java",
+          "src/main/resources/assets/gochiken/models/item/copperchickenkid.json"
+        ]
+      },
+      "path": "~/dee"
+    },
+    {
+      "name": "GorwerLv1",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorwer_lv_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/gorwer_lv_1.json",
+          "src/main/java/net/mcreator/gochiken/block/GorwerLv1Block.java",
+          "src/main/resources/assets/gochiken/models/block/gorwer_lv_1.json",
+          "src/main/resources/assets/gochiken/blockstates/gorwer_lv_1.json"
+        ]
+      },
+      "path": "~/dee"
+    },
+    {
+      "name": "Growerlv1",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "growerlv_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/world/inventory/Growerlv1Menu.java",
+          "src/main/java/net/mcreator/gochiken/client/gui/Growerlv1Screen.java",
+          "src/main/java/net/mcreator/gochiken/network/Growerlv1ButtonMessage.java"
+        ]
+      },
+      "path": "~/dee"
+    },
+    {
+      "name": "Growerclicklv1",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "growerclicklv_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/Growerclicklv1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/dee"
+    },
+    {
+      "name": "Growerlv1gui",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "growerlv_1gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/Growerlv1guiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/dee"
     }
   ],
   "variable_elements": [],
@@ -282,17 +402,26 @@
     "en_us": {
       "item.gochiken.netuto": "ネット【空】",
       "item.gochiken.sand_choken": "Sand Choken",
-      "item.gochiken.log_chiken": "Log Chiken",
-      "block.gochiken.root": "Root",
+      "block.gochiken.gorwer_lv_1": "Gorwer Lv 1",
+      "item.gochiken.copperchickenkid": "Copperchickenkid",
       "itemGroup.tabgo_chiken": "Go Chiken",
       "item.gochiken.go": "Go",
       "item.gochiken.bone_chiken": "Bone Chiken",
-      "item.gochiken.flint_choken": "Flint Choken"
+      "item.gochiken.copperchicken": "Copperchicken",
+      "item.gochiken.flint_choken": "Flint Choken",
+      "item.gochiken.log_chiken": "Log Chiken",
+      "block.gochiken.root": "Root",
+      "gui.gochiken.growerlv_1.button_empty": ""
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "dee",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "gochiken",

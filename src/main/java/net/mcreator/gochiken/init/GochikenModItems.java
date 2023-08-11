@@ -35,6 +35,7 @@ public class GochikenModItems {
 	public static final RegistryObject<Item> COPPERCHICKEN = REGISTRY.register("copperchicken", () -> new CopperchickenItem());
 	public static final RegistryObject<Item> COPPERCHICKENKID = REGISTRY.register("copperchickenkid", () -> new CopperchickenkidItem());
 	public static final RegistryObject<Item> GORWER_LV_1 = block(GochikenModBlocks.GORWER_LV_1, GochikenModTabs.TAB_GO_CHIKEN);
+	public static final RegistryObject<Item> LAYER_1 = block(GochikenModBlocks.LAYER_1, GochikenModTabs.TAB_GO_CHIKEN);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

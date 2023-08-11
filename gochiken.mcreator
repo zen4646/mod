@@ -9,8 +9,8 @@
       "registry_name": "go",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochiken/models/item/go.json",
-          "src/main/java/net/mcreator/gochiken/item/GoItem.java"
+          "src/main/java/net/mcreator/gochiken/item/GoItem.java",
+          "src/main/resources/assets/gochiken/models/item/go.json"
         ]
       }
     },
@@ -214,8 +214,8 @@
       "registry_name": "bone_chiken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/BoneChikenItem.java",
-          "src/main/resources/assets/gochiken/models/item/bone_chiken.json"
+          "src/main/resources/assets/gochiken/models/item/bone_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/BoneChikenItem.java"
         ]
       }
     },
@@ -229,8 +229,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/gochiken/blockstates/root.json",
-          "src/main/resources/assets/gochiken/models/block/root.json",
           "src/main/resources/assets/gochiken/models/item/root.json",
+          "src/main/resources/assets/gochiken/models/block/root.json",
           "src/main/java/net/mcreator/gochiken/block/RootBlock.java"
         ]
       }
@@ -399,20 +399,38 @@
         ]
       },
       "path": "~/dee"
+    },
+    {
+      "name": "Layer1",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "layer_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/layer_1.json",
+          "src/main/resources/assets/gochiken/models/block/layer_1.json",
+          "src/main/java/net/mcreator/gochiken/block/Layer1Block.java",
+          "src/main/resources/assets/gochiken/blockstates/layer_1.json"
+        ]
+      },
+      "path": "~/dee"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.gochiken.netuto": "ネット【空】",
       "item.gochiken.sand_choken": "Sand Choken",
-      "block.gochiken.gorwer_lv_1": "Gorwer Lv 1",
       "item.gochiken.copperchickenkid": "Copperchickenkid",
       "itemGroup.tabgo_chiken": "Go Chiken",
+      "block.gochiken.layer_1": "Layer 1",
+      "item.gochiken.copperchicken": "Copperchicken",
+      "item.gochiken.netuto": "ネット【空】",
+      "block.gochiken.gorwer_lv_1": "Gorwer Lv 1",
       "item.gochiken.go": "Go",
       "item.gochiken.bone_chiken": "Bone Chiken",
-      "item.gochiken.copperchicken": "Copperchicken",
       "item.gochiken.flint_choken": "Flint Choken",
       "item.gochiken.log_chiken": "Log Chiken",
       "block.gochiken.root": "Root",
@@ -440,7 +458,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "allmods"
+    ],
     "currentGenerator": "forge-1.19.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.gochiken",

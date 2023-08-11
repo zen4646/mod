@@ -1,0 +1,316 @@
+{
+  "mod_elements": [
+    {
+      "name": "Go",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "go",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/go.json",
+          "src/main/java/net/mcreator/gochiken/item/GoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoChiken",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "go_chiken",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Netuto",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netuto",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/netuto.json",
+          "src/main/java/net/mcreator/gochiken/item/NetutoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NetutomobugaaitemudeGongJisaretatoki",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "netutomobugaaitemude_gong_jisaretatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/NetutomobugaaitemudeGongJisaretatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetutoYoukuritukusitatoki",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "netuto_youkuritukusitatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/NetutoYoukuritukusitatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rnetuto",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rnetuto",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/rnetuto.json"
+        ]
+      }
+    },
+    {
+      "name": "Flint",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/flint.json"
+        ]
+      }
+    },
+    {
+      "name": "LogChiken",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/log_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/LogChikenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FlintChoken",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_choken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/FlintChokenItem.java",
+          "src/main/resources/assets/gochiken/models/item/flint_choken.json"
+        ]
+      }
+    },
+    {
+      "name": "SandChoken",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_choken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/sand_choken.json",
+          "src/main/java/net/mcreator/gochiken/item/SandChokenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RLogChiken",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_log_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_log_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RSandChiken",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_sand_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_sand_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RFlintChiken",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_flint_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_flint_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RBoneChiken",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_bone_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_bone_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "BoneChiken",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/BoneChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/bone_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "Root",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "root",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/blockstates/root.json",
+          "src/main/resources/assets/gochiken/models/block/root.json",
+          "src/main/resources/assets/gochiken/models/item/root.json",
+          "src/main/java/net/mcreator/gochiken/block/RootBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RRoot",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_root",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_root.json"
+        ]
+      }
+    },
+    {
+      "name": "RootGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "root_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/client/gui/RootGUIScreen.java",
+          "src/main/java/net/mcreator/gochiken/world/inventory/RootGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "RootburotukugaYoukuritukusaretatoki",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rootburotukuga_youkuritukusaretatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/RootburotukugaYoukuritukusaretatokiProcedure.java"
+        ],
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.gochiken.netuto": "ネット【空】",
+      "item.gochiken.sand_choken": "Sand Choken",
+      "item.gochiken.log_chiken": "Log Chiken",
+      "block.gochiken.root": "Root",
+      "itemGroup.tabgo_chiken": "Go Chiken",
+      "item.gochiken.go": "Go",
+      "item.gochiken.bone_chiken": "Bone Chiken",
+      "item.gochiken.flint_choken": "Flint Choken"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gochiken",
+    "modName": "GoChiken",
+    "version": "1.0.0",
+    "author": "Zenny, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.gochiken",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

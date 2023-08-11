@@ -33,6 +33,7 @@ import net.mcreator.gochiken.init.GochikenModTabs;
 import net.mcreator.gochiken.init.GochikenModMenus;
 import net.mcreator.gochiken.init.GochikenModItems;
 import net.mcreator.gochiken.init.GochikenModBlocks;
+import net.mcreator.gochiken.init.GochikenModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -55,6 +56,8 @@ public class GochikenMod {
 
 		GochikenModBlocks.REGISTRY.register(bus);
 		GochikenModItems.REGISTRY.register(bus);
+
+		GochikenModBlockEntities.REGISTRY.register(bus);
 
 		GochikenModMenus.REGISTRY.register(bus);
 

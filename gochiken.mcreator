@@ -316,6 +316,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/gochiken/models/item/gorwer_lv_1.json",
+          "src/main/java/net/mcreator/gochiken/block/entity/GorwerLv1BlockEntity.java",
           "src/main/java/net/mcreator/gochiken/block/GorwerLv1Block.java",
           "src/main/resources/assets/gochiken/models/block/gorwer_lv_1.json",
           "src/main/resources/assets/gochiken/blockstates/gorwer_lv_1.json"

@@ -8,6 +8,6 @@ public class GoYoukuritukusitatokiProcedure {
 	public static void execute(Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
-		(itemstack).setHoverName(Component.literal((entity.getPersistentData().getString("tagName"))));
+		(itemstack).setHoverName(Component.literal((entity.getPersistentData().getString("color"))));
 	}
 }

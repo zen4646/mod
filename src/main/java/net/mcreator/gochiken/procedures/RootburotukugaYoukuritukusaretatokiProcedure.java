@@ -16,6 +16,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class RootburotukugaYoukuritukusaretatokiProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
+		String name = "";
 		if ((new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -46,6 +47,15 @@ public class RootburotukugaYoukuritukusaretatokiProcedure {
 						});
 					}
 				}
+				name = (new Object() {
+					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null)
+							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+						return _retval.get();
+					}
+				}.getItemStack(world, new BlockPos(x, y, z), 0)).getDisplayName().getString();
 			}
 			if (new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
@@ -55,7 +65,7 @@ public class RootburotukugaYoukuritukusaretatokiProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), 3) != 64 && (new Object() {
+			}.getAmount(world, new BlockPos(x, y, z), 3) != 64 && (name).equals((new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -63,15 +73,7 @@ public class RootburotukugaYoukuritukusaretatokiProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), 3)).getItem() == Blocks.OAK_LOG.asItem() && (new Object() {
-				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-					BlockEntity _ent = world.getBlockEntity(pos);
-					if (_ent != null)
-						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
-					return _retval.get();
-				}
-			}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() == GochikenModItems.LOG_CHIKEN.get()) {
+			}.getItemStack(world, new BlockPos(x, y, z), 0)).getDisplayName().getString())) {
 				{
 					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 					if (_ent != null) {
@@ -117,7 +119,7 @@ public class RootburotukugaYoukuritukusaretatokiProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), 3) == 64 && (new Object() {
+			}.getAmount(world, new BlockPos(x, y, z), 3) == 64 && (name).equals((new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -125,7 +127,7 @@ public class RootburotukugaYoukuritukusaretatokiProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() == GochikenModItems.LOG_CHIKEN.get()) {
+			}.getItemStack(world, new BlockPos(x, y, z), 0)).getDisplayName().getString())) {
 				{
 					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 					if (_ent != null) {
@@ -186,6 +188,15 @@ public class RootburotukugaYoukuritukusaretatokiProcedure {
 						});
 					}
 				}
+				name = (new Object() {
+					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null)
+							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+						return _retval.get();
+					}
+				}.getItemStack(world, new BlockPos(x, y, z), 0)).getDisplayName().getString();
 			}
 			if (new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
@@ -195,7 +206,7 @@ public class RootburotukugaYoukuritukusaretatokiProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), 3) != 64 && (new Object() {
+			}.getAmount(world, new BlockPos(x, y, z), 3) != 64 && (name).equals((new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -203,15 +214,7 @@ public class RootburotukugaYoukuritukusaretatokiProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), 3)).getItem() == Blocks.SAND.asItem() && (new Object() {
-				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-					BlockEntity _ent = world.getBlockEntity(pos);
-					if (_ent != null)
-						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
-					return _retval.get();
-				}
-			}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() == GochikenModItems.SAND_CHOKEN.get()) {
+			}.getItemStack(world, new BlockPos(x, y, z), 0)).getDisplayName().getString())) {
 				{
 					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 					if (_ent != null) {
@@ -257,7 +260,7 @@ public class RootburotukugaYoukuritukusaretatokiProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), 3) == 64 && (new Object() {
+			}.getAmount(world, new BlockPos(x, y, z), 3) == 64 && (name).equals((new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -265,7 +268,7 @@ public class RootburotukugaYoukuritukusaretatokiProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() == GochikenModItems.SAND_CHOKEN.get()) {
+			}.getItemStack(world, new BlockPos(x, y, z), 0)).getDisplayName().getString())) {
 				{
 					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 					if (_ent != null) {

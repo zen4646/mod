@@ -12,7 +12,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.gochiken.client.gui.RootGUIScreen;
-import net.mcreator.gochiken.client.gui.Layerlv1GUIScreen;
 import net.mcreator.gochiken.client.gui.Growerlv1Screen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -22,7 +21,6 @@ public class GochikenModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(GochikenModMenus.GROWERLV_1.get(), Growerlv1Screen::new);
 			MenuScreens.register(GochikenModMenus.ROOT_GUI.get(), RootGUIScreen::new);
-			MenuScreens.register(GochikenModMenus.LAYERLV_1_GUI.get(), Layerlv1GUIScreen::new);
 		});
 	}
 }

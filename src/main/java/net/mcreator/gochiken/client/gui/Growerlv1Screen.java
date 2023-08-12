@@ -10,8 +10,6 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.gochiken.world.inventory.Growerlv1Menu;
-import net.mcreator.gochiken.network.Growerlv1ButtonMessage;
-import net.mcreator.gochiken.GochikenMod;
 
 import java.util.HashMap;
 
@@ -84,10 +82,6 @@ public class Growerlv1Screen extends AbstractContainerScreen<Growerlv1Menu> {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		button_empty = new Button(this.leftPos + 82, this.topPos + 33, 25, 20, Component.translatable("gui.gochiken.growerlv_1.button_empty"), e -> {
-			if (true) {
-				GochikenMod.PACKET_HANDLER.sendToServer(new Growerlv1ButtonMessage(0, x, y, z));
-				Growerlv1ButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
 		});
 		guistate.put("button:button_empty", button_empty);
 		this.addRenderableWidget(button_empty);

@@ -45,9 +45,6 @@
         "data": {
           "name": "button_empty",
           "text": "",
-          "onClick": {
-            "name": "Growerlv1gui"
-          },
           "width": 25,
           "height": 20,
           "x": 208,

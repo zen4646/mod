@@ -228,6 +228,7 @@
       "registry_name": "root",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/gochiken/block/entity/RootBlockEntity.java",
           "src/main/resources/assets/gochiken/blockstates/root.json",
           "src/main/resources/assets/gochiken/models/item/root.json",
           "src/main/resources/assets/gochiken/models/block/root.json",

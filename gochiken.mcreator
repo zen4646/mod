@@ -34,8 +34,8 @@
       "registry_name": "netuto",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochiken/models/item/netuto.json",
-          "src/main/java/net/mcreator/gochiken/item/NetutoItem.java"
+          "src/main/java/net/mcreator/gochiken/item/NetutoItem.java",
+          "src/main/resources/assets/gochiken/models/item/netuto.json"
         ]
       }
     },
@@ -120,8 +120,8 @@
       "registry_name": "log_chiken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochiken/models/item/log_chiken.json",
-          "src/main/java/net/mcreator/gochiken/item/LogChikenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/LogChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/log_chiken.json"
         ]
       }
     },
@@ -134,8 +134,8 @@
       "registry_name": "flint_choken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/FlintChokenItem.java",
-          "src/main/resources/assets/gochiken/models/item/flint_choken.json"
+          "src/main/resources/assets/gochiken/models/item/flint_choken.json",
+          "src/main/java/net/mcreator/gochiken/item/FlintChokenItem.java"
         ]
       }
     },
@@ -148,8 +148,8 @@
       "registry_name": "sand_choken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochiken/models/item/sand_choken.json",
-          "src/main/java/net/mcreator/gochiken/item/SandChokenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/SandChokenItem.java",
+          "src/main/resources/assets/gochiken/models/item/sand_choken.json"
         ]
       }
     },
@@ -214,8 +214,8 @@
       "registry_name": "bone_chiken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochiken/models/item/bone_chiken.json",
-          "src/main/java/net/mcreator/gochiken/item/BoneChikenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/BoneChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/bone_chiken.json"
         ]
       }
     },
@@ -258,8 +258,8 @@
       "registry_name": "root_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/client/gui/RootGUIScreen.java",
-          "src/main/java/net/mcreator/gochiken/world/inventory/RootGUIMenu.java"
+          "src/main/java/net/mcreator/gochiken/world/inventory/RootGUIMenu.java",
+          "src/main/java/net/mcreator/gochiken/client/gui/RootGUIScreen.java"
         ]
       }
     },
@@ -269,12 +269,29 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rootburotukuga_youkuritukusaretatoki",
+      "registry_name": "rootburotukugayoukuritukusaretatoki",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/gochiken/procedures/RootburotukugaYoukuritukusaretatokiProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
     },
     {

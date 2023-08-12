@@ -437,7 +437,55 @@
           "src/main/resources/assets/gochiken/models/item/layer_1.json",
           "src/main/resources/assets/gochiken/models/block/layer_1.json",
           "src/main/java/net/mcreator/gochiken/block/Layer1Block.java",
-          "src/main/resources/assets/gochiken/blockstates/layer_1.json"
+          "src/main/resources/assets/gochiken/blockstates/layer_1.json",
+          "src/main/java/net/mcreator/gochiken/block/entity/Layer1BlockEntity.java"
+        ]
+      },
+      "path": "~/dee"
+    },
+    {
+      "name": "Layer1II",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "layer_1_ii",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/Layer1IIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/dee"
+    },
+    {
+      "name": "Layerlv1GUI",
+      "type": "gui",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "layerlv_1_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/client/gui/Layerlv1GUIScreen.java",
+          "src/main/java/net/mcreator/gochiken/world/inventory/Layerlv1GUIMenu.java"
         ]
       },
       "path": "~/dee"

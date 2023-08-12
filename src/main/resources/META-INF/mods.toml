@@ -19,10 +19,4 @@ authors="Zenny, MCreator"
 
 
 
-[[dependencies.gochiken]]
-    modId="allmods"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 

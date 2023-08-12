@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gochiken:blocks/layer1",
+    "up": "gochiken:blocks/layer1",
+    "north": "gochiken:blocks/layer1",
+    "east": "gochiken:blocks/layer1",
+    "south": "gochiken:blocks/layer1",
+    "west": "gochiken:blocks/layer1",
+    "particle": "gochiken:blocks/layer1"
+  },
+  "render_type": "solid"
+}

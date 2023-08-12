@@ -24,7 +24,7 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-public class RootGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+public class Growerlv1Menu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
 	public final Player entity;
@@ -33,11 +33,11 @@ public class RootGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 	private final Map<Integer, Slot> customSlots = new HashMap<>();
 	private boolean bound = false;
 
-	public RootGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(GochikenModMenus.ROOT_GUI.get(), id);
+	public Growerlv1Menu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(GochikenModMenus.GROWERLV_1.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
-		this.internal = new ItemStackHandler(18);
+		this.internal = new ItemStackHandler(3);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -75,97 +75,9 @@ public class RootGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 8) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 42, 36) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 16, 35) {
-		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 16, 62) {
-		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 70, 8) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 88, 8) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 106, 8) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 124, 8) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 142, 8) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 70, 35) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 88, 35) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 106, 35) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 124, 35) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 142, 35) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 70, 62) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 88, 62) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 106, 62) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 124, 62) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 142, 62) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 132, 36) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -190,16 +102,16 @@ public class RootGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 18) {
-				if (!this.moveItemStackTo(itemstack1, 18, this.slots.size(), true))
+			if (index < 2) {
+				if (!this.moveItemStackTo(itemstack1, 2, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 18, false)) {
-				if (index < 18 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 18 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 2, false)) {
+				if (index < 2 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 2 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 18, 18 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 2, 2 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

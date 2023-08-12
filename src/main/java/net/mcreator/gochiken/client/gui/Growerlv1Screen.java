@@ -6,22 +6,26 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.gochiken.world.inventory.RootGUIMenu;
+import net.mcreator.gochiken.world.inventory.Growerlv1Menu;
+import net.mcreator.gochiken.network.Growerlv1ButtonMessage;
+import net.mcreator.gochiken.GochikenMod;
 
 import java.util.HashMap;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class RootGUIScreen extends AbstractContainerScreen<RootGUIMenu> {
-	private final static HashMap<String, Object> guistate = RootGUIMenu.guistate;
+public class Growerlv1Screen extends AbstractContainerScreen<Growerlv1Menu> {
+	private final static HashMap<String, Object> guistate = Growerlv1Menu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	Button button_empty;
 
-	public RootGUIScreen(RootGUIMenu container, Inventory inventory, Component text) {
+	public Growerlv1Screen(Growerlv1Menu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -32,7 +36,7 @@ public class RootGUIScreen extends AbstractContainerScreen<RootGUIMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("gochiken:textures/screens/root_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("gochiken:textures/screens/growerlv_1.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -48,16 +52,6 @@ public class RootGUIScreen extends AbstractContainerScreen<RootGUIMenu> {
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("gochiken:textures/screens/you_shi_yin_.png"));
-		this.blit(ms, this.leftPos + 33, this.topPos + 8, 0, 0, 36, 16, 36, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("gochiken:textures/screens/you_shi_yin_.png"));
-		this.blit(ms, this.leftPos + 33, this.topPos + 35, 0, 0, 36, 16, 36, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("gochiken:textures/screens/you_shi_yin_.png"));
-		this.blit(ms, this.leftPos + 33, this.topPos + 62, 0, 0, 36, 16, 36, 16);
-
 		RenderSystem.disableBlend();
 	}
 
@@ -89,5 +83,13 @@ public class RootGUIScreen extends AbstractContainerScreen<RootGUIMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+		button_empty = new Button(this.leftPos + 82, this.topPos + 33, 25, 20, Component.translatable("gui.gochiken.growerlv_1.button_empty"), e -> {
+			if (true) {
+				GochikenMod.PACKET_HANDLER.sendToServer(new Growerlv1ButtonMessage(0, x, y, z));
+				Growerlv1ButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		});
+		guistate.put("button:button_empty", button_empty);
+		this.addRenderableWidget(button_empty);
 	}
 }

@@ -34,8 +34,8 @@
       "registry_name": "netuto",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochiken/models/item/netuto.json",
-          "src/main/java/net/mcreator/gochiken/item/NetutoItem.java"
+          "src/main/java/net/mcreator/gochiken/item/NetutoItem.java",
+          "src/main/resources/assets/gochiken/models/item/netuto.json"
         ]
       }
     },
@@ -120,8 +120,8 @@
       "registry_name": "log_chiken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochiken/models/item/log_chiken.json",
-          "src/main/java/net/mcreator/gochiken/item/LogChikenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/LogChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/log_chiken.json"
         ]
       }
     },
@@ -134,8 +134,8 @@
       "registry_name": "flint_choken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/FlintChokenItem.java",
-          "src/main/resources/assets/gochiken/models/item/flint_choken.json"
+          "src/main/resources/assets/gochiken/models/item/flint_choken.json",
+          "src/main/java/net/mcreator/gochiken/item/FlintChokenItem.java"
         ]
       }
     },
@@ -148,8 +148,8 @@
       "registry_name": "sand_choken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochiken/models/item/sand_choken.json",
-          "src/main/java/net/mcreator/gochiken/item/SandChokenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/SandChokenItem.java",
+          "src/main/resources/assets/gochiken/models/item/sand_choken.json"
         ]
       }
     },
@@ -214,8 +214,8 @@
       "registry_name": "bone_chiken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochiken/models/item/bone_chiken.json",
-          "src/main/java/net/mcreator/gochiken/item/BoneChikenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/BoneChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/bone_chiken.json"
         ]
       }
     },
@@ -228,10 +228,10 @@
       "registry_name": "root",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochiken/blockstates/root.json",
-          "src/main/resources/assets/gochiken/models/item/root.json",
           "src/main/resources/assets/gochiken/models/block/root.json",
-          "src/main/java/net/mcreator/gochiken/block/RootBlock.java"
+          "src/main/java/net/mcreator/gochiken/block/RootBlock.java",
+          "src/main/resources/assets/gochiken/blockstates/root.json",
+          "src/main/resources/assets/gochiken/models/item/root.json"
         ]
       }
     },
@@ -251,14 +251,14 @@
     {
       "name": "RootGUI",
       "type": "gui",
-      "sortid": 32,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "root_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/client/gui/RootGUIScreen.java",
-          "src/main/java/net/mcreator/gochiken/world/inventory/RootGUIMenu.java"
+          "src/main/java/net/mcreator/gochiken/world/inventory/RootGUIMenu.java",
+          "src/main/java/net/mcreator/gochiken/client/gui/RootGUIScreen.java"
         ]
       }
     },
@@ -315,10 +315,10 @@
       "registry_name": "gorwer_lv_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochiken/models/item/gorwer_lv_1.json",
-          "src/main/java/net/mcreator/gochiken/block/entity/GorwerLv1BlockEntity.java",
           "src/main/java/net/mcreator/gochiken/block/GorwerLv1Block.java",
+          "src/main/resources/assets/gochiken/models/item/gorwer_lv_1.json",
           "src/main/resources/assets/gochiken/models/block/gorwer_lv_1.json",
+          "src/main/java/net/mcreator/gochiken/block/entity/GorwerLv1BlockEntity.java",
           "src/main/resources/assets/gochiken/blockstates/gorwer_lv_1.json"
         ]
       },
@@ -333,6 +333,7 @@
       "registry_name": "growerlv_1",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/gochiken/network/Growerlv1ButtonMessage.java",
           "src/main/java/net/mcreator/gochiken/world/inventory/Growerlv1Menu.java",
           "src/main/java/net/mcreator/gochiken/client/gui/Growerlv1Screen.java"
         ]
@@ -416,10 +417,10 @@
       "registry_name": "layer_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochiken/models/item/layer_1.json",
           "src/main/resources/assets/gochiken/models/block/layer_1.json",
           "src/main/java/net/mcreator/gochiken/block/Layer1Block.java",
-          "src/main/resources/assets/gochiken/blockstates/layer_1.json"
+          "src/main/resources/assets/gochiken/blockstates/layer_1.json",
+          "src/main/resources/assets/gochiken/models/item/layer_1.json"
         ]
       },
       "path": "~/dee"

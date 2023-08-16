@@ -271,9 +271,6 @@
       "locked_code": false,
       "registry_name": "rootburotukugayoukuritukusaretatoki",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gochiken/procedures/RootburotukugaYoukuritukusaretatokiProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "x",
@@ -512,6 +509,54 @@
           }
         ]
       }
+    },
+    {
+      "name": "Test",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/block/TestBlock.java",
+          "src/main/java/net/mcreator/gochiken/block/entity/TestBlockEntity.java",
+          "src/main/resources/assets/gochiken/blockstates/test.json",
+          "src/main/resources/assets/gochiken/models/item/test.json",
+          "src/main/resources/assets/gochiken/models/block/test.json"
+        ]
+      }
+    },
+    {
+      "name": "Roost",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roost",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/RoostProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -521,6 +566,7 @@
       "item.gochiken.netuto": "ネット【空】",
       "item.gochiken.sand_choken": "Sand Choken",
       "block.gochiken.gorwer_lv_1": "Gorwer Lv 1",
+      "block.gochiken.test": "Root",
       "item.gochiken.copperchickenkid": "Copperchickenkid",
       "itemGroup.tabgo_chiken": "Go Chiken",
       "item.gochiken.go": "Go",

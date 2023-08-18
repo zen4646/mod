@@ -14,6 +14,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 import net.mcreator.gochiken.client.gui.RootGUIScreen;
 import net.mcreator.gochiken.client.gui.Layerlv1GUIScreen;
 import net.mcreator.gochiken.client.gui.Growerlv1Screen;
+import net.mcreator.gochiken.client.gui.BreederGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class GochikenModScreens {
@@ -23,6 +24,7 @@ public class GochikenModScreens {
 			MenuScreens.register(GochikenModMenus.GROWERLV_1.get(), Growerlv1Screen::new);
 			MenuScreens.register(GochikenModMenus.ROOT_GUI.get(), RootGUIScreen::new);
 			MenuScreens.register(GochikenModMenus.LAYERLV_1_GUI.get(), Layerlv1GUIScreen::new);
+			MenuScreens.register(GochikenModMenus.BREEDER_GUI.get(), BreederGUIScreen::new);
 		});
 	}
 }

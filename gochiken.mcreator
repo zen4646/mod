@@ -220,23 +220,6 @@
       }
     },
     {
-      "name": "Root",
-      "type": "block",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "root",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gochiken/block/entity/RootBlockEntity.java",
-          "src/main/resources/assets/gochiken/models/block/root.json",
-          "src/main/java/net/mcreator/gochiken/block/RootBlock.java",
-          "src/main/resources/assets/gochiken/blockstates/root.json",
-          "src/main/resources/assets/gochiken/models/item/root.json"
-        ]
-      }
-    },
-    {
       "name": "RRoot",
       "type": "recipe",
       "sortid": 26,
@@ -260,34 +243,6 @@
         "files": [
           "src/main/java/net/mcreator/gochiken/world/inventory/RootGUIMenu.java",
           "src/main/java/net/mcreator/gochiken/client/gui/RootGUIScreen.java"
-        ]
-      }
-    },
-    {
-      "name": "RootburotukugaYoukuritukusaretatoki",
-      "type": "procedure",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rootburotukugayoukuritukusaretatoki",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       }
     },
@@ -511,32 +466,15 @@
       }
     },
     {
-      "name": "Test",
-      "type": "block",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gochiken/block/TestBlock.java",
-          "src/main/java/net/mcreator/gochiken/block/entity/TestBlockEntity.java",
-          "src/main/resources/assets/gochiken/blockstates/test.json",
-          "src/main/resources/assets/gochiken/models/item/test.json",
-          "src/main/resources/assets/gochiken/models/block/test.json"
-        ]
-      }
-    },
-    {
-      "name": "Roost",
+      "name": "PRoost",
       "type": "procedure",
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "roost",
+      "registry_name": "p_roost",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/procedures/RoostProcedure.java"
+          "src/main/java/net/mcreator/gochiken/procedures/PRoostProcedure.java"
         ],
         "dependencies": [
           {
@@ -557,26 +495,653 @@
           }
         ]
       }
+    },
+    {
+      "name": "Roost",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roost",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/roost.json",
+          "src/main/resources/assets/gochiken/models/block/roost.json",
+          "src/main/java/net/mcreator/gochiken/block/RoostBlock.java",
+          "src/main/java/net/mcreator/gochiken/block/entity/RoostBlockEntity.java",
+          "src/main/resources/assets/gochiken/blockstates/roost.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisChiken",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/LapisChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/lapis_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RLapisChiken",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_lapis_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_lapis_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "InkChiken",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ink_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/InkChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/ink_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RInkChiken",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_ink_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_ink_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "MagentaChiken",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/magenta_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/MagentaChikenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RMagentaChiken",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_magenta_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_magenta_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "LimeChiken",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/LimeChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/lime_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RLimeCHIken",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_lime_ch_iken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_lime_ch_iken.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowChiken",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/YellowChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/yellow_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RYellowChiken",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_yellow_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_yellow_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "PupleChiken",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puple_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/puple_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/PupleChikenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RPurpleChiken",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_purple_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_purple_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "CactusChiken",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cactus_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/cactus_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/CactusChikenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RCactusChiken",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_cactus_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_cactus_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RCactus",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_cactus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_cactus.json"
+        ]
+      }
+    },
+    {
+      "name": "LightGrayChiken",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/LightGrayChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/light_gray_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RLightGrayChiken",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_light_gray_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_light_gray_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "LightBlueChiken",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/LightBlueChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/light_blue_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RLightChiken",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_light_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_light_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanChiken",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/cyan_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/CyanChikenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RCyanChiken",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_cyan_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_cyan_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RedChiken",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/RedChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/red_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RRedChiken",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_red_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_red_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkChiken",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/pink_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/PinkChikenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RPinkChiken",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_pink_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_pink_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeChiken",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/orange_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/OrangeChikenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ROrangeChiken",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_orange_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_orange_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "GrayChiken",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/GrayChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/gray_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RGrayChiken",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_gray_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_gray_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "BrownChiken",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/BrownChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/brown_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RBrownChiken",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_brown_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_brown_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "Breeder",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breeder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/block/entity/BreederBlockEntity.java",
+          "src/main/java/net/mcreator/gochiken/block/BreederBlock.java",
+          "src/main/resources/assets/gochiken/models/block/breeder.json",
+          "src/main/resources/assets/gochiken/models/item/breeder.json",
+          "src/main/resources/assets/gochiken/blockstates/breeder.json"
+        ]
+      }
+    },
+    {
+      "name": "BreederGUI",
+      "type": "gui",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breeder_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/world/inventory/BreederGUIMenu.java",
+          "src/main/java/net/mcreator/gochiken/client/gui/BreederGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "IronChiken",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/IronChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/iron_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneChiken",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/RedstoneChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/redstone_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "BreederteitukuGengXinShi",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breederteituku_geng_xin_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldChiken",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/GoldChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/gold_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "QuartzChiken",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/quartz_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/QuartzChikenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RQuartzChiken",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_quartz_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/r_quartz_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "GlassChiken",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_chiken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gochiken/models/item/glass_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/GlassChikenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondChiken",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/DiamondChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/diamond_chiken.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowstoneChiken",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowstone_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/GlowstoneChikenItem.java",
+          "src/main/resources/assets/gochiken/models/item/glowstone_chiken.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.gochiken.netuto": "ネット【空】",
+      "item.gochiken.light_gray_chiken": "Light Gray Chiken",
+      "item.gochiken.red_chiken": "Red Chiken",
       "item.gochiken.sand_choken": "Sand Choken",
-      "block.gochiken.gorwer_lv_1": "Gorwer Lv 1",
-      "block.gochiken.test": "Root",
+      "block.gochiken.breeder": "Breeder",
+      "item.gochiken.iron_chiken": "Iron Chiken",
       "item.gochiken.copperchickenkid": "Copperchickenkid",
       "itemGroup.tabgo_chiken": "Go Chiken",
-      "item.gochiken.go": "Go",
       "block.gochiken.layer_1": "Layer 1",
-      "item.gochiken.bone_chiken": "Bone Chiken",
+      "item.gochiken.glowstone_chiken": "Glowstone Chiken",
       "item.gochiken.copperchicken": "Copperchicken",
+      "item.gochiken.pink_chiken": "Pink Chiken",
+      "item.gochiken.magenta_chiken": "Magenta Chiken",
+      "item.gochiken.brown_chiken": "Brown Chiken",
+      "block.gochiken.roost": "Roost",
+      "item.gochiken.puple_chiken": "Puple Chiken",
+      "item.gochiken.lapis_chiken": "Lapis Chiken",
+      "item.gochiken.diamond_chiken": "Diamond Chiken",
+      "item.gochiken.cactus_chiken": "Cactus Chiken",
+      "item.gochiken.orange_chiken": "Orange Chiken",
+      "item.gochiken.netuto": "ネット【空】",
+      "item.gochiken.cyan_chiken": "Cyan Chiken",
+      "item.gochiken.glass_chiken": "Glass Chiken",
+      "block.gochiken.gorwer_lv_1": "Gorwer Lv 1",
+      "item.gochiken.light_blue_chiken": "Light Blue Chiken",
+      "item.gochiken.go": "Go",
+      "item.gochiken.yellow_chiken": "Yellow Chiken",
+      "item.gochiken.bone_chiken": "Bone Chiken",
       "item.gochiken.flint_choken": "Flint Choken",
+      "item.gochiken.lime_chiken": "Lime Chiken",
+      "item.gochiken.ink_chiken": "Ink Chiken",
       "item.gochiken.log_chiken": "Log Chiken",
-      "block.gochiken.root": "Root",
-      "gui.gochiken.growerlv_1.button_empty": ""
+      "item.gochiken.quartz_chiken": "Quartz Chiken",
+      "item.gochiken.redstone_chiken": "Redstone Chiken",
+      "gui.gochiken.growerlv_1.button_empty": "",
+      "item.gochiken.gold_chiken": "Gold Chiken",
+      "item.gochiken.gray_chiken": "Gray Chiken"
     }
   },
   "foldersRoot": {

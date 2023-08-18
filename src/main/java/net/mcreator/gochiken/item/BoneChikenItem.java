@@ -8,6 +8,6 @@ import net.mcreator.gochiken.init.GochikenModTabs;
 
 public class BoneChikenItem extends Item {
 	public BoneChikenItem() {
-		super(new Item.Properties().tab(GochikenModTabs.TAB_GO_CHIKEN).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(GochikenModTabs.TAB_GO_CHIKEN).stacksTo(16).rarity(Rarity.COMMON));
 	}
 }

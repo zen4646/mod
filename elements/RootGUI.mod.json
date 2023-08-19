@@ -79,7 +79,7 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 4,
+          "id": 6,
           "disablePickup": {
             "fixedValue": false
           },
@@ -91,7 +91,7 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 5,
+          "id": 9,
           "disablePickup": {
             "fixedValue": false
           },
@@ -103,7 +103,7 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 6,
+          "id": 12,
           "disablePickup": {
             "fixedValue": false
           },
@@ -115,7 +115,7 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 7,
+          "id": 15,
           "disablePickup": {
             "fixedValue": false
           },
@@ -127,7 +127,7 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 8,
+          "id": 4,
           "disablePickup": {
             "fixedValue": false
           },
@@ -139,7 +139,7 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 9,
+          "id": 7,
           "disablePickup": {
             "fixedValue": false
           },
@@ -163,7 +163,7 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 11,
+          "id": 13,
           "disablePickup": {
             "fixedValue": false
           },
@@ -175,7 +175,7 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 12,
+          "id": 16,
           "disablePickup": {
             "fixedValue": false
           },
@@ -187,7 +187,7 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 13,
+          "id": 5,
           "disablePickup": {
             "fixedValue": false
           },
@@ -199,7 +199,7 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 14,
+          "id": 8,
           "disablePickup": {
             "fixedValue": false
           },
@@ -211,7 +211,7 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 15,
+          "id": 11,
           "disablePickup": {
             "fixedValue": false
           },
@@ -223,7 +223,7 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 16,
+          "id": 14,
           "disablePickup": {
             "fixedValue": false
           },
@@ -277,7 +277,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

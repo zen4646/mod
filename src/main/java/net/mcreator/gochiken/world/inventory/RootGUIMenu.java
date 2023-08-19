@@ -87,37 +87,37 @@ public class RootGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 				return false;
 			}
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 88, 8) {
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 88, 8) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 106, 8) {
+		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 106, 8) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 124, 8) {
+		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 124, 8) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 142, 8) {
+		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 142, 8) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 70, 35) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 70, 35) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 88, 35) {
+		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 88, 35) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -129,37 +129,37 @@ public class RootGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 				return false;
 			}
 		}));
-		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 124, 35) {
+		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 124, 35) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 142, 35) {
+		this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 142, 35) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 70, 62) {
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 70, 62) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 88, 62) {
+		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 88, 62) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 106, 62) {
+		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 106, 62) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 124, 62) {
+		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 124, 62) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;

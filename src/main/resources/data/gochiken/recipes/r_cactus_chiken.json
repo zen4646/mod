@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:green_dye"
+    },
+    "1": {
+      "item": "minecraft:green_dye"
+    },
+    "2": {
+      "item": "minecraft:green_dye"
+    },
+    "3": {
+      "item": "minecraft:green_dye"
+    },
+    "4": {
+      "item": "minecraft:egg"
+    },
+    "5": {
+      "item": "minecraft:green_dye"
+    },
+    "6": {
+      "item": "minecraft:green_dye"
+    },
+    "7": {
+      "item": "minecraft:green_dye"
+    },
+    "8": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "gochiken:cactus_chiken",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gochiken:block/roost"
+    },
+    "facing=east": {
+      "model": "gochiken:block/roost",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gochiken:block/roost",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gochiken:block/roost",
+      "y": 270
+    }
+  }
+}

@@ -11,7 +11,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.gochiken.block.entity.RootBlockEntity;
 import net.mcreator.gochiken.block.entity.Layer1BlockEntity;
 import net.mcreator.gochiken.block.entity.GorwerLv1BlockEntity;
 import net.mcreator.gochiken.GochikenMod;

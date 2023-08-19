@@ -10,7 +10,6 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.gochiken.block.RootBlock;
 import net.mcreator.gochiken.block.Layer1Block;
 import net.mcreator.gochiken.block.GorwerLv1Block;
 import net.mcreator.gochiken.GochikenMod;

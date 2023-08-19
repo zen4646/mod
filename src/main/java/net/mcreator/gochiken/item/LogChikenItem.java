@@ -8,6 +8,6 @@ import net.mcreator.gochiken.init.GochikenModTabs;
 
 public class LogChikenItem extends Item {
 	public LogChikenItem() {
-		super(new Item.Properties().tab(GochikenModTabs.TAB_GO_CHIKEN).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(GochikenModTabs.TAB_GO_CHIKEN).stacksTo(16).rarity(Rarity.COMMON));
 	}
 }

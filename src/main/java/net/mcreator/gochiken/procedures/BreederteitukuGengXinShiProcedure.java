@@ -420,6 +420,246 @@ public class BreederteitukuGengXinShiProcedure {
 										}
 									}
 								}
+								if ((new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num1)).getItem() == GochikenModItems.QUARTZ_CHIKEN.get() && (new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num2)).getItem() == GochikenModItems.YELLOW_CHIKEN.get()) {
+									{
+										BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+										if (_ent != null) {
+											final int _slotid = 5;
+											final ItemStack _setstack = new ItemStack(GochikenModItems.GLOWSTONE_CHIKEN.get());
+											_setstack.setCount(1);
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+												if (capability instanceof IItemHandlerModifiable)
+													((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+											});
+										}
+									}
+								}
+								if ((new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num1)).getItem() == GochikenModItems.CACTUS_CHIKEN.get() && (new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num2)).getItem() == GochikenModItems.RED_CHIKEN.get()) {
+									{
+										BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+										if (_ent != null) {
+											final int _slotid = 5;
+											final ItemStack _setstack = new ItemStack(GochikenModItems.BROWN_CHIKEN.get());
+											_setstack.setCount(1);
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+												if (capability instanceof IItemHandlerModifiable)
+													((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+											});
+										}
+									}
+								}
+								if ((new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num1)).getItem() == GochikenModItems.GLOWSTONE_CHIKEN.get() && (new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num2)).getItem() == GochikenModItems.BROWN_CHIKEN.get()) {
+									{
+										BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+										if (_ent != null) {
+											final int _slotid = 5;
+											final ItemStack _setstack = new ItemStack(GochikenModItems.NETHERWART_CHIKEN.get());
+											_setstack.setCount(1);
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+												if (capability instanceof IItemHandlerModifiable)
+													((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+											});
+										}
+									}
+								}
+								if ((new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num1)).getItem() == GochikenModItems.DIAMOND_CHIKEN.get() && (new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num2)).getItem() == GochikenModItems.NETHERWART_CHIKEN.get()) {
+									{
+										BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+										if (_ent != null) {
+											final int _slotid = 5;
+											final ItemStack _setstack = new ItemStack(GochikenModItems.ENDER_CHIKEN.get());
+											_setstack.setCount(1);
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+												if (capability instanceof IItemHandlerModifiable)
+													((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+											});
+										}
+									}
+								}
+								if ((new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num1)).getItem() == GochikenModItems.LAPIS_CHIKEN.get() && (new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num2)).getItem() == GochikenModItems.LOG_CHIKEN.get()) {
+									{
+										BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+										if (_ent != null) {
+											final int _slotid = 5;
+											final ItemStack _setstack = new ItemStack(GochikenModItems.SNOWBALL.get());
+											_setstack.setCount(1);
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+												if (capability instanceof IItemHandlerModifiable)
+													((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+											});
+										}
+									}
+								}
+								if ((new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num1)).getItem() == GochikenModItems.SAND_CHOKEN.get() && (new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num2)).getItem() == GochikenModItems.SNOWBALL.get()) {
+									{
+										BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+										if (_ent != null) {
+											final int _slotid = 5;
+											final ItemStack _setstack = new ItemStack(GochikenModItems.CLAY_CHIKEN.get());
+											_setstack.setCount(1);
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+												if (capability instanceof IItemHandlerModifiable)
+													((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+											});
+										}
+									}
+								}
+								if ((new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num1)).getItem() == GochikenModItems.CLAY_CHIKEN.get() && (new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num2)).getItem() == GochikenModItems.CACTUS_CHIKEN.get()) {
+									{
+										BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+										if (_ent != null) {
+											final int _slotid = 5;
+											final ItemStack _setstack = new ItemStack(GochikenModItems.SILME_CHIKEN.get());
+											_setstack.setCount(1);
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+												if (capability instanceof IItemHandlerModifiable)
+													((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+											});
+										}
+									}
+								}
+								if ((new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num1)).getItem() == GochikenModItems.FLINT_CHOKEN.get() && (new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num2)).getItem() == GochikenModItems.LOG_CHIKEN.get()) {
+									{
+										BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+										if (_ent != null) {
+											final int _slotid = 5;
+											final ItemStack _setstack = new ItemStack(GochikenModItems.COAL_CHIKEN.get());
+											_setstack.setCount(1);
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+												if (capability instanceof IItemHandlerModifiable)
+													((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+											});
+										}
+									}
+								}
 								{
 									BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 									if (_ent != null) {

@@ -1233,8 +1233,8 @@
       "registry_name": "lavaegg",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/LavaeggItem.java",
-          "src/main/resources/assets/gochiken/models/item/lavaegg.json"
+          "src/main/resources/assets/gochiken/models/item/lavaegg.json",
+          "src/main/java/net/mcreator/gochiken/item/LavaeggItem.java"
         ]
       }
     }

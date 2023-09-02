@@ -30,6 +30,7 @@ import net.mcreator.gochiken.item.LogChikenItem;
 import net.mcreator.gochiken.item.LimeChikenItem;
 import net.mcreator.gochiken.item.LightGrayChikenItem;
 import net.mcreator.gochiken.item.LightBlueChikenItem;
+import net.mcreator.gochiken.item.LavaeggItem;
 import net.mcreator.gochiken.item.LavaChikenItem;
 import net.mcreator.gochiken.item.LapisChikenItem;
 import net.mcreator.gochiken.item.IronChikenItem;
@@ -95,6 +96,7 @@ public class GochikenModItems {
 	public static final RegistryObject<Item> SILME_CHIKEN = REGISTRY.register("silme_chiken", () -> new SilmeChikenItem());
 	public static final RegistryObject<Item> COAL_CHIKEN = REGISTRY.register("coal_chiken", () -> new CoalChikenItem());
 	public static final RegistryObject<Item> LAVA_CHIKEN = REGISTRY.register("lava_chiken", () -> new LavaChikenItem());
+	public static final RegistryObject<Item> LAVAEGG = REGISTRY.register("lavaegg", () -> new LavaeggItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

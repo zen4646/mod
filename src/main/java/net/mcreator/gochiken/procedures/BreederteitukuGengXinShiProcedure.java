@@ -660,6 +660,36 @@ public class BreederteitukuGengXinShiProcedure {
 										}
 									}
 								}
+								if ((new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num1)).getItem() == GochikenModItems.COAL_CHIKEN.get() && (new Object() {
+									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+										BlockEntity _ent = world.getBlockEntity(pos);
+										if (_ent != null)
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+										return _retval.get();
+									}
+								}.getItemStack(world, new BlockPos(x, y, z), (int) num2)).getItem() == GochikenModItems.QUARTZ_CHIKEN.get()) {
+									{
+										BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+										if (_ent != null) {
+											final int _slotid = 5;
+											final ItemStack _setstack = new ItemStack(GochikenModItems.LAVA_CHIKEN.get());
+											_setstack.setCount(1);
+											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+												if (capability instanceof IItemHandlerModifiable)
+													((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+											});
+										}
+									}
+								}
 								{
 									BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 									if (_ent != null) {

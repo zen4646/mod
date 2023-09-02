@@ -505,11 +505,11 @@
       "registry_name": "roost",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochiken/models/item/roost.json",
-          "src/main/resources/assets/gochiken/models/block/roost.json",
           "src/main/java/net/mcreator/gochiken/block/RoostBlock.java",
+          "src/main/resources/assets/gochiken/blockstates/roost.json",
           "src/main/java/net/mcreator/gochiken/block/entity/RoostBlockEntity.java",
-          "src/main/resources/assets/gochiken/blockstates/roost.json"
+          "src/main/resources/assets/gochiken/models/block/roost.json",
+          "src/main/resources/assets/gochiken/models/item/roost.json"
         ]
       }
     },
@@ -1188,6 +1188,55 @@
           "src/main/java/net/mcreator/gochiken/item/LavaChikenItem.java"
         ]
       }
+    },
+    {
+      "name": "LavaeggburotukuwoYoukuritukusitatoki",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavaeggburotukuwo_youkuritukusitatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/LavaeggburotukuwoYoukuritukusitatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lavaegg",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavaegg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/LavaeggItem.java",
+          "src/main/resources/assets/gochiken/models/item/lavaegg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1210,6 +1259,7 @@
       "item.gochiken.coal_chiken": "Coal Chiken",
       "item.gochiken.magenta_chiken": "Magenta Chiken",
       "item.gochiken.brown_chiken": "Brown Chiken",
+      "item.gochiken.lavaegg": "Lavaegg",
       "block.gochiken.roost": "Roost",
       "item.gochiken.puple_chiken": "Puple Chiken",
       "item.gochiken.lapis_chiken": "Lapis Chiken",

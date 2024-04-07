@@ -3344,6 +3344,10 @@
       {
         "name": "armor",
         "children": []
+      },
+      {
+        "name": "test",
+        "children": []
       }
     ]
   },

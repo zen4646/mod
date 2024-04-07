@@ -247,202 +247,6 @@
       }
     },
     {
-      "name": "Copperchicken",
-      "type": "item",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "copperchicken",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gochiken/item/CopperchickenItem.java",
-          "src/main/resources/assets/gochicken/models/item/copperchicken.json"
-        ]
-      },
-      "path": "~/dee"
-    },
-    {
-      "name": "Copperchickenkid",
-      "type": "item",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "copperchickenkid",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/gochicken/models/item/copperchickenkid.json",
-          "src/main/java/net/mcreator/gochiken/item/CopperchickenkidItem.java"
-        ]
-      },
-      "path": "~/dee"
-    },
-    {
-      "name": "GorwerLv1",
-      "type": "block",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gorwer_lv_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/gochicken/models/block/gorwer_lv_1.json",
-          "src/main/resources/assets/gochicken/models/item/gorwer_lv_1.json",
-          "src/main/java/net/mcreator/gochiken/block/GorwerLv1Block.java",
-          "src/main/java/net/mcreator/gochiken/block/entity/GorwerLv1BlockEntity.java",
-          "src/main/resources/assets/gochicken/blockstates/gorwer_lv_1.json"
-        ]
-      },
-      "path": "~/dee"
-    },
-    {
-      "name": "Growerlv1",
-      "type": "gui",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "growerlv_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gochiken/world/inventory/Growerlv1Menu.java",
-          "src/main/java/net/mcreator/gochiken/client/gui/Growerlv1Screen.java"
-        ]
-      },
-      "path": "~/dee"
-    },
-    {
-      "name": "Growerclicklv1",
-      "type": "procedure",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "growerclicklv_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gochiken/procedures/Growerclicklv1Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/dee"
-    },
-    {
-      "name": "Growerlv1gui",
-      "type": "procedure",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "growerlv_1gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gochiken/procedures/Growerlv1guiProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/dee"
-    },
-    {
-      "name": "Layer1",
-      "type": "block",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "layer_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/gochicken/models/item/layer_1.json",
-          "src/main/java/net/mcreator/gochiken/block/Layer1Block.java",
-          "src/main/resources/assets/gochicken/blockstates/layer_1.json",
-          "src/main/java/net/mcreator/gochiken/block/entity/Layer1BlockEntity.java",
-          "src/main/resources/assets/gochicken/models/block/layer_1.json"
-        ]
-      },
-      "path": "~/dee"
-    },
-    {
-      "name": "Layer1II",
-      "type": "procedure",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "layer_1_ii",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gochiken/procedures/Layer1IIProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/dee"
-    },
-    {
-      "name": "Layerlv1GUI",
-      "type": "gui",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "layerlv_1_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gochiken/world/inventory/Layerlv1GUIMenu.java",
-          "src/main/java/net/mcreator/gochiken/client/gui/Layerlv1GUIScreen.java"
-        ]
-      },
-      "path": "~/dee"
-    },
-    {
       "name": "GoYoukuritukusitatoki",
       "type": "procedure",
       "sortid": 38,
@@ -3368,9 +3172,7 @@
       "item_group.gochiken.go_chiken": "Go Chiken",
       "item.gochicken.clay_chicken_seed": "Clay Chicken Seed",
       "item.gochicken.blaze_chicken_seed": "Blaze Chicken Seed",
-      "gui.gochicken.growerlv_1.button_empty": "",
       "item.gochiken.clay_chicken_seed": "Clay Chicken Seed",
-      "block.gochicken.layer_1": "Layer 1",
       "item.gochiken.flint_chickenseed": "Flint Chickenseed",
       "item.gochicken.glass_chiken": "Glass Chiken",
       "item.gochicken.leather_chicken_seed": "Leather Chicken Seed",
@@ -3393,7 +3195,6 @@
       "item.gochicken.red_chiken": "Red Chiken",
       "item.gochicken.znic_chicken": "Znic Chicken",
       "item.gochiken.gold_chiken": "Gold Chiken",
-      "item.gochicken.copperchicken": "Copperchicken",
       "item.gochiken.gray_chiken": "Gray Chiken",
       "item_group.gochicken.go_armor": "Go Armor",
       "item.gochiken.red_chiken": "Red Chiken",
@@ -3408,7 +3209,6 @@
       "item.gochicken.string_chicken_seed": "String Chicken Seed",
       "block.gochicken.breeder": "Breeder",
       "item.gochicken.sealantern_chicken": "Sealantern Chicken",
-      "item.gochicken.copperchickenkid": "Copperchickenkid",
       "item.gochiken.coal_chiken": "Coal Chiken",
       "item.gochicken.silme_chiken": "Silme Chiken",
       "item.gochicken.puple_chiken": "Puple Chiken",
@@ -3497,7 +3297,6 @@
       "item.gochicken.iron_chicken_seed": "Iron Chicken Seed",
       "item.gochicken.obsidian_chicken_seed": "Obsidian Chicken Seed",
       "block.gochiken.layer_1": "Layer 1",
-      "block.gochicken.gorwer_lv_1": "Gorwer Lv 1",
       "item.gochiken.glowstone_chiken": "Glowstone Chiken",
       "item.gochiken.cola_chicken_seed": "Cola Chicken Seed",
       "item.gochicken.gloestnoe_chicken_seed": "Gloestnoe Chicken Seed",

@@ -13,16 +13,12 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.gochiken.block.SeedMarkerBlock;
 import net.mcreator.gochiken.block.RoostBlock;
 import net.mcreator.gochiken.block.PeiHeJiBlock;
-import net.mcreator.gochiken.block.Layer1Block;
-import net.mcreator.gochiken.block.GorwerLv1Block;
 import net.mcreator.gochiken.block.CompressorBlock;
 import net.mcreator.gochiken.block.BreederBlock;
 import net.mcreator.gochiken.GochickenMod;
 
 public class GochickenModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, GochickenMod.MODID);
-	public static final RegistryObject<Block> GORWER_LV_1 = REGISTRY.register("gorwer_lv_1", () -> new GorwerLv1Block());
-	public static final RegistryObject<Block> LAYER_1 = REGISTRY.register("layer_1", () -> new Layer1Block());
 	public static final RegistryObject<Block> ROOST = REGISTRY.register("roost", () -> new RoostBlock());
 	public static final RegistryObject<Block> BREEDER = REGISTRY.register("breeder", () -> new BreederBlock());
 	public static final RegistryObject<Block> PEI_HE_JI = REGISTRY.register("pei_he_ji", () -> new PeiHeJiBlock());

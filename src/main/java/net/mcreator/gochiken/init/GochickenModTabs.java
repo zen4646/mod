@@ -24,10 +24,6 @@ public class GochickenModTabs {
 				tabData.accept(GochickenModItems.FLINT_CHOKEN.get());
 				tabData.accept(GochickenModItems.SAND_CHOKEN.get());
 				tabData.accept(GochickenModItems.BONE_CHIKEN.get());
-				tabData.accept(GochickenModItems.COPPERCHICKEN.get());
-				tabData.accept(GochickenModItems.COPPERCHICKENKID.get());
-				tabData.accept(GochickenModBlocks.GORWER_LV_1.get().asItem());
-				tabData.accept(GochickenModBlocks.LAYER_1.get().asItem());
 				tabData.accept(GochickenModBlocks.ROOST.get().asItem());
 				tabData.accept(GochickenModItems.LAPIS_CHIKEN.get());
 				tabData.accept(GochickenModItems.INK_CHIKEN.get());

@@ -15,14 +15,12 @@ import net.mcreator.gochiken.block.entity.SeedMarkerBlockEntity;
 import net.mcreator.gochiken.block.entity.RoostBlockEntity;
 import net.mcreator.gochiken.block.entity.PeiHeJiBlockEntity;
 import net.mcreator.gochiken.block.entity.Layer1BlockEntity;
-import net.mcreator.gochiken.block.entity.GorwerLv1BlockEntity;
 import net.mcreator.gochiken.block.entity.CompressorBlockEntity;
 import net.mcreator.gochiken.block.entity.BreederBlockEntity;
 import net.mcreator.gochiken.GochickenMod;
 
 public class GochickenModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, GochickenMod.MODID);
-	public static final RegistryObject<BlockEntityType<?>> GORWER_LV_1 = register("gorwer_lv_1", GochickenModBlocks.GORWER_LV_1, GorwerLv1BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> LAYER_1 = register("layer_1", GochickenModBlocks.LAYER_1, Layer1BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ROOST = register("roost", GochickenModBlocks.ROOST, RoostBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> BREEDER = register("breeder", GochickenModBlocks.BREEDER, BreederBlockEntity::new);

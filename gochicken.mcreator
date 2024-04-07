@@ -277,24 +277,6 @@
       "path": "~/dee"
     },
     {
-      "name": "GorwerLv1",
-      "type": "block",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gorwer_lv_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/gochicken/models/block/gorwer_lv_1.json",
-          "src/main/resources/assets/gochicken/models/item/gorwer_lv_1.json",
-          "src/main/java/net/mcreator/gochiken/block/GorwerLv1Block.java",
-          "src/main/java/net/mcreator/gochiken/block/entity/GorwerLv1BlockEntity.java",
-          "src/main/resources/assets/gochicken/blockstates/gorwer_lv_1.json"
-        ]
-      },
-      "path": "~/dee"
-    },
-    {
       "name": "Growerlv1",
       "type": "gui",
       "sortid": 31,
@@ -3497,7 +3479,6 @@
       "item.gochicken.iron_chicken_seed": "Iron Chicken Seed",
       "item.gochicken.obsidian_chicken_seed": "Obsidian Chicken Seed",
       "block.gochiken.layer_1": "Layer 1",
-      "block.gochicken.gorwer_lv_1": "Gorwer Lv 1",
       "item.gochiken.glowstone_chiken": "Glowstone Chiken",
       "item.gochiken.cola_chicken_seed": "Cola Chicken Seed",
       "item.gochicken.gloestnoe_chicken_seed": "Gloestnoe Chicken Seed",

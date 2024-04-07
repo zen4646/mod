@@ -126,6 +126,10 @@ public class GochickenModItems {
 	public static final RegistryObject<Item> FLINT_CHOKEN = REGISTRY.register("flint_choken", () -> new FlintChokenItem());
 	public static final RegistryObject<Item> SAND_CHOKEN = REGISTRY.register("sand_choken", () -> new SandChokenItem());
 	public static final RegistryObject<Item> BONE_CHIKEN = REGISTRY.register("bone_chiken", () -> new BoneChikenItem());
+	public static final RegistryObject<Item> COPPERCHICKEN = REGISTRY.register("copperchicken", () -> new CopperchickenItem());
+	public static final RegistryObject<Item> COPPERCHICKENKID = REGISTRY.register("copperchickenkid", () -> new CopperchickenkidItem());
+	public static final RegistryObject<Item> GORWER_LV_1 = block(GochickenModBlocks.GORWER_LV_1);
+	public static final RegistryObject<Item> LAYER_1 = block(GochickenModBlocks.LAYER_1);
 	public static final RegistryObject<Item> ROOST = block(GochickenModBlocks.ROOST);
 	public static final RegistryObject<Item> LAPIS_CHIKEN = REGISTRY.register("lapis_chiken", () -> new LapisChikenItem());
 	public static final RegistryObject<Item> INK_CHIKEN = REGISTRY.register("ink_chiken", () -> new InkChikenItem());

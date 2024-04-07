@@ -22,7 +22,9 @@ public class GochickenModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
+			MenuScreens.register(GochickenModMenus.GROWERLV_1.get(), Growerlv1Screen::new);
 			MenuScreens.register(GochickenModMenus.ROOT_GUI.get(), RootGUIScreen::new);
+			MenuScreens.register(GochickenModMenus.LAYERLV_1_GUI.get(), Layerlv1GUIScreen::new);
 			MenuScreens.register(GochickenModMenus.BREEDER_GUI.get(), BreederGUIScreen::new);
 			MenuScreens.register(GochickenModMenus.H_PEI_HE_JI.get(), HPeiHeJiScreen::new);
 			MenuScreens.register(GochickenModMenus.COMPRESSOR_GUI.get(), CompressorGUIScreen::new);

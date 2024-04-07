@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "dad"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:oak_log"
+    },
+    "b": {
+      "item": "minecraft:birch_log"
+    },
+    "c": {
+      "item": "gochicken:chi_cken_seed_1"
+    },
+    "d": {
+      "tag": "minecraft:tag_log_chicken"
+    }
+  },
+  "result": {
+    "item": "gochicken:r_log_chicken_seed",
+    "count": 1
+  }
+}

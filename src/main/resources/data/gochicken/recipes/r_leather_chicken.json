@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "fbg"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather_helmet"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_lv_2"
+    },
+    "c": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "d": {
+      "item": "minecraft:beef"
+    },
+    "e": {
+      "item": "gochicken:leather_chicken_seed"
+    },
+    "f": {
+      "item": "minecraft:leather_leggings"
+    },
+    "g": {
+      "item": "minecraft:leather_boots"
+    }
+  },
+  "result": {
+    "item": "gochicken:leather_chicken",
+    "count": 1
+  }
+}

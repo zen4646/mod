@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:experience_bottle"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_5"
+    },
+    "c": {
+      "item": "minecraft:emerald"
+    },
+    "d": {
+      "item": "gochicken:xp_chicken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:xp_chicken",
+    "count": 1
+  }
+}

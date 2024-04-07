@@ -22,7 +22,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.gochiken.world.inventory.BreederGUIMenu;
-import net.mcreator.gochiken.init.GochikenModBlockEntities;
+import net.mcreator.gochiken.init.GochickenModBlockEntities;
 
 import javax.annotation.Nullable;
 
@@ -35,7 +35,7 @@ public class BreederBlockEntity extends RandomizableContainerBlockEntity impleme
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public BreederBlockEntity(BlockPos position, BlockState state) {
-		super(GochikenModBlockEntities.BREEDER.get(), position, state);
+		super(GochickenModBlockEntities.BREEDER.get(), position, state);
 	}
 
 	@Override

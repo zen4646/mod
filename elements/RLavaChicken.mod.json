@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.LAVA_BUCKET"
+      },
+      {
+        "value": "CUSTOM:ChickenSeed3"
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      },
+      {
+        "value": "Blocks.MAGMA"
+      },
+      {
+        "value": "CUSTOM:LavaChickenSeed"
+      },
+      {
+        "value": "Blocks.MAGMA"
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      },
+      {
+        "value": "CUSTOM:ChickenSeed3"
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LavaChiken"
+    },
+    "name": "r_lava_chicken",
+    "namespace": "mod"
+  }
+}

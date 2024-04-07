@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:coal_block"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_lv_2"
+    },
+    "c": {
+      "item": "minecraft:hay_block"
+    },
+    "d": {
+      "item": "gochicken:cola_chicken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:coal_chiken",
+    "count": 1
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -24,7 +24,7 @@
         "value": "Items.DYE#6"
       },
       {
-        "value": "Items.EGG"
+        "value": "TAG:minecraft:tag_egg"
       },
       {
         "value": "Items.DYE#6"

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cac"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:flint"
+    },
+    "b": {
+      "item": "gochicken:chi_cken_seed_1"
+    },
+    "c": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "gochicken:flint_chickenseed",
+    "count": 1
+  }
+}

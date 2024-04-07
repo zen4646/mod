@@ -12,7 +12,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.gochiken.init.GochikenModItems;
+import net.mcreator.gochiken.init.GochickenModItems;
 
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -29,7 +29,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 0) == 1 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 0) == 1 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -37,7 +37,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 3) == 0 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 3) == 0 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -45,7 +45,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 6) == 0 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 6) == 0 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -53,7 +53,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 9) == 0 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 9) == 0 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -61,7 +61,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 12) == 0 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 12) == 0 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -69,9 +69,9 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 15) == 0) {
+		}.getAmount(world, BlockPos.containing(x, y, z), 15) == 0) {
 			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
@@ -83,7 +83,7 @@ public class PRoostProcedure {
 								_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 							return _retval.get();
 						}
-					}.getItemStack(world, new BlockPos(x, y, z), 0)).getDisplayName().getString()));
+					}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getDisplayName().getString()));
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
@@ -96,7 +96,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 1) == 1 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 1) == 1 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -104,7 +104,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 4) == 0 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 4) == 0 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -112,7 +112,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 7) == 0 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 7) == 0 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -120,7 +120,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 10) == 0 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 10) == 0 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -128,7 +128,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 13) == 0 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 13) == 0 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -136,9 +136,9 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 16) == 0) {
+		}.getAmount(world, BlockPos.containing(x, y, z), 16) == 0) {
 			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
@@ -150,7 +150,7 @@ public class PRoostProcedure {
 								_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 							return _retval.get();
 						}
-					}.getItemStack(world, new BlockPos(x, y, z), 1)).getDisplayName().getString()));
+					}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getDisplayName().getString()));
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
@@ -163,7 +163,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 2) == 1 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 2) == 1 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -171,7 +171,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 5) == 0 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 5) == 0 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -179,7 +179,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 8) == 0 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 8) == 0 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -187,7 +187,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 11) == 0 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 11) == 0 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -195,7 +195,7 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 14) == 0 && new Object() {
+		}.getAmount(world, BlockPos.containing(x, y, z), 14) == 0 && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -203,9 +203,9 @@ public class PRoostProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 17) == 0) {
+		}.getAmount(world, BlockPos.containing(x, y, z), 17) == 0) {
 			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
@@ -217,7 +217,7 @@ public class PRoostProcedure {
 								_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 							return _retval.get();
 						}
-					}.getItemStack(world, new BlockPos(x, y, z), 2)).getDisplayName().getString()));
+					}.getItemStack(world, BlockPos.containing(x, y, z), 2)).getDisplayName().getString()));
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
@@ -232,7 +232,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -240,9 +240,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.LOG_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.LOG_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Blocks.OAK_LOG);
@@ -262,7 +262,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -270,9 +270,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.SAND_CHOKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.SAND_CHOKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Blocks.SAND);
@@ -292,7 +292,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -300,9 +300,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.FLINT_CHOKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.FLINT_CHOKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Blocks.GRAVEL);
@@ -322,7 +322,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -330,9 +330,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.BONE_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.BONE_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.BONE);
@@ -352,7 +352,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -360,9 +360,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.LAPIS_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.LAPIS_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.LAPIS_LAZULI);
@@ -382,7 +382,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -390,9 +390,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.INK_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.INK_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.INK_SAC);
@@ -412,7 +412,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -420,9 +420,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.MAGENTA_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.MAGENTA_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.MAGENTA_DYE);
@@ -442,7 +442,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -450,9 +450,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.LIME_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.LIME_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.LIME_DYE);
@@ -472,7 +472,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -480,9 +480,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.YELLOW_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.YELLOW_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.YELLOW_DYE);
@@ -502,7 +502,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -510,9 +510,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.PUPLE_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.PUPLE_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.PURPLE_DYE);
@@ -532,7 +532,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -540,9 +540,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.CACTUS_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.CACTUS_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Blocks.CACTUS);
@@ -562,7 +562,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -570,9 +570,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.LIGHT_GRAY_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.LIGHT_GRAY_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.LIGHT_GRAY_DYE);
@@ -592,7 +592,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -600,9 +600,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.LIGHT_BLUE_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.LIGHT_BLUE_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.LIGHT_BLUE_DYE);
@@ -622,7 +622,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -630,9 +630,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.CYAN_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.CYAN_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.CYAN_DYE);
@@ -652,7 +652,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -660,9 +660,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.RED_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.RED_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.RED_DYE);
@@ -682,7 +682,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -690,9 +690,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.PINK_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.PINK_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.PINK_DYE);
@@ -712,7 +712,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -720,9 +720,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.ORANGE_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.ORANGE_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.ORANGE_DYE);
@@ -742,7 +742,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -750,9 +750,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.GRAY_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.GRAY_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.GRAY_DYE);
@@ -772,7 +772,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -780,9 +780,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.BROWN_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.BROWN_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.COCOA_BEANS);
@@ -802,7 +802,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -810,9 +810,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.IRON_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.IRON_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.IRON_INGOT);
@@ -832,7 +832,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -840,9 +840,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.REDSTONE_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.REDSTONE_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.REDSTONE);
@@ -862,7 +862,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -870,9 +870,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.GOLD_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.GOLD_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.GOLD_INGOT);
@@ -892,7 +892,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -900,9 +900,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.QUARTZ_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.QUARTZ_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.QUARTZ);
@@ -922,7 +922,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0 && (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0 && (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -930,9 +930,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.GLASS_CHIKEN.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.GLASS_CHIKEN.get()) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Blocks.GLASS);
@@ -952,7 +952,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.DIAMOND_CHIKEN.get() && new Object() {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.DIAMOND_CHIKEN.get() && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -960,9 +960,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.DIAMOND);
@@ -982,7 +982,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.GLOWSTONE_CHIKEN.get() && new Object() {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.GLOWSTONE_CHIKEN.get() && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -990,12 +990,12 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
-						final ItemStack _setstack = new ItemStack(Blocks.GLOWSTONE);
+						final ItemStack _setstack = new ItemStack(Items.GLOWSTONE_DUST);
 						_setstack.setCount(1);
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable)
@@ -1012,7 +1012,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.NETHERWART_CHIKEN.get() && new Object() {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.NETHERWART_CHIKEN.get() && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1020,9 +1020,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.NETHER_WART);
@@ -1042,7 +1042,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.ENDER_CHIKEN.get() && new Object() {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.ENDER_CHIKEN.get() && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1050,9 +1050,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.ENDER_PEARL);
@@ -1072,7 +1072,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.SNOWBALL.get() && new Object() {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.SNOWBALL.get() && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1080,9 +1080,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.SNOWBALL);
@@ -1102,7 +1102,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.CLAY_CHIKEN.get() && new Object() {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.CLAY_CHIKEN.get() && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1110,9 +1110,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.CLAY_BALL);
@@ -1132,7 +1132,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.SILME_CHIKEN.get() && new Object() {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.SILME_CHIKEN.get() && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1140,9 +1140,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.SLIME_BALL);
@@ -1162,7 +1162,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.COAL_CHIKEN.get() && new Object() {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.COAL_CHIKEN.get() && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1170,9 +1170,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = new ItemStack(Items.COAL);
@@ -1192,7 +1192,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) num)).getItem() == GochikenModItems.LAVA_CHIKEN.get() && new Object() {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.DIRT_CHICKEN.get() && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1200,12 +1200,432 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 0) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
-						final ItemStack _setstack = new ItemStack(GochikenModItems.LAVAEGG.get());
+						final ItemStack _setstack = new ItemStack(Blocks.DIRT);
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.GUNPOWDER_CHICKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(Items.GUNPOWDER);
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.STRING_CHICKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(Items.STRING);
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.LEATHER_CHICKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(Items.LEATHER);
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.COOPER_CHICKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(Items.COPPER_INGOT);
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.NETHRRACK_CHIECKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(Blocks.NETHERRACK);
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.BLAZECHICKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(Items.BLAZE_ROD);
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.MAGMA_CREAM_CHICKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(Items.MAGMA_CREAM);
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.ZNIC_CHICKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(GochickenModItems.ZNIC_INGOT.get());
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.EGG_CHICKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(Items.EGG);
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.EMERALD_CHICKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(Items.EMERALD);
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.XP_CHICKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(Items.EXPERIENCE_BOTTLE);
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.OBSIDIAN_CHICKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(Blocks.OBSIDIAN);
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.GHAST_CHICKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(Items.GHAST_TEAR);
+						_setstack.setCount(1);
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+							if (capability instanceof IItemHandlerModifiable)
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+						});
+					}
+				}
+			}
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+					return _retval.get();
+				}
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) num)).getItem() == GochickenModItems.SEALANTERN_CHICKEN.get() && new Object() {
+				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = world.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+					return _retval.get();
+				}
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 0) {
+				{
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+					if (_ent != null) {
+						final int _slotid = (int) (num + 3);
+						final ItemStack _setstack = new ItemStack(Blocks.SEA_LANTERN);
 						_setstack.setCount(1);
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable)
@@ -1226,7 +1646,7 @@ public class PRoostProcedure {
 						return blockEntity.getPersistentData().getString(tag);
 					return "";
 				}
-			}.getValue(world, new BlockPos(x, y, z), "ID0")).equals((new Object() {
+			}.getValue(world, BlockPos.containing(x, y, z), "ID0")).equals((new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1234,7 +1654,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), 0)).getDisplayName().getString())) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getDisplayName().getString())) {
 				flg = 1;
 			}
 			if (num == 1 && (new Object() {
@@ -1244,7 +1664,7 @@ public class PRoostProcedure {
 						return blockEntity.getPersistentData().getString(tag);
 					return "";
 				}
-			}.getValue(world, new BlockPos(x, y, z), "ID1")).equals((new Object() {
+			}.getValue(world, BlockPos.containing(x, y, z), "ID1")).equals((new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1252,7 +1672,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), 1)).getDisplayName().getString())) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getDisplayName().getString())) {
 				flg = 1;
 			}
 			if (num == 2 && (new Object() {
@@ -1262,7 +1682,7 @@ public class PRoostProcedure {
 						return blockEntity.getPersistentData().getString(tag);
 					return "";
 				}
-			}.getValue(world, new BlockPos(x, y, z), "ID2")).equals((new Object() {
+			}.getValue(world, BlockPos.containing(x, y, z), "ID2")).equals((new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1270,7 +1690,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), 2)).getDisplayName().getString())) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), 2)).getDisplayName().getString())) {
 				flg = 1;
 			}
 			if (new Object() {
@@ -1281,7 +1701,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 12)) == 64 && new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 12)) == 64 && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1289,7 +1709,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 9)) == 64 && new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 9)) == 64 && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1297,7 +1717,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 64 && new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 64 && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1305,9 +1725,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 6)) == 64 && flg == 1) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 6)) == 64 && flg == 1) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 15);
 						final ItemStack _setstack = (new Object() {
@@ -1318,7 +1738,7 @@ public class PRoostProcedure {
 									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 								return _retval.get();
 							}
-						}.getItemStack(world, new BlockPos(x, y, z), (int) (num + 3)));
+						}.getItemStack(world, BlockPos.containing(x, y, z), (int) (num + 3)));
 						_setstack.setCount((int) (new Object() {
 							public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 								AtomicInteger _retval = new AtomicInteger(0);
@@ -1327,7 +1747,7 @@ public class PRoostProcedure {
 									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 								return _retval.get();
 							}
-						}.getAmount(world, new BlockPos(x, y, z), (int) (num + 15)) + 1));
+						}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 15)) + 1));
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable)
 								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
@@ -1343,7 +1763,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 9)) == 64 && new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 9)) == 64 && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1351,7 +1771,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 64 && new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 64 && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1359,9 +1779,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 6)) == 64 && flg == 1) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 6)) == 64 && flg == 1) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 12);
 						final ItemStack _setstack = (new Object() {
@@ -1372,7 +1792,7 @@ public class PRoostProcedure {
 									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 								return _retval.get();
 							}
-						}.getItemStack(world, new BlockPos(x, y, z), (int) (num + 3)));
+						}.getItemStack(world, BlockPos.containing(x, y, z), (int) (num + 3)));
 						_setstack.setCount((int) (new Object() {
 							public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 								AtomicInteger _retval = new AtomicInteger(0);
@@ -1381,7 +1801,7 @@ public class PRoostProcedure {
 									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 								return _retval.get();
 							}
-						}.getAmount(world, new BlockPos(x, y, z), (int) (num + 12)) + 1));
+						}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 12)) + 1));
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable)
 								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
@@ -1397,7 +1817,7 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 64 && new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 64 && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
@@ -1405,9 +1825,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 6)) == 64 && flg == 1) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 6)) == 64 && flg == 1) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 9);
 						final ItemStack _setstack = (new Object() {
@@ -1418,7 +1838,7 @@ public class PRoostProcedure {
 									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 								return _retval.get();
 							}
-						}.getItemStack(world, new BlockPos(x, y, z), (int) (num + 3)));
+						}.getItemStack(world, BlockPos.containing(x, y, z), (int) (num + 3)));
 						_setstack.setCount((int) (new Object() {
 							public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 								AtomicInteger _retval = new AtomicInteger(0);
@@ -1427,7 +1847,7 @@ public class PRoostProcedure {
 									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 								return _retval.get();
 							}
-						}.getAmount(world, new BlockPos(x, y, z), (int) (num + 9)) + 1));
+						}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 9)) + 1));
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable)
 								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
@@ -1443,9 +1863,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) == 64 && flg == 1) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) == 64 && flg == 1) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 6);
 						final ItemStack _setstack = (new Object() {
@@ -1456,7 +1876,7 @@ public class PRoostProcedure {
 									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 								return _retval.get();
 							}
-						}.getItemStack(world, new BlockPos(x, y, z), (int) (num + 3)));
+						}.getItemStack(world, BlockPos.containing(x, y, z), (int) (num + 3)));
 						_setstack.setCount((int) (new Object() {
 							public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 								AtomicInteger _retval = new AtomicInteger(0);
@@ -1465,7 +1885,7 @@ public class PRoostProcedure {
 									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 								return _retval.get();
 							}
-						}.getAmount(world, new BlockPos(x, y, z), (int) (num + 6)) + 1));
+						}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 6)) + 1));
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable)
 								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
@@ -1481,9 +1901,9 @@ public class PRoostProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) != 0 && flg == 1) {
+			}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) != 0 && flg == 1) {
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = (int) (num + 3);
 						final ItemStack _setstack = (new Object() {
@@ -1494,7 +1914,7 @@ public class PRoostProcedure {
 									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 								return _retval.get();
 							}
-						}.getItemStack(world, new BlockPos(x, y, z), (int) (num + 3)));
+						}.getItemStack(world, BlockPos.containing(x, y, z), (int) (num + 3)));
 						_setstack.setCount((int) (new Object() {
 							public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 								AtomicInteger _retval = new AtomicInteger(0);
@@ -1503,7 +1923,7 @@ public class PRoostProcedure {
 									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 								return _retval.get();
 							}
-						}.getAmount(world, new BlockPos(x, y, z), (int) (num + 3)) + 1));
+						}.getAmount(world, BlockPos.containing(x, y, z), (int) (num + 3)) + 1));
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable)
 								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);

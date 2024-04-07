@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:snow_block"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_lv_2"
+    },
+    "c": {
+      "item": "minecraft:pumpkin"
+    },
+    "d": {
+      "item": "gochicken:snowbakk_chicken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:snowball",
+    "count": 1
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "plain_face",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Roost",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -56,7 +58,7 @@
     "material": {
       "value": "WOOD"
     },
-    "tickRate": 40,
+    "tickRate": 240,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -124,7 +126,7 @@
     "onTickUpdate": {
       "name": "PRoost"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

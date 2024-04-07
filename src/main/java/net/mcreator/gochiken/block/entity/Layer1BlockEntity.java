@@ -22,7 +22,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.gochiken.world.inventory.Layerlv1GUIMenu;
-import net.mcreator.gochiken.init.GochikenModBlockEntities;
+import net.mcreator.gochiken.init.GochickenModBlockEntities;
 
 import javax.annotation.Nullable;
 
@@ -35,7 +35,7 @@ public class Layer1BlockEntity extends RandomizableContainerBlockEntity implemen
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public Layer1BlockEntity(BlockPos position, BlockState state) {
-		super(GochikenModBlockEntities.LAYER_1.get(), position, state);
+		super(GochickenModBlockEntities.LAYER_1.get(), position, state);
 	}
 
 	@Override

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sand"
+    },
+    "b": {
+      "item": "gochicken:chi_cken_seed_1"
+    },
+    "c": {
+      "item": "minecraft:red_sand"
+    },
+    "d": {
+      "item": "minecraft:cut_sandstone"
+    }
+  },
+  "result": {
+    "item": "gochicken:sand_chicken_seed",
+    "count": 1
+  }
+}

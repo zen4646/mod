@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cyan_dye"
+    },
+    "b": {
+      "tag": "minecraft:tag_egg"
+    }
+  },
+  "result": {
+    "item": "gochicken:cyan_chiken",
+    "count": 1
+  }
+}

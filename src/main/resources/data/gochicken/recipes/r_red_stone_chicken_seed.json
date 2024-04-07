@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:redstone_block"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_3"
+    },
+    "c": {
+      "item": "minecraft:quartz_block"
+    },
+    "d": {
+      "item": "gochicken:red_stone_chicken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:redstone_chiken",
+    "count": 1
+  }
+}

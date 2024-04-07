@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/zinc"
+    },
+    {
+      "item": "gochicken:chiekn_seed_4"
+    },
+    {
+      "tag": "forge:ingots/zinc"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "gochicken:znic_chicken_seed"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "tag": "forge:ingots/zinc"
+    },
+    {
+      "item": "gochicken:chiekn_seed_4"
+    },
+    {
+      "tag": "forge:ingots/zinc"
+    }
+  ],
+  "result": {
+    "item": "gochicken:znic_chicken",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_3"
+    },
+    "c": {
+      "item": "gochicken:flint_choken"
+    },
+    "d": {
+      "item": "gochicken:iron_chicken_seed"
+    },
+    "e": {
+      "item": "gochicken:bone_chiken"
+    }
+  },
+  "result": {
+    "item": "gochicken:iron_chiken",
+    "count": 1
+  }
+}

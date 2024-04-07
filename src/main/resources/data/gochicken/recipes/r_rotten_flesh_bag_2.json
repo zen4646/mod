@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gochicken:rotten_flesh_bag"
+    }
+  ],
+  "result": {
+    "item": "minecraft:rotten_flesh",
+    "count": 4
+  }
+}

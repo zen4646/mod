@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gochicken:block/pei_he_ji"
+    },
+    "facing=east": {
+      "model": "gochicken:block/pei_he_ji",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gochicken:block/pei_he_ji",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gochicken:block/pei_he_ji",
+      "y": 270
+    }
+  }
+}

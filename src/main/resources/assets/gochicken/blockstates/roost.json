@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gochicken:block/roost"
+    },
+    "facing=east": {
+      "model": "gochicken:block/roost",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gochicken:block/roost",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gochicken:block/roost",
+      "y": 270
+    }
+  }
+}

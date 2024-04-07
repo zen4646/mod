@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "test.png",
+    "width": 176,
+    "height": 81,
+    "icon": {
+      "value": "CUSTOM:Go"
+    },
+    "craftingtable": {
+      "value": "CUSTOM:ColaChickenSeed"
+    },
+    "enableCraftingtable": false,
+    "title": "Recipe JEI",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 42,
+        "y": 35,
+        "slotid": 0
+      },
+      {
+        "type": "OUTPUT",
+        "x": 150,
+        "y": 35,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 60,
+        "y": 35,
+        "slotid": 1
+      }
+    ]
+  }
+}

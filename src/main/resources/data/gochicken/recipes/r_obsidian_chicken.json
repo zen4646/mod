@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:obsidian"
+    },
+    "b": {
+      "item": "gochicken:chiekn_seed_4"
+    },
+    "c": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "d": {
+      "item": "gochicken:obsidian_chicken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:obsidian_chicken",
+    "count": 1
+  }
+}

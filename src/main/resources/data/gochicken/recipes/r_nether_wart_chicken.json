@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "eba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:nether_wart"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_3"
+    },
+    "c": {
+      "item": "minecraft:spider_eye"
+    },
+    "d": {
+      "item": "gochicken:nether_wart_chicken_seed"
+    },
+    "e": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "result": {
+    "item": "gochicken:netherwart_chiken",
+    "count": 1
+  }
+}

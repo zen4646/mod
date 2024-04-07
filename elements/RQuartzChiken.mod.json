@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,35 +12,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.QUARTZ"
+        "value": ""
       },
       {
-        "value": "Items.QUARTZ"
+        "value": "Items.ENDER_PEARL"
       },
       {
-        "value": "Items.QUARTZ"
+        "value": ""
       },
       {
-        "value": "Items.QUARTZ"
+        "value": "Blocks.GOLD_BLOCK"
       },
       {
-        "value": "Items.EGG"
+        "value": "Blocks.QUARTZ_BLOCK#3"
       },
       {
-        "value": "Items.QUARTZ"
+        "value": "Blocks.GOLD_BLOCK"
       },
       {
-        "value": "Items.QUARTZ"
+        "value": "CUSTOM:ChickenSeed3"
       },
       {
-        "value": "Items.QUARTZ"
+        "value": "Blocks.QUARTZ_BLOCK#3"
       },
       {
-        "value": "Items.QUARTZ"
+        "value": "CUSTOM:ChickenSeed3"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:QuartzChiken"
+      "value": "CUSTOM:QuartzChickenSeed"
     },
     "name": "r_quartz_chiken",
     "namespace": "mod"

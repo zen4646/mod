@@ -21,7 +21,7 @@ import net.minecraft.core.NonNullList;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.gochiken.init.GochikenModBlockEntities;
+import net.mcreator.gochiken.init.GochickenModBlockEntities;
 
 import javax.annotation.Nullable;
 
@@ -32,7 +32,7 @@ public class GorwerLv1BlockEntity extends RandomizableContainerBlockEntity imple
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public GorwerLv1BlockEntity(BlockPos position, BlockState state) {
-		super(GochikenModBlockEntities.GORWER_LV_1.get(), position, state);
+		super(GochickenModBlockEntities.GORWER_LV_1.get(), position, state);
 	}
 
 	@Override

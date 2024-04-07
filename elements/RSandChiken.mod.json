@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,35 +12,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.SAND"
+        "value": ""
       },
       {
-        "value": "Blocks.SAND"
+        "value": ""
       },
       {
-        "value": "Blocks.SAND"
+        "value": ""
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Blocks.SAND#0"
       },
       {
-        "value": "Items.EGG"
+        "value": "CUSTOM:ChiCkenSeed1"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Blocks.SAND#0"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Blocks.SAND#1"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Blocks.SANDSTONE#2"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Blocks.SAND#1"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SandChoken"
+      "value": "CUSTOM:SandChickenSeed"
     },
     "name": "r_sand_chiken",
     "namespace": "mod"

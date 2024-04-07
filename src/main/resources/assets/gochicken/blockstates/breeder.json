@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gochicken:block/breeder"
+    },
+    "facing=east": {
+      "model": "gochicken:block/breeder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gochicken:block/breeder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gochicken:block/breeder",
+      "y": 270
+    }
+  }
+}

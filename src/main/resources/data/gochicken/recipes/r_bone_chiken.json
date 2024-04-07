@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bone"
+    },
+    "b": {
+      "item": "gochicken:chi_cken_seed_1"
+    }
+  },
+  "result": {
+    "item": "gochicken:white_chicken_seed",
+    "count": 1
+  }
+}

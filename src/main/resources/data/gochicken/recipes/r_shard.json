@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sea_lantern"
+    }
+  },
+  "result": {
+    "item": "minecraft:prismarine_shard",
+    "count": 8
+  }
+}

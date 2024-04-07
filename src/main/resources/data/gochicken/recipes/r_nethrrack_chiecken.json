@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_nether_bricks"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_3"
+    },
+    "c": {
+      "item": "gochicken:gunpowder_chicken"
+    },
+    "d": {
+      "item": "gochicken:nethrrack_chiecken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:nethrrack_chiecken",
+    "count": 1
+  }
+}

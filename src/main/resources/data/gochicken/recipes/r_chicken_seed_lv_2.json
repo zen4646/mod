@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:tag_egg"
+    },
+    "b": {
+      "item": "minecraft:hay_block"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "gochicken:chi_cken_seed_1"
+    }
+  },
+  "result": {
+    "item": "gochicken:chicken_seed_lv_2",
+    "count": 1
+  }
+}

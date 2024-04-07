@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald_block"
+    },
+    "b": {
+      "item": "minecraft:composter"
+    },
+    "c": {
+      "item": "minecraft:lectern"
+    },
+    "d": {
+      "item": "gochicken:emerald_chicken_seed"
+    },
+    "e": {
+      "item": "gochicken:chicken_seed_6"
+    }
+  },
+  "result": {
+    "item": "gochicken:emerald_chicken",
+    "count": 1
+  }
+}

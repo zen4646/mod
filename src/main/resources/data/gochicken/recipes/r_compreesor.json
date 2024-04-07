@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:anvil"
+    },
+    "b": {
+      "item": "minecraft:crafting_table"
+    },
+    "c": {
+      "item": "minecraft:nether_star"
+    },
+    "d": {
+      "item": "minecraft:smithing_table"
+    },
+    "e": {
+      "item": "minecraft:cauldron"
+    }
+  },
+  "result": {
+    "item": "gochicken:compressor",
+    "count": 1
+  }
+}

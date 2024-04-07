@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:end_crystal"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_5"
+    },
+    "c": {
+      "item": "gochicken:ghast_chicken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:ghast_chicken",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:shulker_shell"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_5"
+    },
+    "c": {
+      "item": "minecraft:obsidian"
+    },
+    "d": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "e": {
+      "item": "minecraft:end_stone"
+    },
+    "f": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "item": "gochicken:chicken_seed_6",
+    "count": 1
+  }
+}

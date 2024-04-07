@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "minecraft:obsidian"
+    },
+    "c": {
+      "item": "gochicken:niwatorino_ben"
+    },
+    "d": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "gochicken:pei_he_ji",
+    "count": 1
+  }
+}

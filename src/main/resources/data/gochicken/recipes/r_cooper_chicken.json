@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_block"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_lv_2"
+    },
+    "c": {
+      "item": "minecraft:red_sandstone"
+    },
+    "d": {
+      "item": "gochicken:cooper_chicken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:cooper_chicken",
+    "count": 1
+  }
+}

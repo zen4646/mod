@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:ingots/zinc"
+      },
+      {
+        "value": "CUSTOM:ChieknSeed4"
+      },
+      {
+        "value": "TAG:forge:ingots/zinc"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": "CUSTOM:ZnicChickenSeed"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": "TAG:forge:ingots/zinc"
+      },
+      {
+        "value": "CUSTOM:ChieknSeed4"
+      },
+      {
+        "value": "TAG:forge:ingots/zinc"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ZnicChicken"
+    },
+    "name": "r_zinc",
+    "namespace": "mod"
+  }
+}

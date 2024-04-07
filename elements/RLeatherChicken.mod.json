@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.LEATHER_HELMET"
+      },
+      {
+        "value": "CUSTOM:ChickenSeedLV2"
+      },
+      {
+        "value": "Items.LEATHER_CHESTPLATE"
+      },
+      {
+        "value": "Items.BEEF"
+      },
+      {
+        "value": "CUSTOM:LeatherChickenSeed"
+      },
+      {
+        "value": "Items.BEEF"
+      },
+      {
+        "value": "Items.LEATHER_LEGGINGS"
+      },
+      {
+        "value": "CUSTOM:ChickenSeedLV2"
+      },
+      {
+        "value": "Items.LEATHER_BOOTS"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LeatherChicken"
+    },
+    "name": "r_leather_chicken",
+    "namespace": "mod"
+  }
+}

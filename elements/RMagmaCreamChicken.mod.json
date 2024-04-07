@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.MAGMA_CREAM"
+      },
+      {
+        "value": "CUSTOM:ChieknSeed4"
+      },
+      {
+        "value": "Items.MAGMA_CREAM"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "CUSTOM:MagmaCreamChickenSeed"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "Items.MAGMA_CREAM"
+      },
+      {
+        "value": "CUSTOM:ChieknSeed4"
+      },
+      {
+        "value": "Items.MAGMA_CREAM"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagmaCreamChicken"
+    },
+    "name": "r_magma_cream_chicken",
+    "namespace": "mod"
+  }
+}

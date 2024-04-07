@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gochicken:block/smithing_table_bottom",
+    "up": "gochicken:block/smithing_table_top",
+    "north": "gochicken:block/smithing_table_side",
+    "east": "gochicken:block/smithing_table_front",
+    "south": "gochicken:block/smithing_table_side",
+    "west": "gochicken:block/smithing_table_front",
+    "particle": "gochicken:block/smithing_table_bottom"
+  },
+  "render_type": "solid"
+}

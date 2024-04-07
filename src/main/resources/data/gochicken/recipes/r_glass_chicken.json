@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_3"
+    },
+    "c": {
+      "item": "minecraft:coal_block"
+    },
+    "d": {
+      "item": "gochicken:glass_chicken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:glass_chiken",
+    "count": 1
+  }
+}

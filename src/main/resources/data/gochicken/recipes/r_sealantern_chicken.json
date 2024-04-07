@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sponge"
+    },
+    "b": {
+      "item": "gochicken:chiekn_seed_4"
+    },
+    "c": {
+      "item": "minecraft:sea_lantern"
+    },
+    "d": {
+      "item": "gochicken:sealantern_chicken"
+    },
+    "e": {
+      "item": "minecraft:ochre_froglight"
+    }
+  },
+  "result": {
+    "item": "gochicken:sealantern_chicken_seed",
+    "count": 1
+  }
+}

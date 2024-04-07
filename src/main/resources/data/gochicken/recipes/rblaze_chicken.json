@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blaze_rod"
+    },
+    "b": {
+      "item": "gochicken:chiekn_seed_4"
+    },
+    "c": {
+      "item": "minecraft:fire_charge"
+    },
+    "d": {
+      "item": "gochicken:blaze_chicken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:blazechicken",
+    "count": 1
+  }
+}

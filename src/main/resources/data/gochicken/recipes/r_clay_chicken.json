@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:clay"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_lv_2"
+    },
+    "c": {
+      "item": "minecraft:terracotta"
+    },
+    "d": {
+      "item": "gochicken:clay_chicken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:clay_chiken",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:tag_egg"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_3"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "minecraft:hay_block"
+    },
+    "e": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "item": "gochicken:chiekn_seed_4",
+    "count": 1
+  }
+}

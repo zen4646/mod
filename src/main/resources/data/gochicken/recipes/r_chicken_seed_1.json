@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:tag_egg"
+    },
+    "b": {
+      "item": "minecraft:feather"
+    },
+    "c": {
+      "item": "minecraft:bone"
+    },
+    "d": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "result": {
+    "item": "gochicken:chi_cken_seed_1",
+    "count": 1
+  }
+}

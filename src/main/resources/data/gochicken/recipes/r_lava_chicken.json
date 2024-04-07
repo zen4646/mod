@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lava_bucket"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_3"
+    },
+    "c": {
+      "item": "minecraft:magma_block"
+    },
+    "d": {
+      "item": "gochicken:lava_chicken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:lava_chiken",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glowstone"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_3"
+    },
+    "c": {
+      "item": "gochicken:yellow_chiken"
+    },
+    "d": {
+      "item": "gochicken:gloestnoe_chicken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:glowstone_chiken",
+    "count": 1
+  }
+}

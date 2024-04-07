@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gochicken:block/layer1",
+    "up": "gochicken:block/layer1",
+    "north": "gochicken:block/layer1",
+    "east": "gochicken:block/layer1",
+    "south": "gochicken:block/layer1",
+    "west": "gochicken:block/layer1",
+    "particle": "gochicken:block/layer1"
+  },
+  "render_type": "solid"
+}

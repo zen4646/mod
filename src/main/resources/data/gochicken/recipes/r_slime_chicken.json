@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:slime_block"
+    },
+    "b": {
+      "item": "gochicken:chicken_seed_3"
+    },
+    "c": {
+      "item": "minecraft:green_dye"
+    },
+    "d": {
+      "item": "gochicken:slime_chicken_seed"
+    }
+  },
+  "result": {
+    "item": "gochicken:silme_chiken",
+    "count": 1
+  }
+}

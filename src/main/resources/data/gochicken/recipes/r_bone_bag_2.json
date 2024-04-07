@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gochicken:bone_bag"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bone",
+    "count": 4
+  }
+}

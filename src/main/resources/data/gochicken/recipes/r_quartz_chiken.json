@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "dcd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:ender_pearl"
+    },
+    "b": {
+      "item": "minecraft:gold_block"
+    },
+    "c": {
+      "item": "minecraft:quartz_block"
+    },
+    "d": {
+      "item": "gochicken:chicken_seed_3"
+    }
+  },
+  "result": {
+    "item": "gochicken:quartz_chicken_seed",
+    "count": 1
+  }
+}

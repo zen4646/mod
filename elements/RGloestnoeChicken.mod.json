@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.GLOWSTONE"
+      },
+      {
+        "value": "CUSTOM:ChickenSeed3"
+      },
+      {
+        "value": "Blocks.GLOWSTONE"
+      },
+      {
+        "value": "CUSTOM:YellowChiken"
+      },
+      {
+        "value": "CUSTOM:GloestnoeChickenSeed"
+      },
+      {
+        "value": "CUSTOM:YellowChiken"
+      },
+      {
+        "value": "Blocks.GLOWSTONE"
+      },
+      {
+        "value": "CUSTOM:ChickenSeed3"
+      },
+      {
+        "value": "Blocks.GLOWSTONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GlowstoneChiken"
+    },
+    "name": "r_gloestnoe_chicken",
+    "namespace": "mod"
+  }
+}

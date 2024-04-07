@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,35 +12,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.GRAVEL"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "CUSTOM:ChiCkenSeed1"
+      },
+      {
+        "value": "Items.FLINT"
       },
       {
         "value": "Blocks.GRAVEL"
       },
       {
-        "value": "Blocks.GRAVEL"
-      },
-      {
-        "value": "Blocks.GRAVEL"
-      },
-      {
-        "value": "Items.EGG"
-      },
-      {
-        "value": "Blocks.GRAVEL"
-      },
-      {
-        "value": "Blocks.GRAVEL"
-      },
-      {
-        "value": "Blocks.GRAVEL"
+        "value": "Items.FLINT"
       },
       {
         "value": "Blocks.GRAVEL"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FlintChoken"
+      "value": "CUSTOM:FlintChickenseed"
     },
     "name": "r_flint_chiken",
     "namespace": "mod"

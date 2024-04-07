@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,35 +12,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.LOG"
+        "value": ""
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Blocks.LOG#0"
       },
       {
-        "value": "Blocks.LOG"
+        "value": ""
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Blocks.LOG#2"
       },
       {
-        "value": "Items.EGG"
+        "value": "CUSTOM:ChiCkenSeed1"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Blocks.LOG#2"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "TAG:minecraft:tag_log_chicken"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Blocks.LOG#0"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "TAG:minecraft:tag_log_chicken"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LogChiken"
+      "value": "CUSTOM:RLogChickenSeed"
     },
     "name": "r_log_chiken",
     "namespace": "mod"

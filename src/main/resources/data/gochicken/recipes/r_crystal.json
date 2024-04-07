@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sea_lantern"
+    }
+  },
+  "result": {
+    "item": "minecraft:prismarine_crystals",
+    "count": 10
+  }
+}

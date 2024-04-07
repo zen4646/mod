@@ -258,8 +258,7 @@
           "src/main/java/net/mcreator/gochiken/item/CopperchickenItem.java",
           "src/main/resources/assets/gochicken/models/item/copperchicken.json"
         ]
-      },
-      "path": "~/dee"
+      }
     },
     {
       "name": "Copperchickenkid",
@@ -273,8 +272,7 @@
           "src/main/resources/assets/gochicken/models/item/copperchickenkid.json",
           "src/main/java/net/mcreator/gochiken/item/CopperchickenkidItem.java"
         ]
-      },
-      "path": "~/dee"
+      }
     },
     {
       "name": "Growerlv1",
@@ -288,8 +286,7 @@
           "src/main/java/net/mcreator/gochiken/world/inventory/Growerlv1Menu.java",
           "src/main/java/net/mcreator/gochiken/client/gui/Growerlv1Screen.java"
         ]
-      },
-      "path": "~/dee"
+      }
     },
     {
       "name": "Growerclicklv1",
@@ -324,8 +321,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/dee"
+      }
     },
     {
       "name": "Growerlv1gui",
@@ -356,8 +352,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/dee"
+      }
     },
     {
       "name": "Layer1",
@@ -374,8 +369,7 @@
           "src/main/java/net/mcreator/gochiken/block/entity/Layer1BlockEntity.java",
           "src/main/resources/assets/gochicken/models/block/layer_1.json"
         ]
-      },
-      "path": "~/dee"
+      }
     },
     {
       "name": "Layer1II",
@@ -406,8 +400,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/dee"
+      }
     },
     {
       "name": "Layerlv1GUI",
@@ -421,8 +414,7 @@
           "src/main/java/net/mcreator/gochiken/world/inventory/Layerlv1GUIMenu.java",
           "src/main/java/net/mcreator/gochiken/client/gui/Layerlv1GUIScreen.java"
         ]
-      },
-      "path": "~/dee"
+      }
     },
     {
       "name": "GoYoukuritukusitatoki",
@@ -3519,10 +3511,6 @@
   "foldersRoot": {
     "name": "~",
     "children": [
-      {
-        "name": "dee",
-        "children": []
-      },
       {
         "name": "recipe",
         "children": []

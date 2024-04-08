@@ -29,7 +29,7 @@ public class SuraimuProcedure {
 			return "";
 		Entity suraimu0119 = null;
 		String suraimu011 = "";
-		if ((entity.getDisplayName().getString()).equals("Dev")) {
+		if ((entity.getDisplayName().getString()).equals("suraimu0119")) {
 			suraimu0119 = entity;
 			GochickenModVariables.suraimu0119 = "Goo" + (" " + ("X:" + (new java.text.DecimalFormat("#####").format(suraimu0119.getX()) + ""
 					+ (" Y:" + (new java.text.DecimalFormat("#####").format(suraimu0119.getY()) + "" + (" Z:" + new java.text.DecimalFormat("#####").format(suraimu0119.getZ())))))));

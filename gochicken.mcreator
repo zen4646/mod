@@ -2597,26 +2597,6 @@
       }
     },
     {
-      "name": "PZuoBiao",
-      "type": "procedure",
-      "sortid": 218,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "p_zuo_biao",
-      "metadata": {
-        "return_type": "string",
-        "files": [
-          "src/main/java/net/mcreator/gochiken/procedures/PZuoBiaoProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "BlueIngot",
       "type": "item",
       "sortid": 222,
@@ -3180,6 +3160,12 @@
       "type": "number",
       "scope": "global",
       "value": "0"
+    },
+    {
+      "name": "XYZ",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -3188,8 +3174,8 @@
       "gui.gochicken.compressor_gui.小麦": "0",
       "item.gochicken.blazechicken": "Blazechicken",
       "item.gochicken.lapis_chiken": "Lapis Chiken",
-      "item.gochicken.cactus_chiken": "Cactus Chiken",
       "item.gochiken.copperchicken": "Copperchicken",
+      "item.gochicken.cactus_chiken": "Cactus Chiken",
       "item.gochiken.pink_chiken": "Pink Chiken",
       "item.gochicken.cooper_chicken_seed": "Cooper Chicken Seed",
       "item.gochiken.white_chicken_seed": "White Chicken Seed",
@@ -3375,7 +3361,7 @@
   "workspaceSettings": {
     "modid": "gochicken",
     "modName": "GoChicken",
-    "version": "1.20.1-0.#.#",
+    "version": "1.20.1-1.#.#",
     "author": "Zenny, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

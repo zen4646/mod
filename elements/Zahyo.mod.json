@@ -16,9 +16,9 @@
             "value": -1,
             "falpha": 0.0
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 206
+          "anchorPoint": "TOP_LEFT",
+          "x": -3,
+          "y": -1
         }
       },
       {
@@ -33,9 +33,9 @@
             "value": -1,
             "falpha": 0.0
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 215
+          "anchorPoint": "TOP_LEFT",
+          "x": -3,
+          "y": 8
         }
       },
       {
@@ -50,9 +50,9 @@
             "value": -1,
             "falpha": 0.0
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 224
+          "anchorPoint": "TOP_LEFT",
+          "x": -3,
+          "y": 17
         }
       }
     ],

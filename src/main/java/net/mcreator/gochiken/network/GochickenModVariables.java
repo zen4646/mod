@@ -10,6 +10,7 @@ public class GochickenModVariables {
 	public static String rio1339 = "rio1339";
 	public static String Rebecca1339 = "Rebecca1339";
 	public static double SeedMaker = 0;
+	public static double XYZ = 0;
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {

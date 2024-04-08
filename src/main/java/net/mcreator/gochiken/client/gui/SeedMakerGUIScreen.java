@@ -47,7 +47,7 @@ public class SeedMakerGUIScreen extends AbstractContainerScreen<SeedMakerGUIMenu
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/you_shi_yin_.png"), this.leftPos + 96, this.topPos + 34, 0, 0, 36, 16, 36, 16);
+		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/you_shi_yin_.png"), this.leftPos + 96, this.topPos + 34, 0, 0, 36, 18, 36, 18);
 
 		RenderSystem.disableBlend();
 	}

@@ -13,7 +13,9 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.gochiken.procedures.PZuoBiaoProcedure;
+import net.mcreator.gochiken.procedures.SuraimuProcedure;
+import net.mcreator.gochiken.procedures.RebeProcedure;
+import net.mcreator.gochiken.procedures.DeeProcedure;
 
 @Mod.EventBusSubscriber({Dist.CLIENT})
 public class ZahyoOverlay {
@@ -35,7 +37,13 @@ public class ZahyoOverlay {
 		if (true) {
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
-					PZuoBiaoProcedure.execute(entity), w / 2 + -207, h / 2 + 86, -1, false);
+					DeeProcedure.execute(entity), w / 2 + -207, h / 2 + 86, -1, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
+
+					SuraimuProcedure.execute(entity), w / 2 + -207, h / 2 + 95, -1, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
+
+					RebeProcedure.execute(entity), w / 2 + -207, h / 2 + 104, -1, false);
 		}
 	}
 }

@@ -82,7 +82,7 @@ public class HPeiHeJiScreen extends AbstractContainerScreen<HPeiHeJiMenu> {
 		});
 		guistate.put("button:imagebutton_breeder", imagebutton_breeder);
 		this.addRenderableWidget(imagebutton_breeder);
-		imagebutton_you_shi_yin = new ImageButton(this.leftPos + 96, this.topPos + 34, 36, 16, 0, 0, 16, new ResourceLocation("gochicken:textures/screens/atlas/imagebutton_you_shi_yin.png"), 36, 32, e -> {
+		imagebutton_you_shi_yin = new ImageButton(this.leftPos + 96, this.topPos + 34, 36, 18, 0, 0, 18, new ResourceLocation("gochicken:textures/screens/atlas/imagebutton_you_shi_yin.png"), 36, 36, e -> {
 		});
 		guistate.put("button:imagebutton_you_shi_yin", imagebutton_you_shi_yin);
 		this.addRenderableWidget(imagebutton_you_shi_yin);

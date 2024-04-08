@@ -1,0 +1,15 @@
+{
+  "type": "gochicken:compressor_guieji",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "gochicken:cushionmaterial"
+    }
+  ],
+  "output": {
+    "item": "gochicken:cushionmaterial",
+    "count": 1
+  }
+}

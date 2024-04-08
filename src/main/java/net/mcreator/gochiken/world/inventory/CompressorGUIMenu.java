@@ -42,7 +42,7 @@ public class CompressorGUIMenu extends AbstractContainerMenu implements Supplier
 		super(GochickenModMenus.COMPRESSOR_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(3);
+		this.internal = new ItemStackHandler(4);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -77,10 +77,10 @@ public class CompressorGUIMenu extends AbstractContainerMenu implements Supplier
 					});
 			}
 		}
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 80, 8) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 78, 8) {
 			private final int slot = 1;
 		}));
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 80, 47) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 52, 48) {
 			private final int slot = 0;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 106, 8) {
@@ -93,6 +93,14 @@ public class CompressorGUIMenu extends AbstractContainerMenu implements Supplier
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 106, 48) {
+			private final int slot = 3;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
@@ -123,16 +131,16 @@ public class CompressorGUIMenu extends AbstractContainerMenu implements Supplier
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 3) {
-				if (!this.moveItemStackTo(itemstack1, 3, this.slots.size(), true))
+			if (index < 4) {
+				if (!this.moveItemStackTo(itemstack1, 4, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 3, false)) {
-				if (index < 3 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 3 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 4, false)) {
+				if (index < 4 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 4 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 3, 3 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 4, 4 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

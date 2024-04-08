@@ -241,8 +241,8 @@
       "registry_name": "root_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/world/inventory/RootGUIMenu.java",
-          "src/main/java/net/mcreator/gochiken/client/gui/RootGUIScreen.java"
+          "src/main/java/net/mcreator/gochiken/client/gui/RootGUIScreen.java",
+          "src/main/java/net/mcreator/gochiken/world/inventory/RootGUIMenu.java"
         ]
       }
     },
@@ -261,10 +261,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           }
         ]
       }
@@ -2741,9 +2737,9 @@
       "registry_name": "compressor_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/client/gui/CompressorGUIScreen.java",
+          "src/main/java/net/mcreator/gochiken/network/CompressorGUIButtonMessage.java",
           "src/main/java/net/mcreator/gochiken/world/inventory/CompressorGUIMenu.java",
-          "src/main/java/net/mcreator/gochiken/network/CompressorGUIButtonMessage.java"
+          "src/main/java/net/mcreator/gochiken/client/gui/CompressorGUIScreen.java"
         ]
       },
       "path": "~/armor"
@@ -3032,8 +3028,8 @@
       "registry_name": "seed_maker_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/world/inventory/SeedMakerGUIMenu.java",
-          "src/main/java/net/mcreator/gochiken/client/gui/SeedMakerGUIScreen.java"
+          "src/main/java/net/mcreator/gochiken/client/gui/SeedMakerGUIScreen.java",
+          "src/main/java/net/mcreator/gochiken/world/inventory/SeedMakerGUIMenu.java"
         ]
       }
     },
@@ -3046,11 +3042,11 @@
       "registry_name": "seed_marker",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/block/entity/SeedMarkerBlockEntity.java",
-          "src/main/resources/assets/gochicken/models/block/seed_marker.json",
           "src/main/resources/assets/gochicken/models/item/seed_marker.json",
           "src/main/java/net/mcreator/gochiken/block/SeedMarkerBlock.java",
-          "src/main/resources/assets/gochicken/blockstates/seed_marker.json"
+          "src/main/java/net/mcreator/gochiken/block/entity/SeedMarkerBlockEntity.java",
+          "src/main/resources/assets/gochicken/blockstates/seed_marker.json",
+          "src/main/resources/assets/gochicken/models/block/seed_marker.json"
         ]
       }
     },
@@ -3129,25 +3125,54 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "CompressorGUIEJI",
+      "type": "jeirecipetype",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressor_guieji",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/jei_recipes/CompressorGUIEJIRecipeCategory.java",
+          "src/main/java/net/mcreator/gochiken/jei_recipes/CompressorGUIEJIRecipe.java"
+        ]
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Test",
+      "type": "jeirecipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochicken/recipes/test.json"
+        ]
+      },
+      "path": "~/armor"
     }
   ],
   "variable_elements": [
     {
       "name": "suraimu0119",
       "type": "string",
-      "scope": "player_persistent",
+      "scope": "global",
       "value": "suraimu0119"
     },
     {
       "name": "rio1339",
       "type": "string",
-      "scope": "player_persistent",
+      "scope": "global",
       "value": "rio1339"
     },
     {
       "name": "Rebecca1339",
       "type": "string",
-      "scope": "player_persistent",
+      "scope": "global",
       "value": "Rebecca1339"
     },
     {
@@ -3163,8 +3188,8 @@
       "gui.gochicken.compressor_gui.小麦": "0",
       "item.gochicken.blazechicken": "Blazechicken",
       "item.gochicken.lapis_chiken": "Lapis Chiken",
-      "item.gochiken.copperchicken": "Copperchicken",
       "item.gochicken.cactus_chiken": "Cactus Chiken",
+      "item.gochiken.copperchicken": "Copperchicken",
       "item.gochiken.pink_chiken": "Pink Chiken",
       "item.gochicken.cooper_chicken_seed": "Cooper Chicken Seed",
       "item.gochiken.white_chicken_seed": "White Chicken Seed",
@@ -3343,10 +3368,6 @@
       },
       {
         "name": "armor",
-        "children": []
-      },
-      {
-        "name": "test",
         "children": []
       }
     ]

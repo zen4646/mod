@@ -10,7 +10,7 @@
           "name": "label_proc_suraimu",
           "text": {
             "fixedValue": "",
-            "name": "PZuoBiao"
+            "name": "Dee"
           },
           "color": {
             "value": -1,
@@ -19,6 +19,40 @@
           "anchorPoint": "CENTER",
           "x": 6,
           "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_suraimu1",
+          "text": {
+            "fixedValue": "",
+            "name": "Suraimu"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 215
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_rebe",
+          "text": {
+            "fixedValue": "",
+            "name": "Rebe"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 224
         }
       }
     ],

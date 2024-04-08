@@ -51,7 +51,7 @@ public class CompressorGUIScreen extends AbstractContainerScreen<CompressorGUIMe
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/legacysmithing.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 256, 256, 256, 256);
+		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/you_shi_yin_.png"), this.leftPos + 69, this.topPos + 47, 0, 0, 36, 18, 36, 18);
 
 		RenderSystem.disableBlend();
 	}

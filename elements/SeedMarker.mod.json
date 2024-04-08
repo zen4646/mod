@@ -138,9 +138,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "PSeedMaker"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

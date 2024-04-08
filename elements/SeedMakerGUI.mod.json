@@ -419,6 +419,9 @@
     "onOpen": {
       "name": "SeedMakerOpen"
     },
+    "onTick": {
+      "name": "PSeedMaker"
+    },
     "onClosed": {
       "name": "P_SeedMakerGUIColse"
     },

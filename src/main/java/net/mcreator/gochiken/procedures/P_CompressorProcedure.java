@@ -304,7 +304,7 @@ public class P_CompressorProcedure {
 				{
 					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
-						final int _slotid = 0;
+						final int _slotid = 3;
 						final ItemStack _setstack = new ItemStack(GochickenModItems.CUSHONMATERIAL_2.get());
 						_setstack.setCount(1);
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
@@ -366,7 +366,7 @@ public class P_CompressorProcedure {
 				{
 					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
-						final int _slotid = 0;
+						final int _slotid = 3;
 						final ItemStack _setstack = new ItemStack(GochickenModItems.PURPLE_DIAMOND_2.get());
 						_setstack.setCount(1);
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {

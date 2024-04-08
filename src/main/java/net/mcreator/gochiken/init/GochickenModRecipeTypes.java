@@ -11,6 +11,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 
 import net.mcreator.gochiken.jei_recipes.RecipeJEIRecipe;
+import net.mcreator.gochiken.jei_recipes.CompressorGUIEJIRecipe;
 import net.mcreator.gochiken.GochickenMod;
 
 @Mod.EventBusSubscriber(modid = GochickenMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -23,6 +24,7 @@ public class GochickenModRecipeTypes {
 		event.enqueueWork(() -> {
 			SERIALIZERS.register(bus);
 			SERIALIZERS.register("recipe_jei", () -> RecipeJEIRecipe.Serializer.INSTANCE);
+			SERIALIZERS.register("compressor_guieji", () -> CompressorGUIEJIRecipe.Serializer.INSTANCE);
 		});
 	}
 }

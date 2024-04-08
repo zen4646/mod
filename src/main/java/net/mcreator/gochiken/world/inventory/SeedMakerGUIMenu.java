@@ -4,6 +4,9 @@ package net.mcreator.gochiken.world.inventory;
 import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -25,12 +28,14 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.gochiken.procedures.SeedMakerOpenProcedure;
 import net.mcreator.gochiken.procedures.P_SeedMakerGUIColseProcedure;
+import net.mcreator.gochiken.procedures.PSeedMakerProcedure;
 import net.mcreator.gochiken.init.GochickenModMenus;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+@Mod.EventBusSubscriber
 public class SeedMakerGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -423,5 +428,17 @@ public class SeedMakerGUIMenu extends AbstractContainerMenu implements Supplier<
 
 	public Map<Integer, Slot> get() {
 		return customSlots;
+	}
+
+	@SubscribeEvent
+	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		Player entity = event.player;
+		if (event.phase == TickEvent.Phase.END && entity.containerMenu instanceof SeedMakerGUIMenu) {
+			Level world = entity.level();
+			double x = entity.getX();
+			double y = entity.getY();
+			double z = entity.getZ();
+			PSeedMakerProcedure.execute(world, x, y, z);
+		}
 	}
 }

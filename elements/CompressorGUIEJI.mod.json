@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "compressor_gui.png",
+    "width": 176,
+    "height": 166,
+    "icon": {
+      "value": "CUSTOM:BlueIngot"
+    },
+    "craftingtable": {
+      "value": "CUSTOM:BlueIngot"
+    },
+    "enableCraftingtable": true,
+    "title": "Compressor GUIEJI",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 106,
+        "y": 8,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 80,
+        "y": 47,
+        "slotid": 1
+      },
+      {
+        "type": "OUTPUT",
+        "x": 106,
+        "y": 47,
+        "slotid": 0
+      }
+    ]
+  }
+}

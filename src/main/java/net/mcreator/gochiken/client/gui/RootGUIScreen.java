@@ -47,11 +47,11 @@ public class RootGUIScreen extends AbstractContainerScreen<RootGUIMenu> {
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/you_shi_yin_.png"), this.leftPos + 33, this.topPos + 8, 0, 0, 36, 16, 36, 16);
+		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/you_shi_yin_.png"), this.leftPos + 33, this.topPos + 7, 0, 0, 36, 18, 36, 18);
 
-		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/you_shi_yin_.png"), this.leftPos + 33, this.topPos + 35, 0, 0, 36, 16, 36, 16);
+		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/you_shi_yin_.png"), this.leftPos + 33, this.topPos + 34, 0, 0, 36, 18, 36, 18);
 
-		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/you_shi_yin_.png"), this.leftPos + 33, this.topPos + 62, 0, 0, 36, 16, 36, 16);
+		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/you_shi_yin_.png"), this.leftPos + 33, this.topPos + 61, 0, 0, 36, 18, 36, 18);
 
 		RenderSystem.disableBlend();
 	}

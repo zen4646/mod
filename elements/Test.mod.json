@@ -1,0 +1,19 @@
+{
+  "_fv": 57,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "compressor_guieji",
+    "result": {
+      "value": "CUSTOM:Cushionmaterial"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "CUSTOM:Cushionmaterial"
+      }
+    ]
+  }
+}

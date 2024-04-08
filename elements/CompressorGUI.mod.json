@@ -24,7 +24,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 205,
+          "x": 203,
           "y": 44
         }
       },
@@ -42,17 +42,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 205,
-          "y": 83
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "legacysmithing.png",
-          "use1Xscale": false,
-          "x": 126,
-          "y": 37
+          "x": 177,
+          "y": 84
         }
       },
       {
@@ -86,6 +77,27 @@
           "height": 20,
           "x": 255,
           "y": 43
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "you_shi_yin_.png",
+          "use1Xscale": false,
+          "x": 195,
+          "y": 84
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 231,
+          "y": 84
         }
       }
     ],

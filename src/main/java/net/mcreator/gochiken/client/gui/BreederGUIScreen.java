@@ -6,7 +6,6 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.gochiken.world.inventory.BreederGUIMenu;
@@ -20,7 +19,6 @@ public class BreederGUIScreen extends AbstractContainerScreen<BreederGUIMenu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	ImageButton imagebutton_you_shi_yin;
 
 	public BreederGUIScreen(BreederGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -51,6 +49,10 @@ public class BreederGUIScreen extends AbstractContainerScreen<BreederGUIMenu> {
 
 		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/breeder.png"), this.leftPos + 24, this.topPos + 34, 0, 0, 18, 18, 18, 18);
 
+		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/seed.png"), this.leftPos + 7, this.topPos + 35, 0, 0, 16, 16, 16, 16);
+
+		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/you_shi_yin_.png"), this.leftPos + 78, this.topPos + 34, 0, 0, 36, 18, 36, 18);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -80,9 +82,5 @@ public class BreederGUIScreen extends AbstractContainerScreen<BreederGUIMenu> {
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_you_shi_yin = new ImageButton(this.leftPos + 78, this.topPos + 34, 36, 18, 0, 0, 18, new ResourceLocation("gochicken:textures/screens/atlas/imagebutton_you_shi_yin.png"), 36, 36, e -> {
-		});
-		guistate.put("button:imagebutton_you_shi_yin", imagebutton_you_shi_yin);
-		this.addRenderableWidget(imagebutton_you_shi_yin);
 	}
 }

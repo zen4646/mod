@@ -14,7 +14,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "Items.WHEAT_SEEDS"
           },
           "disablePlacement": {
             "fixedValue": false
@@ -101,21 +101,29 @@
         }
       },
       {
-        "type": "imagebutton",
+        "type": "image",
         "data": {
-          "name": "imagebutton_you_shi_yin",
-          "image": "you_shi_yin_.png",
-          "hoveredImage": "",
-          "x": 204,
+          "image": "breeder.png",
+          "use1Xscale": false,
+          "x": 150,
           "y": 71
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "breeder.png",
+          "image": "seed.png",
           "use1Xscale": false,
-          "x": 150,
+          "x": 133,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "you_shi_yin_.png",
+          "use1Xscale": false,
+          "x": 204,
           "y": 71
         }
       }

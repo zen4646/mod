@@ -3134,6 +3134,37 @@
         ]
       },
       "path": "~/armor"
+    },
+    {
+      "name": "PRoost2",
+      "type": "procedure",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_roost_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/PRoost2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [

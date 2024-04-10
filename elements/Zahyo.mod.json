@@ -17,8 +17,8 @@
             "falpha": 0.0
           },
           "anchorPoint": "TOP_LEFT",
-          "x": -3,
-          "y": -1
+          "x": 0,
+          "y": 0
         }
       },
       {
@@ -34,7 +34,7 @@
             "falpha": 0.0
           },
           "anchorPoint": "TOP_LEFT",
-          "x": -3,
+          "x": 0,
           "y": 8
         }
       },
@@ -51,7 +51,7 @@
             "falpha": 0.0
           },
           "anchorPoint": "TOP_LEFT",
-          "x": -3,
+          "x": 0,
           "y": 17
         }
       }
@@ -63,7 +63,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

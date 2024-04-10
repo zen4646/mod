@@ -38,7 +38,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.gochiken.world.inventory.RootGUIMenu;
-import net.mcreator.gochiken.procedures.PRoostProcedure;
+import net.mcreator.gochiken.procedures.PRoost2Procedure;
 import net.mcreator.gochiken.block.entity.RoostBlockEntity;
 
 import java.util.List;
@@ -107,7 +107,7 @@ public class RoostBlock extends Block implements EntityBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		PRoostProcedure.execute(world, x, y, z);
+		PRoost2Procedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 240);
 	}
 

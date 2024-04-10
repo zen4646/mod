@@ -241,8 +241,8 @@
       "registry_name": "root_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/client/gui/RootGUIScreen.java",
-          "src/main/java/net/mcreator/gochiken/world/inventory/RootGUIMenu.java"
+          "src/main/java/net/mcreator/gochiken/world/inventory/RootGUIMenu.java",
+          "src/main/java/net/mcreator/gochiken/client/gui/RootGUIScreen.java"
         ]
       }
     },
@@ -273,9 +273,6 @@
       "locked_code": false,
       "registry_name": "p_roost",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gochiken/procedures/PRoostProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "x",
@@ -3143,9 +3140,6 @@
       "locked_code": false,
       "registry_name": "p_roost_2",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gochiken/procedures/PRoost2Procedure.java"
-        ],
         "dependencies": [
           {
             "name": "x",
@@ -3205,8 +3199,8 @@
       "gui.gochicken.compressor_gui.小麦": "0",
       "item.gochicken.blazechicken": "Blazechicken",
       "item.gochicken.lapis_chiken": "Lapis Chiken",
-      "item.gochiken.copperchicken": "Copperchicken",
       "item.gochicken.cactus_chiken": "Cactus Chiken",
+      "item.gochiken.copperchicken": "Copperchicken",
       "item.gochiken.pink_chiken": "Pink Chiken",
       "item.gochicken.cooper_chicken_seed": "Cooper Chicken Seed",
       "item.gochiken.white_chicken_seed": "White Chicken Seed",

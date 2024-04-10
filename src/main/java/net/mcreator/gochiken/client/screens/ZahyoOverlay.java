@@ -37,13 +37,13 @@ public class ZahyoOverlay {
 		if (true) {
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
-					DeeProcedure.execute(entity), -3, -1, -1, false);
+					DeeProcedure.execute(entity), 0, 0, -1, false);
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
-					SuraimuProcedure.execute(entity), -3, 8, -1, false);
+					SuraimuProcedure.execute(entity), 0, 8, -1, false);
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
-					RebeProcedure.execute(entity), -3, 17, -1, false);
+					RebeProcedure.execute(entity), 0, 17, -1, false);
 		}
 	}
 }

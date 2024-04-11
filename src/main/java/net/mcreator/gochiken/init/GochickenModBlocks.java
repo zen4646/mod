@@ -22,6 +22,6 @@ public class GochickenModBlocks {
 	public static final RegistryObject<Block> ROOST = REGISTRY.register("roost", () -> new RoostBlock());
 	public static final RegistryObject<Block> BREEDER = REGISTRY.register("breeder", () -> new BreederBlock());
 	public static final RegistryObject<Block> PEI_HE_JI = REGISTRY.register("pei_he_ji", () -> new PeiHeJiBlock());
-	public static final RegistryObject<Block> COMPRESSOR = REGISTRY.register("compressor", () -> new CompressorBlock());
 	public static final RegistryObject<Block> SEED_MARKER = REGISTRY.register("seed_marker", () -> new SeedMarkerBlock());
+	public static final RegistryObject<Block> COMPRESSOR = REGISTRY.register("compressor", () -> new CompressorBlock());
 }

@@ -126,8 +126,8 @@ public class GochickenModTabs {
 					.build());
 	public static final RegistryObject<CreativeModeTab> GO_ARMOR = REGISTRY.register("go_armor",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.gochicken.go_armor")).icon(() -> new ItemStack(GochickenModItems.BLUE_INGOT.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(GochickenModItems.BLUE_INGOT.get());
 				tabData.accept(GochickenModBlocks.COMPRESSOR.get().asItem());
+				tabData.accept(GochickenModItems.BLUE_INGOT.get());
 				tabData.accept(GochickenModItems.CUSHIONMATERIAL.get());
 				tabData.accept(GochickenModItems.CUSHONMATERIAL_2.get());
 				tabData.accept(GochickenModItems.PURPLE_DIAMOND.get());

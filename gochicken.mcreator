@@ -17,7 +17,7 @@
     {
       "name": "GoChiken",
       "type": "tab",
-      "sortid": 7,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "go_chiken",
@@ -42,7 +42,7 @@
     {
       "name": "NetutomobugaaitemudeGongJisaretatoki",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netutomobugaaitemude_gong_jisaretatoki",
@@ -65,7 +65,7 @@
     {
       "name": "NetutoYoukuritukusitatoki",
       "type": "procedure",
-      "sortid": 10,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netuto_youkuritukusitatoki",
@@ -88,7 +88,7 @@
     {
       "name": "Rnetuto",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rnetuto",
@@ -101,7 +101,7 @@
     {
       "name": "Flint",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flint",
@@ -114,7 +114,7 @@
     {
       "name": "LogChiken",
       "type": "item",
-      "sortid": 16,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_chiken",
@@ -128,7 +128,7 @@
     {
       "name": "FlintChoken",
       "type": "item",
-      "sortid": 17,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flint_choken",
@@ -142,7 +142,7 @@
     {
       "name": "SandChoken",
       "type": "item",
-      "sortid": 18,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sand_choken",
@@ -156,7 +156,7 @@
     {
       "name": "RLogChiken",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_log_chiken",
@@ -169,7 +169,7 @@
     {
       "name": "RSandChiken",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_sand_chiken",
@@ -182,7 +182,7 @@
     {
       "name": "RFlintChiken",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_flint_chiken",
@@ -195,7 +195,7 @@
     {
       "name": "RBoneChiken",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_bone_chiken",
@@ -208,7 +208,7 @@
     {
       "name": "BoneChiken",
       "type": "item",
-      "sortid": 24,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bone_chiken",
@@ -222,7 +222,7 @@
     {
       "name": "RRoot",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_root",
@@ -235,7 +235,7 @@
     {
       "name": "RootGUI",
       "type": "gui",
-      "sortid": 32,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "root_gui",
@@ -249,7 +249,7 @@
     {
       "name": "GoYoukuritukusitatoki",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "go_youkuritukusitatoki",
@@ -268,11 +268,14 @@
     {
       "name": "PRoost",
       "type": "procedure",
-      "sortid": 40,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_roost",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/PRoostProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -296,7 +299,7 @@
     {
       "name": "Roost",
       "type": "block",
-      "sortid": 41,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roost",
@@ -313,7 +316,7 @@
     {
       "name": "LapisChiken",
       "type": "item",
-      "sortid": 42,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lapis_chiken",
@@ -327,7 +330,7 @@
     {
       "name": "RLapisChiken",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_lapis_chiken",
@@ -340,7 +343,7 @@
     {
       "name": "InkChiken",
       "type": "item",
-      "sortid": 44,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ink_chiken",
@@ -354,7 +357,7 @@
     {
       "name": "RInkChiken",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_ink_chiken",
@@ -367,7 +370,7 @@
     {
       "name": "MagentaChiken",
       "type": "item",
-      "sortid": 46,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_chiken",
@@ -381,7 +384,7 @@
     {
       "name": "RMagentaChiken",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_magenta_chiken",
@@ -394,7 +397,7 @@
     {
       "name": "LimeChiken",
       "type": "item",
-      "sortid": 48,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_chiken",
@@ -408,7 +411,7 @@
     {
       "name": "RLimeCHIken",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_lime_ch_iken",
@@ -421,7 +424,7 @@
     {
       "name": "YellowChiken",
       "type": "item",
-      "sortid": 50,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_chiken",
@@ -435,7 +438,7 @@
     {
       "name": "RYellowChiken",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_yellow_chiken",
@@ -448,7 +451,7 @@
     {
       "name": "PupleChiken",
       "type": "item",
-      "sortid": 52,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "puple_chiken",
@@ -462,7 +465,7 @@
     {
       "name": "RPurpleChiken",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_purple_chiken",
@@ -475,7 +478,7 @@
     {
       "name": "CactusChiken",
       "type": "item",
-      "sortid": 54,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cactus_chiken",
@@ -489,7 +492,7 @@
     {
       "name": "RCactusChiken",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_cactus_chiken",
@@ -502,7 +505,7 @@
     {
       "name": "RCactus",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_cactus",
@@ -515,7 +518,7 @@
     {
       "name": "LightGrayChiken",
       "type": "item",
-      "sortid": 57,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_chiken",
@@ -529,7 +532,7 @@
     {
       "name": "RLightGrayChiken",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_light_gray_chiken",
@@ -542,7 +545,7 @@
     {
       "name": "LightBlueChiken",
       "type": "item",
-      "sortid": 59,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_chiken",
@@ -556,7 +559,7 @@
     {
       "name": "RLightChiken",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_light_chiken",
@@ -569,7 +572,7 @@
     {
       "name": "CyanChiken",
       "type": "item",
-      "sortid": 61,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_chiken",
@@ -583,7 +586,7 @@
     {
       "name": "RCyanChiken",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_cyan_chiken",
@@ -596,7 +599,7 @@
     {
       "name": "RedChiken",
       "type": "item",
-      "sortid": 63,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_chiken",
@@ -610,7 +613,7 @@
     {
       "name": "RRedChiken",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_red_chiken",
@@ -623,7 +626,7 @@
     {
       "name": "PinkChiken",
       "type": "item",
-      "sortid": 65,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_chiken",
@@ -637,7 +640,7 @@
     {
       "name": "RPinkChiken",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_pink_chiken",
@@ -650,7 +653,7 @@
     {
       "name": "OrangeChiken",
       "type": "item",
-      "sortid": 67,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_chiken",
@@ -664,7 +667,7 @@
     {
       "name": "ROrangeChiken",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_orange_chiken",
@@ -677,7 +680,7 @@
     {
       "name": "GrayChiken",
       "type": "item",
-      "sortid": 69,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_chiken",
@@ -691,7 +694,7 @@
     {
       "name": "RGrayChiken",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_gray_chiken",
@@ -704,7 +707,7 @@
     {
       "name": "BrownChiken",
       "type": "item",
-      "sortid": 71,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_chiken",
@@ -718,7 +721,7 @@
     {
       "name": "Breeder",
       "type": "block",
-      "sortid": 73,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "breeder",
@@ -735,7 +738,7 @@
     {
       "name": "BreederGUI",
       "type": "gui",
-      "sortid": 74,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "breeder_gui",
@@ -749,7 +752,7 @@
     {
       "name": "IronChiken",
       "type": "item",
-      "sortid": 75,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_chiken",
@@ -763,7 +766,7 @@
     {
       "name": "RedstoneChiken",
       "type": "item",
-      "sortid": 76,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "redstone_chiken",
@@ -777,7 +780,7 @@
     {
       "name": "BreederteitukuGengXinShi",
       "type": "procedure",
-      "sortid": 77,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "breederteituku_geng_xin_shi",
@@ -808,7 +811,7 @@
     {
       "name": "GoldChiken",
       "type": "item",
-      "sortid": 78,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_chiken",
@@ -822,7 +825,7 @@
     {
       "name": "QuartzChiken",
       "type": "item",
-      "sortid": 79,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_chiken",
@@ -836,7 +839,7 @@
     {
       "name": "RQuartzChiken",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_quartz_chiken",
@@ -849,7 +852,7 @@
     {
       "name": "GlassChiken",
       "type": "item",
-      "sortid": 81,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glass_chiken",
@@ -863,7 +866,7 @@
     {
       "name": "DiamondChiken",
       "type": "item",
-      "sortid": 82,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_chiken",
@@ -877,7 +880,7 @@
     {
       "name": "GlowstoneChiken",
       "type": "item",
-      "sortid": 83,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowstone_chiken",
@@ -891,7 +894,7 @@
     {
       "name": "NetherwartChiken",
       "type": "item",
-      "sortid": 84,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherwart_chiken",
@@ -905,7 +908,7 @@
     {
       "name": "EnderChiken",
       "type": "item",
-      "sortid": 85,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ender_chiken",
@@ -919,7 +922,7 @@
     {
       "name": "Snowball",
       "type": "item",
-      "sortid": 86,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "snowball",
@@ -933,7 +936,7 @@
     {
       "name": "ClayChiken",
       "type": "item",
-      "sortid": 87,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clay_chiken",
@@ -947,7 +950,7 @@
     {
       "name": "SilmeChiken",
       "type": "item",
-      "sortid": 88,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silme_chiken",
@@ -961,7 +964,7 @@
     {
       "name": "CoalChiken",
       "type": "item",
-      "sortid": 89,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coal_chiken",
@@ -975,7 +978,7 @@
     {
       "name": "LavaChiken",
       "type": "item",
-      "sortid": 90,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lava_chiken",
@@ -989,7 +992,7 @@
     {
       "name": "LavaeggburotukuwoYoukuritukusitatoki",
       "type": "procedure",
-      "sortid": 91,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lavaeggburotukuwo_youkuritukusitatoki",
@@ -1024,7 +1027,7 @@
     {
       "name": "Lavaegg",
       "type": "item",
-      "sortid": 92,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lavaegg",
@@ -1038,7 +1041,7 @@
     {
       "name": "RBreeder",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_breeder",
@@ -1051,7 +1054,7 @@
     {
       "name": "NiwatorinoBen",
       "type": "item",
-      "sortid": 94,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "niwatorino_ben",
@@ -1065,7 +1068,7 @@
     {
       "name": "RniwatorinoBen",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rniwatorino_ben",
@@ -1078,7 +1081,7 @@
     {
       "name": "PeiHeJi",
       "type": "block",
-      "sortid": 96,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pei_he_ji",
@@ -1095,7 +1098,7 @@
     {
       "name": "Rhaigouki",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rhaigouki",
@@ -1108,7 +1111,7 @@
     {
       "name": "HPeiHeJi",
       "type": "gui",
-      "sortid": 98,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "h_pei_he_ji",
@@ -1122,7 +1125,7 @@
     {
       "name": "RLogChickenSeed",
       "type": "item",
-      "sortid": 100,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_log_chicken_seed",
@@ -1136,7 +1139,7 @@
     {
       "name": "PeiHeJiteitukuGengXinShi",
       "type": "procedure",
-      "sortid": 101,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pei_he_jiteituku_geng_xin_shi",
@@ -1167,7 +1170,7 @@
     {
       "name": "ChiCkenSeed1",
       "type": "item",
-      "sortid": 102,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chi_cken_seed_1",
@@ -1181,7 +1184,7 @@
     {
       "name": "RChickenSeed1",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_chicken_seed_1",
@@ -1194,7 +1197,7 @@
     {
       "name": "SandChickenSeed",
       "type": "item",
-      "sortid": 104,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sand_chicken_seed",
@@ -1208,7 +1211,7 @@
     {
       "name": "FlintChickenseed",
       "type": "item",
-      "sortid": 105,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flint_chickenseed",
@@ -1222,7 +1225,7 @@
     {
       "name": "WhiteChickenSeed",
       "type": "item",
-      "sortid": 106,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_chicken_seed",
@@ -1236,7 +1239,7 @@
     {
       "name": "ColaChickenSeed",
       "type": "item",
-      "sortid": 107,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cola_chicken_seed",
@@ -1250,7 +1253,7 @@
     {
       "name": "ChickenSeedLV2",
       "type": "item",
-      "sortid": 108,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chicken_seed_lv_2",
@@ -1264,7 +1267,7 @@
     {
       "name": "RChickenSeedLV2",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_chicken_seed_lv_2",
@@ -1277,7 +1280,7 @@
     {
       "name": "RColaChicken",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_cola_chicken",
@@ -1290,7 +1293,7 @@
     {
       "name": "ClayChickenSeed",
       "type": "item",
-      "sortid": 111,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clay_chicken_seed",
@@ -1304,7 +1307,7 @@
     {
       "name": "RClayChicken",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_clay_chicken",
@@ -1317,7 +1320,7 @@
     {
       "name": "IronChickenSeed",
       "type": "item",
-      "sortid": 113,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_chicken_seed",
@@ -1331,7 +1334,7 @@
     {
       "name": "ChickenSeed3",
       "type": "item",
-      "sortid": 114,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chicken_seed_3",
@@ -1345,7 +1348,7 @@
     {
       "name": "RChickenSeed3",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_chicken_seed_3",
@@ -1358,7 +1361,7 @@
     {
       "name": "RIronChicken",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_iron_chicken",
@@ -1371,7 +1374,7 @@
     {
       "name": "DirtChicken",
       "type": "item",
-      "sortid": 117,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt_chicken",
@@ -1385,7 +1388,7 @@
     {
       "name": "DortChickenSeed",
       "type": "item",
-      "sortid": 118,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dort_chicken_seed",
@@ -1399,7 +1402,7 @@
     {
       "name": "RDitChicken",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_dit_chicken",
@@ -1412,7 +1415,7 @@
     {
       "name": "GunpowderChicken",
       "type": "item",
-      "sortid": 120,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gunpowder_chicken",
@@ -1426,7 +1429,7 @@
     {
       "name": "GunpowderChickenSeed",
       "type": "item",
-      "sortid": 121,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gunpowder_chicken_seed",
@@ -1440,7 +1443,7 @@
     {
       "name": "RgunpowderChicken",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rgunpowder_chicken",
@@ -1453,7 +1456,7 @@
     {
       "name": "SlimeChickenSeed",
       "type": "item",
-      "sortid": 123,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "slime_chicken_seed",
@@ -1467,7 +1470,7 @@
     {
       "name": "RSlimeChicken",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_slime_chicken",
@@ -1480,7 +1483,7 @@
     {
       "name": "RedStoneChickenSeed",
       "type": "item",
-      "sortid": 125,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_stone_chicken_seed",
@@ -1494,7 +1497,7 @@
     {
       "name": "RRedStoneChickenSeed",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_red_stone_chicken_seed",
@@ -1507,7 +1510,7 @@
     {
       "name": "StringChicken",
       "type": "item",
-      "sortid": 127,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "string_chicken",
@@ -1521,7 +1524,7 @@
     {
       "name": "StringChickenSeed",
       "type": "item",
-      "sortid": 128,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "string_chicken_seed",
@@ -1535,7 +1538,7 @@
     {
       "name": "RStringChicken",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_string_chicken",
@@ -1548,7 +1551,7 @@
     {
       "name": "LeatherChicken",
       "type": "item",
-      "sortid": 130,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leather_chicken",
@@ -1562,7 +1565,7 @@
     {
       "name": "LeatherChickenSeed",
       "type": "item",
-      "sortid": 131,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leather_chicken_seed",
@@ -1576,7 +1579,7 @@
     {
       "name": "RLeatherChicken",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_leather_chicken",
@@ -1589,7 +1592,7 @@
     {
       "name": "CooperChicken",
       "type": "item",
-      "sortid": 133,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooper_chicken",
@@ -1603,7 +1606,7 @@
     {
       "name": "CooperChickenSeed",
       "type": "item",
-      "sortid": 134,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooper_chicken_seed",
@@ -1617,7 +1620,7 @@
     {
       "name": "RCooperChicken",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_cooper_chicken",
@@ -1630,7 +1633,7 @@
     {
       "name": "QuartzChickenSeed",
       "type": "item",
-      "sortid": 136,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_chicken_seed",
@@ -1644,7 +1647,7 @@
     {
       "name": "GlassChickenSeed",
       "type": "item",
-      "sortid": 137,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glass_chicken_seed",
@@ -1658,7 +1661,7 @@
     {
       "name": "RGlassChicken",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_glass_chicken",
@@ -1671,7 +1674,7 @@
     {
       "name": "GloestnoeChickenSeed",
       "type": "item",
-      "sortid": 139,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gloestnoe_chicken_seed",
@@ -1685,7 +1688,7 @@
     {
       "name": "RGloestnoeChicken",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_gloestnoe_chicken",
@@ -1698,7 +1701,7 @@
     {
       "name": "NetherWartChickenSeed",
       "type": "item",
-      "sortid": 141,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_wart_chicken_seed",
@@ -1712,7 +1715,7 @@
     {
       "name": "RNetherWartChicken",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_nether_wart_chicken",
@@ -1725,7 +1728,7 @@
     {
       "name": "GoldChickenSeed",
       "type": "item",
-      "sortid": 143,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_chicken_seed",
@@ -1739,7 +1742,7 @@
     {
       "name": "ChieknSeed4",
       "type": "item",
-      "sortid": 144,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiekn_seed_4",
@@ -1753,7 +1756,7 @@
     {
       "name": "RChickenSeed4",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_chicken_seed_4",
@@ -1766,7 +1769,7 @@
     {
       "name": "RGoldChicken",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_gold_chicken",
@@ -1779,7 +1782,7 @@
     {
       "name": "SnowbakkChickenSeed",
       "type": "item",
-      "sortid": 147,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "snowbakk_chicken_seed",
@@ -1793,7 +1796,7 @@
     {
       "name": "RSnowbakkChicken",
       "type": "recipe",
-      "sortid": 148,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_snowbakk_chicken",
@@ -1806,7 +1809,7 @@
     {
       "name": "NethrrackChiecken",
       "type": "item",
-      "sortid": 149,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nethrrack_chiecken",
@@ -1820,7 +1823,7 @@
     {
       "name": "NethrrackChieckenSeed",
       "type": "item",
-      "sortid": 150,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nethrrack_chiecken_seed",
@@ -1834,7 +1837,7 @@
     {
       "name": "RNethrrackChiecken",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_nethrrack_chiecken",
@@ -1847,7 +1850,7 @@
     {
       "name": "LavaChickenSeed",
       "type": "item",
-      "sortid": 157,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lava_chicken_seed",
@@ -1861,7 +1864,7 @@
     {
       "name": "RLavaChicken",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_lava_chicken",
@@ -1874,7 +1877,7 @@
     {
       "name": "Blazechicken",
       "type": "item",
-      "sortid": 159,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazechicken",
@@ -1888,7 +1891,7 @@
     {
       "name": "BlazeChickenSeed",
       "type": "item",
-      "sortid": 160,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blaze_chicken_seed",
@@ -1902,7 +1905,7 @@
     {
       "name": "RblazeChicken",
       "type": "recipe",
-      "sortid": 161,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rblaze_chicken",
@@ -1915,7 +1918,7 @@
     {
       "name": "MagmaCreamChicken",
       "type": "item",
-      "sortid": 162,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magma_cream_chicken",
@@ -1929,7 +1932,7 @@
     {
       "name": "MagmaCreamChickenSeed",
       "type": "item",
-      "sortid": 163,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magma_cream_chicken_seed",
@@ -1943,7 +1946,7 @@
     {
       "name": "RMagmaCreamChicken",
       "type": "recipe",
-      "sortid": 164,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_magma_cream_chicken",
@@ -1956,7 +1959,7 @@
     {
       "name": "DiamondChicken",
       "type": "item",
-      "sortid": 165,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_chicken",
@@ -1970,7 +1973,7 @@
     {
       "name": "DiamondChickenSeed",
       "type": "item",
-      "sortid": 166,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_chicken_seed",
@@ -1984,7 +1987,7 @@
     {
       "name": "ChickenSeed5",
       "type": "item",
-      "sortid": 167,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chicken_seed_5",
@@ -1998,7 +2001,7 @@
     {
       "name": "RChickenSeed",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_chicken_seed",
@@ -2011,7 +2014,7 @@
     {
       "name": "RDiamondChicken",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_diamond_chicken",
@@ -2024,7 +2027,7 @@
     {
       "name": "PGloing",
       "type": "procedure",
-      "sortid": 170,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_gloing",
@@ -2047,7 +2050,7 @@
     {
       "name": "Gloing",
       "type": "item",
-      "sortid": 171,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gloing",
@@ -2061,7 +2064,7 @@
     {
       "name": "RGlowing",
       "type": "recipe",
-      "sortid": 172,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_glowing",
@@ -2074,7 +2077,7 @@
     {
       "name": "Suraimu",
       "type": "procedure",
-      "sortid": 175,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suraimu",
@@ -2094,7 +2097,7 @@
     {
       "name": "Dee",
       "type": "procedure",
-      "sortid": 176,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dee",
@@ -2114,7 +2117,7 @@
     {
       "name": "Zahyo",
       "type": "overlay",
-      "sortid": 178,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zahyo",
@@ -2127,7 +2130,7 @@
     {
       "name": "Rebe",
       "type": "procedure",
-      "sortid": 181,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rebe",
@@ -2147,7 +2150,7 @@
     {
       "name": "RBrownChicken",
       "type": "recipe",
-      "sortid": 182,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_brown_chicken",
@@ -2160,7 +2163,7 @@
     {
       "name": "ZnicChicken",
       "type": "item",
-      "sortid": 183,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "znic_chicken",
@@ -2174,7 +2177,7 @@
     {
       "name": "ZnicChickenSeed",
       "type": "item",
-      "sortid": 184,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "znic_chicken_seed",
@@ -2188,7 +2191,7 @@
     {
       "name": "ZnicIngot",
       "type": "item",
-      "sortid": 185,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "znic_ingot",
@@ -2202,7 +2205,7 @@
     {
       "name": "RZinc",
       "type": "recipe",
-      "sortid": 186,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_zinc",
@@ -2215,7 +2218,7 @@
     {
       "name": "EnderChickenSeed",
       "type": "item",
-      "sortid": 187,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ender_chicken_seed",
@@ -2229,7 +2232,7 @@
     {
       "name": "REnderChicken",
       "type": "recipe",
-      "sortid": 188,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_ender_chicken",
@@ -2242,7 +2245,7 @@
     {
       "name": "Tagzinc",
       "type": "tag",
-      "sortid": 190,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tagzinc",
@@ -2255,7 +2258,7 @@
     {
       "name": "EggChicken",
       "type": "item",
-      "sortid": 191,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egg_chicken",
@@ -2269,7 +2272,7 @@
     {
       "name": "EggChickenSeed",
       "type": "item",
-      "sortid": 192,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egg_chicken_seed",
@@ -2283,7 +2286,7 @@
     {
       "name": "REggChicken",
       "type": "recipe",
-      "sortid": 193,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_egg_chicken",
@@ -2296,7 +2299,7 @@
     {
       "name": "RecipeJEI",
       "type": "jeirecipetype",
-      "sortid": 196,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipe_jei",
@@ -2311,7 +2314,7 @@
     {
       "name": "RecipejJEI2",
       "type": "jeirecipe",
-      "sortid": 197,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipej_jei_2",
@@ -2325,7 +2328,7 @@
     {
       "name": "ChickenSeed6",
       "type": "item",
-      "sortid": 198,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chicken_seed_6",
@@ -2339,7 +2342,7 @@
     {
       "name": "RChickenSeed6",
       "type": "recipe",
-      "sortid": 199,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_chicken_seed_6",
@@ -2352,7 +2355,7 @@
     {
       "name": "EmeraldChicken",
       "type": "item",
-      "sortid": 200,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emerald_chicken",
@@ -2366,7 +2369,7 @@
     {
       "name": "EmeraldChickenSeed",
       "type": "item",
-      "sortid": 201,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emerald_chicken_seed",
@@ -2380,7 +2383,7 @@
     {
       "name": "REmeraldChicken",
       "type": "recipe",
-      "sortid": 202,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_emerald_chicken",
@@ -2393,7 +2396,7 @@
     {
       "name": "XpChicken",
       "type": "item",
-      "sortid": 203,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "xp_chicken",
@@ -2407,7 +2410,7 @@
     {
       "name": "XpChickenSeed",
       "type": "item",
-      "sortid": 204,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "xp_chicken_seed",
@@ -2421,7 +2424,7 @@
     {
       "name": "RXpChicken",
       "type": "recipe",
-      "sortid": 205,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_xp_chicken",
@@ -2434,7 +2437,7 @@
     {
       "name": "WaterChicken",
       "type": "item",
-      "sortid": 206,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "water_chicken",
@@ -2448,7 +2451,7 @@
     {
       "name": "WaterChickenSeed",
       "type": "item",
-      "sortid": 207,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "water_chicken_seed",
@@ -2462,7 +2465,7 @@
     {
       "name": "RWaterChicken",
       "type": "recipe",
-      "sortid": 208,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_water_chicken",
@@ -2475,7 +2478,7 @@
     {
       "name": "ObsidianChicken",
       "type": "item",
-      "sortid": 209,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_chicken",
@@ -2489,7 +2492,7 @@
     {
       "name": "ObsidianChickenSeed",
       "type": "item",
-      "sortid": 210,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_chicken_seed",
@@ -2503,7 +2506,7 @@
     {
       "name": "RObsidianChicken",
       "type": "recipe",
-      "sortid": 211,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_obsidian_chicken",
@@ -2516,7 +2519,7 @@
     {
       "name": "BoneBag",
       "type": "item",
-      "sortid": 212,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bone_bag",
@@ -2530,7 +2533,7 @@
     {
       "name": "RBoneBag",
       "type": "recipe",
-      "sortid": 213,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_bone_bag",
@@ -2543,7 +2546,7 @@
     {
       "name": "RottenFleshBag",
       "type": "item",
-      "sortid": 214,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rotten_flesh_bag",
@@ -2557,7 +2560,7 @@
     {
       "name": "RRottenFleshBag",
       "type": "recipe",
-      "sortid": 215,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_rotten_flesh_bag",
@@ -2570,7 +2573,7 @@
     {
       "name": "RRottenFleshBag2",
       "type": "recipe",
-      "sortid": 216,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_rotten_flesh_bag_2",
@@ -2583,7 +2586,7 @@
     {
       "name": "RBoneBag2",
       "type": "recipe",
-      "sortid": 217,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_bone_bag_2",
@@ -2596,7 +2599,7 @@
     {
       "name": "BlueIngot",
       "type": "item",
-      "sortid": 222,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_ingot",
@@ -2611,7 +2614,7 @@
     {
       "name": "RBuleIngot",
       "type": "recipe",
-      "sortid": 223,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_bule_ingot",
@@ -2625,7 +2628,7 @@
     {
       "name": "Egg64",
       "type": "item",
-      "sortid": 224,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "egg_64",
@@ -2639,7 +2642,7 @@
     {
       "name": "Regg64",
       "type": "recipe",
-      "sortid": 225,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "regg_64",
@@ -2652,7 +2655,7 @@
     {
       "name": "TagEgg",
       "type": "tag",
-      "sortid": 226,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tag_egg",
@@ -2665,7 +2668,7 @@
     {
       "name": "Regg642",
       "type": "recipe",
-      "sortid": 227,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "regg_642",
@@ -2678,7 +2681,7 @@
     {
       "name": "GoArmor",
       "type": "tab",
-      "sortid": 229,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "go_armor",
@@ -2690,7 +2693,7 @@
     {
       "name": "Compressor",
       "type": "block",
-      "sortid": 230,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "compressor",
@@ -2708,15 +2711,15 @@
     {
       "name": "CompressorGUI",
       "type": "gui",
-      "sortid": 231,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "compressor_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/network/CompressorGUIButtonMessage.java",
+          "src/main/java/net/mcreator/gochiken/client/gui/CompressorGUIScreen.java",
           "src/main/java/net/mcreator/gochiken/world/inventory/CompressorGUIMenu.java",
-          "src/main/java/net/mcreator/gochiken/client/gui/CompressorGUIScreen.java"
+          "src/main/java/net/mcreator/gochiken/network/CompressorGUIButtonMessage.java"
         ]
       },
       "path": "~/armor"
@@ -2724,7 +2727,7 @@
     {
       "name": "Cushionmaterial",
       "type": "item",
-      "sortid": 232,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cushionmaterial",
@@ -2739,7 +2742,7 @@
     {
       "name": "RCushionmaterial",
       "type": "recipe",
-      "sortid": 233,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_cushionmaterial",
@@ -2753,7 +2756,7 @@
     {
       "name": "Cushonmaterial2",
       "type": "item",
-      "sortid": 234,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cushonmaterial_2",
@@ -2768,7 +2771,7 @@
     {
       "name": "P_Compressor",
       "type": "procedure",
-      "sortid": 235,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_compressor",
@@ -2800,7 +2803,7 @@
     {
       "name": "TagLogChicken",
       "type": "tag",
-      "sortid": 236,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tag_log_chicken",
@@ -2813,7 +2816,7 @@
     {
       "name": "Prubbish",
       "type": "procedure",
-      "sortid": 237,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prubbish",
@@ -2833,7 +2836,7 @@
     {
       "name": "PurpleDiamond",
       "type": "item",
-      "sortid": 239,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_diamond",
@@ -2848,7 +2851,7 @@
     {
       "name": "PurpleDiamond2",
       "type": "item",
-      "sortid": 240,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_diamond_2",
@@ -2863,7 +2866,7 @@
     {
       "name": "RPurpleDiamond",
       "type": "recipe",
-      "sortid": 241,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_purple_diamond",
@@ -2877,7 +2880,7 @@
     {
       "name": "RCompreesor",
       "type": "recipe",
-      "sortid": 242,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_compreesor",
@@ -2891,7 +2894,7 @@
     {
       "name": "GhastChicken",
       "type": "item",
-      "sortid": 243,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ghast_chicken",
@@ -2905,7 +2908,7 @@
     {
       "name": "GhastChickenSeed",
       "type": "item",
-      "sortid": 244,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ghast_chicken_seed",
@@ -2919,7 +2922,7 @@
     {
       "name": "RGhastChicken",
       "type": "recipe",
-      "sortid": 245,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_ghast_chicken",
@@ -2932,7 +2935,7 @@
     {
       "name": "SealanternChicken",
       "type": "item",
-      "sortid": 246,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sealantern_chicken",
@@ -2946,7 +2949,7 @@
     {
       "name": "SealanternChickenSeed",
       "type": "item",
-      "sortid": 247,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sealantern_chicken_seed",
@@ -2960,7 +2963,7 @@
     {
       "name": "RSealanternChicken",
       "type": "recipe",
-      "sortid": 248,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_sealantern_chicken",
@@ -2973,7 +2976,7 @@
     {
       "name": "RCrystal",
       "type": "recipe",
-      "sortid": 249,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_crystal",
@@ -2986,7 +2989,7 @@
     {
       "name": "RShard",
       "type": "recipe",
-      "sortid": 250,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_shard",
@@ -2999,38 +3002,38 @@
     {
       "name": "SeedMakerGUI",
       "type": "gui",
-      "sortid": 251,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seed_maker_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/client/gui/SeedMakerGUIScreen.java",
-          "src/main/java/net/mcreator/gochiken/world/inventory/SeedMakerGUIMenu.java"
+          "src/main/java/net/mcreator/gochiken/world/inventory/SeedMakerGUIMenu.java",
+          "src/main/java/net/mcreator/gochiken/client/gui/SeedMakerGUIScreen.java"
         ]
       }
     },
     {
       "name": "SeedMarker",
       "type": "block",
-      "sortid": 252,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seed_marker",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/gochiken/block/entity/SeedMarkerBlockEntity.java",
+          "src/main/resources/assets/gochicken/models/block/seed_marker.json",
           "src/main/resources/assets/gochicken/models/item/seed_marker.json",
           "src/main/java/net/mcreator/gochiken/block/SeedMarkerBlock.java",
-          "src/main/java/net/mcreator/gochiken/block/entity/SeedMarkerBlockEntity.java",
-          "src/main/resources/assets/gochicken/blockstates/seed_marker.json",
-          "src/main/resources/assets/gochicken/models/block/seed_marker.json"
+          "src/main/resources/assets/gochicken/blockstates/seed_marker.json"
         ]
       }
     },
     {
       "name": "PSeedMaker",
       "type": "procedure",
-      "sortid": 253,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_seed_maker",
@@ -3061,7 +3064,7 @@
     {
       "name": "P_SeedMakerGUIColse",
       "type": "procedure",
-      "sortid": 254,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_seed_maker_gui_colse",
@@ -3092,7 +3095,7 @@
     {
       "name": "SeedMakerOpen",
       "type": "procedure",
-      "sortid": 255,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seed_maker_open",
@@ -3106,14 +3109,14 @@
     {
       "name": "CompressorGUIEJI",
       "type": "jeirecipetype",
-      "sortid": 256,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "compressor_guieji",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/jei_recipes/CompressorGUIEJIRecipeCategory.java",
-          "src/main/java/net/mcreator/gochiken/jei_recipes/CompressorGUIEJIRecipe.java"
+          "src/main/java/net/mcreator/gochiken/jei_recipes/CompressorGUIEJIRecipe.java",
+          "src/main/java/net/mcreator/gochiken/jei_recipes/CompressorGUIEJIRecipeCategory.java"
         ]
       },
       "path": "~/armor"
@@ -3121,7 +3124,7 @@
     {
       "name": "Test",
       "type": "jeirecipe",
-      "sortid": 257,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test",
@@ -3135,11 +3138,14 @@
     {
       "name": "PRoost2",
       "type": "procedure",
-      "sortid": 258,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_roost_2",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/PRoost2Procedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",

@@ -2297,35 +2297,6 @@
       }
     },
     {
-      "name": "RecipeJEI",
-      "type": "jeirecipetype",
-      "sortid": 196,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recipe_jei",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gochiken/jei_recipes/RecipeJEIRecipeCategory.java",
-          "src/main/java/net/mcreator/gochiken/jei_recipes/RecipeJEIRecipe.java"
-        ]
-      },
-      "path": "~/recipe"
-    },
-    {
-      "name": "RecipejJEI2",
-      "type": "jeirecipe",
-      "sortid": 197,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recipej_jei_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/gochicken/recipes/recipej_jei_2.json"
-        ]
-      },
-      "path": "~/recipe"
-    },
-    {
       "name": "ChickenSeed6",
       "type": "item",
       "sortid": 198,
@@ -2717,9 +2688,9 @@
       "registry_name": "compressor_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/network/CompressorGUIButtonMessage.java",
+          "src/main/java/net/mcreator/gochiken/client/gui/CompressorGUIScreen.java",
           "src/main/java/net/mcreator/gochiken/world/inventory/CompressorGUIMenu.java",
-          "src/main/java/net/mcreator/gochiken/client/gui/CompressorGUIScreen.java"
+          "src/main/java/net/mcreator/gochiken/network/CompressorGUIButtonMessage.java"
         ]
       },
       "path": "~/armor"
@@ -3008,8 +2979,8 @@
       "registry_name": "seed_maker_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/client/gui/SeedMakerGUIScreen.java",
-          "src/main/java/net/mcreator/gochiken/world/inventory/SeedMakerGUIMenu.java"
+          "src/main/java/net/mcreator/gochiken/world/inventory/SeedMakerGUIMenu.java",
+          "src/main/java/net/mcreator/gochiken/client/gui/SeedMakerGUIScreen.java"
         ]
       }
     },
@@ -3022,11 +2993,11 @@
       "registry_name": "seed_marker",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/gochiken/block/entity/SeedMarkerBlockEntity.java",
+          "src/main/resources/assets/gochicken/models/block/seed_marker.json",
           "src/main/resources/assets/gochicken/models/item/seed_marker.json",
           "src/main/java/net/mcreator/gochiken/block/SeedMarkerBlock.java",
-          "src/main/java/net/mcreator/gochiken/block/entity/SeedMarkerBlockEntity.java",
-          "src/main/resources/assets/gochicken/blockstates/seed_marker.json",
-          "src/main/resources/assets/gochicken/models/block/seed_marker.json"
+          "src/main/resources/assets/gochicken/blockstates/seed_marker.json"
         ]
       }
     },
@@ -3115,8 +3086,8 @@
       "registry_name": "compressor_guieji",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/jei_recipes/CompressorGUIEJIRecipeCategory.java",
-          "src/main/java/net/mcreator/gochiken/jei_recipes/CompressorGUIEJIRecipe.java"
+          "src/main/java/net/mcreator/gochiken/jei_recipes/CompressorGUIEJIRecipe.java",
+          "src/main/java/net/mcreator/gochiken/jei_recipes/CompressorGUIEJIRecipeCategory.java"
         ]
       },
       "path": "~/armor"
@@ -3349,8 +3320,8 @@
       "gui.gochicken.compressor_gui.小麦": "0",
       "item.gochicken.blazechicken": "Blazechicken",
       "item.gochicken.lapis_chiken": "Lapis Chiken",
-      "item.gochicken.cactus_chiken": "Cactus Chiken",
       "item.gochiken.copperchicken": "Copperchicken",
+      "item.gochicken.cactus_chiken": "Cactus Chiken",
       "item.gochiken.pink_chiken": "Pink Chiken",
       "item.gochicken.cooper_chicken_seed": "Cooper Chicken Seed",
       "item.gochiken.white_chicken_seed": "White Chicken Seed",

@@ -136,7 +136,7 @@ public class PeiHeJiteitukuGengXinShiProcedure {
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem() == GochickenModItems.WHITE_CHICKEN_SEED.get()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem() == GochickenModItems.BONE_CHICKEN_SEED.get()) {
 				{
 					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {

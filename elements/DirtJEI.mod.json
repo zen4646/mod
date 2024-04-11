@@ -2,17 +2,17 @@
   "_fv": 57,
   "_type": "jeirecipe",
   "definition": {
-    "category": "recipe_jei",
+    "category": "combination_jei",
     "result": {
-      "value": "CUSTOM:ColaChickenSeed"
+      "value": "CUSTOM:DirtChicken"
     },
     "count": 1,
     "ingredients": [
       {
-        "value": "CUSTOM:LogChiken"
+        "value": "TAG:minecraft:tag_egg"
       },
       {
-        "value": "CUSTOM:FlintChoken"
+        "value": "CUSTOM:DortChickenSeed"
       }
     ]
   }

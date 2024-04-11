@@ -22,9 +22,6 @@ public class PRoost2Procedure {
 		double flg = 0;
 		double num = 0;
 		ItemStack item = ItemStack.EMPTY;
-		ItemStack ID0 = ItemStack.EMPTY;
-		ItemStack ID1 = ItemStack.EMPTY;
-		ItemStack ID2 = ItemStack.EMPTY;
 		if (new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);

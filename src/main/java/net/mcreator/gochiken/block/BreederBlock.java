@@ -38,7 +38,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.gochiken.world.inventory.BreederGUIMenu;
-import net.mcreator.gochiken.procedures.BreederteitukuGengXinShiProcedure;
+import net.mcreator.gochiken.procedures.Pbreeder2Procedure;
 import net.mcreator.gochiken.block.entity.BreederBlockEntity;
 
 import java.util.List;
@@ -102,7 +102,7 @@ public class BreederBlock extends Block implements EntityBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		BreederteitukuGengXinShiProcedure.execute(world, x, y, z);
+		Pbreeder2Procedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 40);
 	}
 

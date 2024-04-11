@@ -12,7 +12,7 @@ import java.util.List;
 
 public class CyanChikenItem extends Item {
 	public CyanChikenItem() {
-		super(new Item.Properties().stacksTo(16).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

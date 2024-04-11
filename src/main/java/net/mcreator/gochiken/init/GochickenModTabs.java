@@ -62,7 +62,7 @@ public class GochickenModTabs {
 				tabData.accept(GochickenModItems.CHI_CKEN_SEED_1.get());
 				tabData.accept(GochickenModItems.SAND_CHICKEN_SEED.get());
 				tabData.accept(GochickenModItems.FLINT_CHICKENSEED.get());
-				tabData.accept(GochickenModItems.WHITE_CHICKEN_SEED.get());
+				tabData.accept(GochickenModItems.BONE_CHICKEN_SEED.get());
 				tabData.accept(GochickenModItems.COLA_CHICKEN_SEED.get());
 				tabData.accept(GochickenModItems.CHICKEN_SEED_LV_2.get());
 				tabData.accept(GochickenModItems.CLAY_CHICKEN_SEED.get());

@@ -12,7 +12,7 @@ import java.util.List;
 
 public class IronChikenItem extends Item {
 	public IronChikenItem() {
-		super(new Item.Properties().stacksTo(16).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

@@ -164,7 +164,7 @@ public class GochickenModItems {
 	public static final RegistryObject<Item> CHI_CKEN_SEED_1 = REGISTRY.register("chi_cken_seed_1", () -> new ChiCkenSeed1Item());
 	public static final RegistryObject<Item> SAND_CHICKEN_SEED = REGISTRY.register("sand_chicken_seed", () -> new SandChickenSeedItem());
 	public static final RegistryObject<Item> FLINT_CHICKENSEED = REGISTRY.register("flint_chickenseed", () -> new FlintChickenseedItem());
-	public static final RegistryObject<Item> WHITE_CHICKEN_SEED = REGISTRY.register("white_chicken_seed", () -> new WhiteChickenSeedItem());
+	public static final RegistryObject<Item> BONE_CHICKEN_SEED = REGISTRY.register("bone_chicken_seed", () -> new WhiteChickenSeedItem());
 	public static final RegistryObject<Item> COLA_CHICKEN_SEED = REGISTRY.register("cola_chicken_seed", () -> new ColaChickenSeedItem());
 	public static final RegistryObject<Item> CHICKEN_SEED_LV_2 = REGISTRY.register("chicken_seed_lv_2", () -> new ChickenSeedLV2Item());
 	public static final RegistryObject<Item> CLAY_CHICKEN_SEED = REGISTRY.register("clay_chicken_seed", () -> new ClayChickenSeedItem());

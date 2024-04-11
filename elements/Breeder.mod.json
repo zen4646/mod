@@ -128,7 +128,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "BreederteitukuGengXinShi"
+      "name": "Pbreeder2"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

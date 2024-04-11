@@ -34,8 +34,8 @@
       "registry_name": "netuto",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/netuto.json",
-          "src/main/java/net/mcreator/gochiken/item/NetutoItem.java"
+          "src/main/java/net/mcreator/gochiken/item/NetutoItem.java",
+          "src/main/resources/assets/gochicken/models/item/netuto.json"
         ]
       }
     },
@@ -134,8 +134,8 @@
       "registry_name": "flint_choken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/flint_choken.json",
-          "src/main/java/net/mcreator/gochiken/item/FlintChokenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/FlintChokenItem.java",
+          "src/main/resources/assets/gochicken/models/item/flint_choken.json"
         ]
       }
     },
@@ -148,8 +148,8 @@
       "registry_name": "sand_choken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/SandChokenItem.java",
-          "src/main/resources/assets/gochicken/models/item/sand_choken.json"
+          "src/main/resources/assets/gochicken/models/item/sand_choken.json",
+          "src/main/java/net/mcreator/gochiken/item/SandChokenItem.java"
         ]
       }
     },
@@ -241,8 +241,8 @@
       "registry_name": "root_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/world/inventory/RootGUIMenu.java",
-          "src/main/java/net/mcreator/gochiken/client/gui/RootGUIScreen.java"
+          "src/main/java/net/mcreator/gochiken/client/gui/RootGUIScreen.java",
+          "src/main/java/net/mcreator/gochiken/world/inventory/RootGUIMenu.java"
         ]
       }
     },
@@ -273,6 +273,9 @@
       "locked_code": false,
       "registry_name": "p_roost",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/PRoostProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -302,11 +305,11 @@
       "registry_name": "roost",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/block/roost.json",
-          "src/main/resources/assets/gochicken/blockstates/roost.json",
+          "src/main/resources/assets/gochicken/models/item/roost.json",
           "src/main/java/net/mcreator/gochiken/block/RoostBlock.java",
+          "src/main/resources/assets/gochicken/blockstates/roost.json",
           "src/main/java/net/mcreator/gochiken/block/entity/RoostBlockEntity.java",
-          "src/main/resources/assets/gochicken/models/item/roost.json"
+          "src/main/resources/assets/gochicken/models/block/roost.json"
         ]
       }
     },
@@ -319,8 +322,8 @@
       "registry_name": "lapis_chiken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/LapisChikenItem.java",
-          "src/main/resources/assets/gochicken/models/item/lapis_chiken.json"
+          "src/main/resources/assets/gochicken/models/item/lapis_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/LapisChikenItem.java"
         ]
       }
     },
@@ -373,8 +376,8 @@
       "registry_name": "magenta_chiken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/magenta_chiken.json",
-          "src/main/java/net/mcreator/gochiken/item/MagentaChikenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/MagentaChikenItem.java",
+          "src/main/resources/assets/gochicken/models/item/magenta_chiken.json"
         ]
       }
     },
@@ -454,8 +457,8 @@
       "registry_name": "puple_chiken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/puple_chiken.json",
-          "src/main/java/net/mcreator/gochiken/item/PupleChikenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/PupleChikenItem.java",
+          "src/main/resources/assets/gochicken/models/item/puple_chiken.json"
         ]
       }
     },
@@ -521,8 +524,8 @@
       "registry_name": "light_gray_chiken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/light_gray_chiken.json",
-          "src/main/java/net/mcreator/gochiken/item/LightGrayChikenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/LightGrayChikenItem.java",
+          "src/main/resources/assets/gochicken/models/item/light_gray_chiken.json"
         ]
       }
     },
@@ -548,8 +551,8 @@
       "registry_name": "light_blue_chiken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/LightBlueChikenItem.java",
-          "src/main/resources/assets/gochicken/models/item/light_blue_chiken.json"
+          "src/main/resources/assets/gochicken/models/item/light_blue_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/LightBlueChikenItem.java"
         ]
       }
     },
@@ -629,8 +632,8 @@
       "registry_name": "pink_chiken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/pink_chiken.json",
-          "src/main/java/net/mcreator/gochiken/item/PinkChikenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/PinkChikenItem.java",
+          "src/main/resources/assets/gochicken/models/item/pink_chiken.json"
         ]
       }
     },
@@ -656,8 +659,8 @@
       "registry_name": "orange_chiken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/orange_chiken.json",
-          "src/main/java/net/mcreator/gochiken/item/OrangeChikenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/OrangeChikenItem.java",
+          "src/main/resources/assets/gochicken/models/item/orange_chiken.json"
         ]
       }
     },
@@ -724,11 +727,11 @@
       "registry_name": "breeder",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/blockstates/breeder.json",
+          "src/main/resources/assets/gochicken/models/item/breeder.json",
+          "src/main/resources/assets/gochicken/models/block/breeder.json",
           "src/main/java/net/mcreator/gochiken/block/entity/BreederBlockEntity.java",
           "src/main/java/net/mcreator/gochiken/block/BreederBlock.java",
-          "src/main/resources/assets/gochicken/models/block/breeder.json",
-          "src/main/resources/assets/gochicken/models/item/breeder.json"
+          "src/main/resources/assets/gochicken/blockstates/breeder.json"
         ]
       }
     },
@@ -755,8 +758,8 @@
       "registry_name": "iron_chiken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/IronChikenItem.java",
-          "src/main/resources/assets/gochicken/models/item/iron_chiken.json"
+          "src/main/resources/assets/gochicken/models/item/iron_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/IronChikenItem.java"
         ]
       }
     },
@@ -855,8 +858,8 @@
       "registry_name": "glass_chiken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/glass_chiken.json",
-          "src/main/java/net/mcreator/gochiken/item/GlassChikenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/GlassChikenItem.java",
+          "src/main/resources/assets/gochicken/models/item/glass_chiken.json"
         ]
       }
     },
@@ -911,8 +914,8 @@
       "registry_name": "ender_chiken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/EnderChikenItem.java",
-          "src/main/resources/assets/gochicken/models/item/ender_chiken.json"
+          "src/main/resources/assets/gochicken/models/item/ender_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/EnderChikenItem.java"
         ]
       }
     },
@@ -967,8 +970,8 @@
       "registry_name": "coal_chiken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/CoalChikenItem.java",
-          "src/main/resources/assets/gochicken/models/item/coal_chiken.json"
+          "src/main/resources/assets/gochicken/models/item/coal_chiken.json",
+          "src/main/java/net/mcreator/gochiken/item/CoalChikenItem.java"
         ]
       }
     },
@@ -1084,11 +1087,11 @@
       "registry_name": "pei_he_ji",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/block/pei_he_ji.json",
-          "src/main/resources/assets/gochicken/blockstates/pei_he_ji.json",
           "src/main/resources/assets/gochicken/models/item/pei_he_ji.json",
+          "src/main/java/net/mcreator/gochiken/block/entity/PeiHeJiBlockEntity.java",
           "src/main/java/net/mcreator/gochiken/block/PeiHeJiBlock.java",
-          "src/main/java/net/mcreator/gochiken/block/entity/PeiHeJiBlockEntity.java"
+          "src/main/resources/assets/gochicken/models/block/pei_he_ji.json",
+          "src/main/resources/assets/gochicken/blockstates/pei_he_ji.json"
         ]
       }
     },
@@ -1128,8 +1131,8 @@
       "registry_name": "r_log_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/r_log_chicken_seed.json",
-          "src/main/java/net/mcreator/gochiken/item/RLogChickenSeedItem.java"
+          "src/main/java/net/mcreator/gochiken/item/RLogChickenSeedItem.java",
+          "src/main/resources/assets/gochicken/models/item/r_log_chicken_seed.json"
         ]
       }
     },
@@ -1225,10 +1228,10 @@
       "sortid": 106,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "white_chicken_seed",
+      "registry_name": "bone_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/white_chicken_seed.json",
+          "src/main/resources/assets/gochicken/models/item/bone_chicken_seed.json",
           "src/main/java/net/mcreator/gochiken/item/WhiteChickenSeedItem.java"
         ]
       }
@@ -1242,8 +1245,8 @@
       "registry_name": "cola_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/cola_chicken_seed.json",
-          "src/main/java/net/mcreator/gochiken/item/ColaChickenSeedItem.java"
+          "src/main/java/net/mcreator/gochiken/item/ColaChickenSeedItem.java",
+          "src/main/resources/assets/gochicken/models/item/cola_chicken_seed.json"
         ]
       }
     },
@@ -1323,8 +1326,8 @@
       "registry_name": "iron_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/IronChickenSeedItem.java",
-          "src/main/resources/assets/gochicken/models/item/iron_chicken_seed.json"
+          "src/main/resources/assets/gochicken/models/item/iron_chicken_seed.json",
+          "src/main/java/net/mcreator/gochiken/item/IronChickenSeedItem.java"
         ]
       }
     },
@@ -1337,8 +1340,8 @@
       "registry_name": "chicken_seed_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/chicken_seed_3.json",
-          "src/main/java/net/mcreator/gochiken/item/ChickenSeed3Item.java"
+          "src/main/java/net/mcreator/gochiken/item/ChickenSeed3Item.java",
+          "src/main/resources/assets/gochicken/models/item/chicken_seed_3.json"
         ]
       }
     },
@@ -1391,8 +1394,8 @@
       "registry_name": "dort_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/DortChickenSeedItem.java",
-          "src/main/resources/assets/gochicken/models/item/dort_chicken_seed.json"
+          "src/main/resources/assets/gochicken/models/item/dort_chicken_seed.json",
+          "src/main/java/net/mcreator/gochiken/item/DortChickenSeedItem.java"
         ]
       }
     },
@@ -1432,8 +1435,8 @@
       "registry_name": "gunpowder_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/gunpowder_chicken_seed.json",
-          "src/main/java/net/mcreator/gochiken/item/GunpowderChickenSeedItem.java"
+          "src/main/java/net/mcreator/gochiken/item/GunpowderChickenSeedItem.java",
+          "src/main/resources/assets/gochicken/models/item/gunpowder_chicken_seed.json"
         ]
       }
     },
@@ -1486,8 +1489,8 @@
       "registry_name": "red_stone_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/red_stone_chicken_seed.json",
-          "src/main/java/net/mcreator/gochiken/item/RedStoneChickenSeedItem.java"
+          "src/main/java/net/mcreator/gochiken/item/RedStoneChickenSeedItem.java",
+          "src/main/resources/assets/gochicken/models/item/red_stone_chicken_seed.json"
         ]
       }
     },
@@ -1568,8 +1571,8 @@
       "registry_name": "leather_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/LeatherChickenSeedItem.java",
-          "src/main/resources/assets/gochicken/models/item/leather_chicken_seed.json"
+          "src/main/resources/assets/gochicken/models/item/leather_chicken_seed.json",
+          "src/main/java/net/mcreator/gochiken/item/LeatherChickenSeedItem.java"
         ]
       }
     },
@@ -1595,8 +1598,8 @@
       "registry_name": "cooper_chicken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/CooperChickenItem.java",
-          "src/main/resources/assets/gochicken/models/item/cooper_chicken.json"
+          "src/main/resources/assets/gochicken/models/item/cooper_chicken.json",
+          "src/main/java/net/mcreator/gochiken/item/CooperChickenItem.java"
         ]
       }
     },
@@ -1636,8 +1639,8 @@
       "registry_name": "quartz_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/QuartzChickenSeedItem.java",
-          "src/main/resources/assets/gochicken/models/item/quartz_chicken_seed.json"
+          "src/main/resources/assets/gochicken/models/item/quartz_chicken_seed.json",
+          "src/main/java/net/mcreator/gochiken/item/QuartzChickenSeedItem.java"
         ]
       }
     },
@@ -1677,8 +1680,8 @@
       "registry_name": "gloestnoe_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/GloestnoeChickenSeedItem.java",
-          "src/main/resources/assets/gochicken/models/item/gloestnoe_chicken_seed.json"
+          "src/main/resources/assets/gochicken/models/item/gloestnoe_chicken_seed.json",
+          "src/main/java/net/mcreator/gochiken/item/GloestnoeChickenSeedItem.java"
         ]
       }
     },
@@ -1731,8 +1734,8 @@
       "registry_name": "gold_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/gold_chicken_seed.json",
-          "src/main/java/net/mcreator/gochiken/item/GoldChickenSeedItem.java"
+          "src/main/java/net/mcreator/gochiken/item/GoldChickenSeedItem.java",
+          "src/main/resources/assets/gochicken/models/item/gold_chicken_seed.json"
         ]
       }
     },
@@ -1745,8 +1748,8 @@
       "registry_name": "chiekn_seed_4",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/ChieknSeed4Item.java",
-          "src/main/resources/assets/gochicken/models/item/chiekn_seed_4.json"
+          "src/main/resources/assets/gochicken/models/item/chiekn_seed_4.json",
+          "src/main/java/net/mcreator/gochiken/item/ChieknSeed4Item.java"
         ]
       }
     },
@@ -1785,8 +1788,8 @@
       "registry_name": "snowbakk_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/snowbakk_chicken_seed.json",
-          "src/main/java/net/mcreator/gochiken/item/SnowbakkChickenSeedItem.java"
+          "src/main/java/net/mcreator/gochiken/item/SnowbakkChickenSeedItem.java",
+          "src/main/resources/assets/gochicken/models/item/snowbakk_chicken_seed.json"
         ]
       }
     },
@@ -1812,8 +1815,8 @@
       "registry_name": "nethrrack_chiecken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/NethrrackChieckenItem.java",
-          "src/main/resources/assets/gochicken/models/item/nethrrack_chiecken.json"
+          "src/main/resources/assets/gochicken/models/item/nethrrack_chiecken.json",
+          "src/main/java/net/mcreator/gochiken/item/NethrrackChieckenItem.java"
         ]
       }
     },
@@ -1894,8 +1897,8 @@
       "registry_name": "blaze_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/BlazeChickenSeedItem.java",
-          "src/main/resources/assets/gochicken/models/item/blaze_chicken_seed.json"
+          "src/main/resources/assets/gochicken/models/item/blaze_chicken_seed.json",
+          "src/main/java/net/mcreator/gochiken/item/BlazeChickenSeedItem.java"
         ]
       }
     },
@@ -1921,8 +1924,8 @@
       "registry_name": "magma_cream_chicken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/MagmaCreamChickenItem.java",
-          "src/main/resources/assets/gochicken/models/item/magma_cream_chicken.json"
+          "src/main/resources/assets/gochicken/models/item/magma_cream_chicken.json",
+          "src/main/java/net/mcreator/gochiken/item/MagmaCreamChickenItem.java"
         ]
       }
     },
@@ -2053,8 +2056,8 @@
       "registry_name": "gloing",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/GloingItem.java",
-          "src/main/resources/assets/gochicken/models/item/gloing.json"
+          "src/main/resources/assets/gochicken/models/item/gloing.json",
+          "src/main/java/net/mcreator/gochiken/item/GloingItem.java"
         ]
       }
     },
@@ -2180,8 +2183,8 @@
       "registry_name": "znic_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/znic_chicken_seed.json",
-          "src/main/java/net/mcreator/gochiken/item/ZnicChickenSeedItem.java"
+          "src/main/java/net/mcreator/gochiken/item/ZnicChickenSeedItem.java",
+          "src/main/resources/assets/gochicken/models/item/znic_chicken_seed.json"
         ]
       }
     },
@@ -2221,8 +2224,8 @@
       "registry_name": "ender_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/ender_chicken_seed.json",
-          "src/main/java/net/mcreator/gochiken/item/EnderChickenSeedItem.java"
+          "src/main/java/net/mcreator/gochiken/item/EnderChickenSeedItem.java",
+          "src/main/resources/assets/gochicken/models/item/ender_chicken_seed.json"
         ]
       }
     },
@@ -2294,35 +2297,6 @@
       }
     },
     {
-      "name": "RecipeJEI",
-      "type": "jeirecipetype",
-      "sortid": 196,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recipe_jei",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gochiken/jei_recipes/RecipeJEIRecipeCategory.java",
-          "src/main/java/net/mcreator/gochiken/jei_recipes/RecipeJEIRecipe.java"
-        ]
-      },
-      "path": "~/recipe"
-    },
-    {
-      "name": "RecipejJEI2",
-      "type": "jeirecipe",
-      "sortid": 197,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "recipej_jei_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/gochicken/recipes/recipej_jei_2.json"
-        ]
-      },
-      "path": "~/recipe"
-    },
-    {
       "name": "ChickenSeed6",
       "type": "item",
       "sortid": 198,
@@ -2331,8 +2305,8 @@
       "registry_name": "chicken_seed_6",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/chicken_seed_6.json",
-          "src/main/java/net/mcreator/gochiken/item/ChickenSeed6Item.java"
+          "src/main/java/net/mcreator/gochiken/item/ChickenSeed6Item.java",
+          "src/main/resources/assets/gochicken/models/item/chicken_seed_6.json"
         ]
       }
     },
@@ -2413,8 +2387,8 @@
       "registry_name": "xp_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/XpChickenSeedItem.java",
-          "src/main/resources/assets/gochicken/models/item/xp_chicken_seed.json"
+          "src/main/resources/assets/gochicken/models/item/xp_chicken_seed.json",
+          "src/main/java/net/mcreator/gochiken/item/XpChickenSeedItem.java"
         ]
       }
     },
@@ -2454,8 +2428,8 @@
       "registry_name": "water_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/water_chicken_seed.json",
-          "src/main/java/net/mcreator/gochiken/item/WaterChickenSeedItem.java"
+          "src/main/java/net/mcreator/gochiken/item/WaterChickenSeedItem.java",
+          "src/main/resources/assets/gochicken/models/item/water_chicken_seed.json"
         ]
       }
     },
@@ -2481,8 +2455,8 @@
       "registry_name": "obsidian_chicken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/ObsidianChickenItem.java",
-          "src/main/resources/assets/gochicken/models/item/obsidian_chicken.json"
+          "src/main/resources/assets/gochicken/models/item/obsidian_chicken.json",
+          "src/main/java/net/mcreator/gochiken/item/ObsidianChickenItem.java"
         ]
       }
     },
@@ -2549,8 +2523,8 @@
       "registry_name": "rotten_flesh_bag",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/RottenFleshBagItem.java",
-          "src/main/resources/assets/gochicken/models/item/rotten_flesh_bag.json"
+          "src/main/resources/assets/gochicken/models/item/rotten_flesh_bag.json",
+          "src/main/java/net/mcreator/gochiken/item/RottenFleshBagItem.java"
         ]
       }
     },
@@ -2602,8 +2576,8 @@
       "registry_name": "blue_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/BlueIngotItem.java",
-          "src/main/resources/assets/gochicken/models/item/blue_ingot.json"
+          "src/main/resources/assets/gochicken/models/item/blue_ingot.json",
+          "src/main/java/net/mcreator/gochiken/item/BlueIngotItem.java"
         ]
       },
       "path": "~/armor"
@@ -2697,9 +2671,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/gochicken/models/block/compressor.json",
-          "src/main/java/net/mcreator/gochiken/block/entity/CompressorBlockEntity.java",
           "src/main/resources/assets/gochicken/models/item/compressor.json",
           "src/main/resources/assets/gochicken/blockstates/compressor.json",
+          "src/main/java/net/mcreator/gochiken/block/entity/CompressorBlockEntity.java",
           "src/main/java/net/mcreator/gochiken/block/CompressorBlock.java"
         ]
       },
@@ -2730,8 +2704,8 @@
       "registry_name": "cushionmaterial",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/CushionmaterialItem.java",
-          "src/main/resources/assets/gochicken/models/item/cushionmaterial.json"
+          "src/main/resources/assets/gochicken/models/item/cushionmaterial.json",
+          "src/main/java/net/mcreator/gochiken/item/CushionmaterialItem.java"
         ]
       },
       "path": "~/armor"
@@ -2854,8 +2828,8 @@
       "registry_name": "purple_diamond_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/PurpleDiamond2Item.java",
-          "src/main/resources/assets/gochicken/models/item/purple_diamond_2.json"
+          "src/main/resources/assets/gochicken/models/item/purple_diamond_2.json",
+          "src/main/java/net/mcreator/gochiken/item/PurpleDiamond2Item.java"
         ]
       },
       "path": "~/armor"
@@ -2897,8 +2871,8 @@
       "registry_name": "ghast_chicken",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/GhastChickenItem.java",
-          "src/main/resources/assets/gochicken/models/item/ghast_chicken.json"
+          "src/main/resources/assets/gochicken/models/item/ghast_chicken.json",
+          "src/main/java/net/mcreator/gochiken/item/GhastChickenItem.java"
         ]
       }
     },
@@ -2911,8 +2885,8 @@
       "registry_name": "ghast_chicken_seed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gochiken/item/GhastChickenSeedItem.java",
-          "src/main/resources/assets/gochicken/models/item/ghast_chicken_seed.json"
+          "src/main/resources/assets/gochicken/models/item/ghast_chicken_seed.json",
+          "src/main/java/net/mcreator/gochiken/item/GhastChickenSeedItem.java"
         ]
       }
     },
@@ -2938,8 +2912,8 @@
       "registry_name": "sealantern_chicken",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gochicken/models/item/sealantern_chicken.json",
-          "src/main/java/net/mcreator/gochiken/item/SealanternChickenItem.java"
+          "src/main/java/net/mcreator/gochiken/item/SealanternChickenItem.java",
+          "src/main/resources/assets/gochicken/models/item/sealantern_chicken.json"
         ]
       }
     },
@@ -3140,6 +3114,9 @@
       "locked_code": false,
       "registry_name": "p_roost_2",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/PRoost2Procedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -3159,6 +3136,150 @@
           }
         ]
       }
+    },
+    {
+      "name": "Pbreeder2",
+      "type": "procedure",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pbreeder_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/Pbreeder2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CombinationJEI",
+      "type": "jeirecipetype",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combination_jei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/jei_recipes/CombinationJEIRecipeCategory.java",
+          "src/main/java/net/mcreator/gochiken/jei_recipes/CombinationJEIRecipe.java"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "LogJEI",
+      "type": "jeirecipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochicken/recipes/log_jei.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "SandJEI",
+      "type": "jeirecipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochicken/recipes/sand_jei.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "FlintJEI",
+      "type": "jeirecipe",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochicken/recipes/flint_jei.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "BoneJEI",
+      "type": "jeirecipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochicken/recipes/bone_jei.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "DirtJEI",
+      "type": "jeirecipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochicken/recipes/dirt_jei.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "EggJEI",
+      "type": "jeirecipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochicken/recipes/egg_jei.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "QuartzJEI",
+      "type": "jeirecipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochicken/recipes/quartz_jei.json"
+        ]
+      },
+      "path": "~/recipe"
     }
   ],
   "variable_elements": [
@@ -3237,6 +3358,7 @@
       "item.gochicken.purple_diamond_2": "パープルダイヤモンド【満】",
       "block.gochiken.breeder": "Breeder",
       "item.gochicken.go": "Go",
+      "item.gochicken.bone_chicken_seed": "Bone Chicken Seed",
       "item.gochicken.light_gray_chiken": "Light Gray Chiken",
       "item.gochicken.red_stone_chicken_seed": "Red Stone Chicken Seed",
       "item.gochicken.ghast_chicken": "Ghast Chicken",
@@ -3259,7 +3381,6 @@
       "item.gochicken.water_chicken": "Water Chicken",
       "item.gochiken.snowball": "Snowball",
       "item.gochiken.glass_chiken": "Glass Chiken",
-      "item.gochicken.white_chicken_seed": "White Chicken Seed",
       "item.gochicken.znic_chicken_seed": "Znic Chicken Seed",
       "block.gochiken.gorwer_lv_1": "Gorwer Lv 1",
       "block.gochicken.pei_he_ji": "配合機",

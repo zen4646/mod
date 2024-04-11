@@ -1,30 +1,14 @@
 package net.mcreator.gochiken.procedures;
 
-import net.minecraftforge.items.IItemHandlerModifiable;
-import net.minecraftforge.common.capabilities.ForgeCapabilities;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.gochiken.init.GochickenModItems;
-
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.atomic.AtomicInteger;
+import javax.annotation.Nullable;
 
 public class PRoost2Procedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		double flg = 0;
 		double num = 0;
 		ItemStack item = ItemStack.EMPTY;
-		ItemStack ID0 = ItemStack.EMPTY;
-		ItemStack ID1 = ItemStack.EMPTY;
-		ItemStack ID2 = ItemStack.EMPTY;
 		if (new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);

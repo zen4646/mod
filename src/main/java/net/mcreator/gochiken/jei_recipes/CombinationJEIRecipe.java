@@ -1,33 +1,13 @@
 package net.mcreator.gochiken.jei_recipes;
 
-import net.minecraft.world.level.storage.loot.Serializer;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.ShapedRecipe;
-import net.minecraft.world.item.crafting.RecipeType;
-import net.minecraft.world.item.crafting.RecipeSerializer;
-import net.minecraft.world.item.crafting.Recipe;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.SimpleContainer;
-import net.minecraft.util.GsonHelper;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.core.RegistryAccess;
-import net.minecraft.core.NonNullList;
-
 import javax.annotation.Nullable;
 
-import java.lang.reflect.Type;
-
-import com.google.gson.JsonObject;
-import com.google.gson.JsonArray;
-
-public class RecipeJEIRecipe implements Recipe<SimpleContainer> {
+public class CombinationJEIRecipe implements Recipe<SimpleContainer> {
 	private final ResourceLocation id;
 	private final ItemStack output;
 	private final NonNullList<Ingredient> recipeItems;
 
-	public RecipeJEIRecipe(ResourceLocation id, ItemStack output, NonNullList<Ingredient> recipeItems) {
+	public CombinationJEIRecipe(ResourceLocation id, ItemStack output, NonNullList<Ingredient> recipeItems) {
 		this.id = id;
 		this.output = output;
 		this.recipeItems = recipeItems;
@@ -77,41 +57,41 @@ public class RecipeJEIRecipe implements Recipe<SimpleContainer> {
 		return Serializer.INSTANCE;
 	}
 
-	public static class Type implements RecipeType<RecipeJEIRecipe> {
+	public static class Type implements RecipeType<CombinationJEIRecipe> {
 		private Type() {
 		}
 
 		public static final Type INSTANCE = new Type();
-		public static final String ID = "recipe_jei";
+		public static final String ID = "combination_jei";
 	}
 
-	public static class Serializer implements RecipeSerializer<RecipeJEIRecipe> {
+	public static class Serializer implements RecipeSerializer<CombinationJEIRecipe> {
 		public static final Serializer INSTANCE = new Serializer();
-		public static final ResourceLocation ID = new ResourceLocation("gochicken", "recipe_jei");
+		public static final ResourceLocation ID = new ResourceLocation("gochicken", "combination_jei");
 
 		@Override
-		public RecipeJEIRecipe fromJson(ResourceLocation pRecipeId, JsonObject pSerializedRecipe) {
+		public CombinationJEIRecipe fromJson(ResourceLocation pRecipeId, JsonObject pSerializedRecipe) {
 			ItemStack output = ShapedRecipe.itemStackFromJson(GsonHelper.getAsJsonObject(pSerializedRecipe, "output"));
 			JsonArray ingredients = GsonHelper.getAsJsonArray(pSerializedRecipe, "ingredients");
 			NonNullList<Ingredient> inputs = NonNullList.withSize(2, Ingredient.EMPTY);
 			for (int i = 0; i < inputs.size(); i++) {
 				inputs.set(i, Ingredient.fromJson(ingredients.get(i)));
 			}
-			return new RecipeJEIRecipe(pRecipeId, output, inputs);
+			return new CombinationJEIRecipe(pRecipeId, output, inputs);
 		}
 
 		@Override
-		public @Nullable RecipeJEIRecipe fromNetwork(ResourceLocation id, FriendlyByteBuf buf) {
+		public @Nullable CombinationJEIRecipe fromNetwork(ResourceLocation id, FriendlyByteBuf buf) {
 			NonNullList<Ingredient> inputs = NonNullList.withSize(buf.readInt(), Ingredient.EMPTY);
 			for (int i = 0; i < inputs.size(); i++) {
 				inputs.set(i, Ingredient.fromNetwork(buf));
 			}
 			ItemStack output = buf.readItem();
-			return new RecipeJEIRecipe(id, output, inputs);
+			return new CombinationJEIRecipe(id, output, inputs);
 		}
 
 		@Override
-		public void toNetwork(FriendlyByteBuf buf, RecipeJEIRecipe recipe) {
+		public void toNetwork(FriendlyByteBuf buf, CombinationJEIRecipe recipe) {
 			buf.writeInt(recipe.getIngredients().size());
 			for (Ingredient ing : recipe.getIngredients()) {
 				ing.toNetwork(buf);

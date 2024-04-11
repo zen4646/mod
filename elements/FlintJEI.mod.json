@@ -1,0 +1,19 @@
+{
+  "_fv": 57,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "combination_jei",
+    "result": {
+      "value": "CUSTOM:FlintChoken"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "TAG:minecraft:tag_egg"
+      },
+      {
+        "value": "CUSTOM:FlintChickenseed"
+      }
+    ]
+  }
+}

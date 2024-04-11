@@ -1,0 +1,15 @@
+{
+  "type": "gochicken:combination_jei",
+  "ingredients": [
+    {
+      "tag": "minecraft:tag_egg"
+    },
+    {
+      "item": "gochicken:egg_chicken_seed"
+    }
+  ],
+  "output": {
+    "item": "gochicken:egg_chicken",
+    "count": 1
+  }
+}

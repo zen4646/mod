@@ -217,18 +217,18 @@ public class GochickenModItems {
 	public static final RegistryObject<Item> OBSIDIAN_CHICKEN_SEED = REGISTRY.register("obsidian_chicken_seed", () -> new ObsidianChickenSeedItem());
 	public static final RegistryObject<Item> BONE_BAG = REGISTRY.register("bone_bag", () -> new BoneBagItem());
 	public static final RegistryObject<Item> ROTTEN_FLESH_BAG = REGISTRY.register("rotten_flesh_bag", () -> new RottenFleshBagItem());
+	public static final RegistryObject<Item> BLUE_INGOT = REGISTRY.register("blue_ingot", () -> new BlueIngotItem());
 	public static final RegistryObject<Item> EGG_64 = REGISTRY.register("egg_64", () -> new Egg64Item());
+	public static final RegistryObject<Item> COMPRESSOR = block(GochickenModBlocks.COMPRESSOR);
+	public static final RegistryObject<Item> CUSHIONMATERIAL = REGISTRY.register("cushionmaterial", () -> new CushionmaterialItem());
+	public static final RegistryObject<Item> CUSHONMATERIAL_2 = REGISTRY.register("cushonmaterial_2", () -> new Cushonmaterial2Item());
+	public static final RegistryObject<Item> PURPLE_DIAMOND = REGISTRY.register("purple_diamond", () -> new PurpleDiamondItem());
+	public static final RegistryObject<Item> PURPLE_DIAMOND_2 = REGISTRY.register("purple_diamond_2", () -> new PurpleDiamond2Item());
 	public static final RegistryObject<Item> GHAST_CHICKEN = REGISTRY.register("ghast_chicken", () -> new GhastChickenItem());
 	public static final RegistryObject<Item> GHAST_CHICKEN_SEED = REGISTRY.register("ghast_chicken_seed", () -> new GhastChickenSeedItem());
 	public static final RegistryObject<Item> SEALANTERN_CHICKEN = REGISTRY.register("sealantern_chicken", () -> new SealanternChickenItem());
 	public static final RegistryObject<Item> SEALANTERN_CHICKEN_SEED = REGISTRY.register("sealantern_chicken_seed", () -> new SealanternChickenSeedItem());
 	public static final RegistryObject<Item> SEED_MARKER = block(GochickenModBlocks.SEED_MARKER);
-	public static final RegistryObject<Item> COMPRESSOR = block(GochickenModBlocks.COMPRESSOR);
-	public static final RegistryObject<Item> BLUE_INGOT = REGISTRY.register("blue_ingot", () -> new BlueIngotItem());
-	public static final RegistryObject<Item> CUSHIONMATERIAL = REGISTRY.register("cushionmaterial", () -> new CushionmaterialItem());
-	public static final RegistryObject<Item> CUSHONMATERIAL_2 = REGISTRY.register("cushonmaterial_2", () -> new Cushonmaterial2Item());
-	public static final RegistryObject<Item> PURPLE_DIAMOND = REGISTRY.register("purple_diamond", () -> new PurpleDiamondItem());
-	public static final RegistryObject<Item> PURPLE_DIAMOND_2 = REGISTRY.register("purple_diamond_2", () -> new PurpleDiamond2Item());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

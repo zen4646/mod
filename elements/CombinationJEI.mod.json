@@ -2,35 +2,35 @@
   "_fv": 57,
   "_type": "jeirecipetype",
   "definition": {
-    "textureSelector": "test.png",
-    "width": 176,
-    "height": 81,
+    "textureSelector": "combinationjei.png",
+    "width": 175,
+    "height": 85,
     "icon": {
-      "value": "CUSTOM:Go"
+      "value": "CUSTOM:PeiHeJi"
     },
     "craftingtable": {
-      "value": "CUSTOM:ColaChickenSeed"
+      "value": ""
     },
     "enableCraftingtable": false,
-    "title": "Recipe JEI",
+    "title": "配合機",
     "slotList": [
       {
         "type": "INPUT",
-        "x": 42,
-        "y": 35,
-        "slotid": 0
-      },
-      {
-        "type": "OUTPUT",
-        "x": 150,
+        "x": 25,
         "y": 35,
         "slotid": 0
       },
       {
         "type": "INPUT",
-        "x": 60,
+        "x": 79,
         "y": 35,
         "slotid": 1
+      },
+      {
+        "type": "OUTPUT",
+        "x": 133,
+        "y": 35,
+        "slotid": 0
       }
     ]
   }

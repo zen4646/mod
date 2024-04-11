@@ -1,21 +1,9 @@
 package net.mcreator.gochiken.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.GuiGraphics;
-
-import net.mcreator.gochiken.world.inventory.RootGUIMenu;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class RootGUIScreen extends AbstractContainerScreen<RootGUIMenu> {
+
 	private final static HashMap<String, Object> guistate = RootGUIMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -36,8 +24,11 @@ public class RootGUIScreen extends AbstractContainerScreen<RootGUIMenu> {
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
+
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -45,6 +36,7 @@ public class RootGUIScreen extends AbstractContainerScreen<RootGUIMenu> {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		guiGraphics.blit(new ResourceLocation("gochicken:textures/screens/you_shi_yin_.png"), this.leftPos + 33, this.topPos + 7, 0, 0, 36, 18, 36, 18);
@@ -62,6 +54,7 @@ public class RootGUIScreen extends AbstractContainerScreen<RootGUIMenu> {
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -82,5 +75,7 @@ public class RootGUIScreen extends AbstractContainerScreen<RootGUIMenu> {
 	@Override
 	public void init() {
 		super.init();
+
 	}
+
 }
